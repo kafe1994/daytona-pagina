@@ -374,9 +374,24 @@ class DaytonaMotos {
         // Agregar active al swatch clickeado
         swatch.classList.add('active');
         
-        // Guardar color seleccionado en el elemento para usar en el modal
+        // Obtener el color seleccionado y cambiar la imagen
         const selectedColor = swatch.title;
         modelCard.dataset.selectedColor = selectedColor;
+        
+        // Obtener datos del modelo
+        const modelData = JSON.parse(modelCard.dataset.model);
+        
+        // Encontrar el índice del color seleccionado
+        const colorIndex = modelData.colors.findIndex(color => color === selectedColor);
+        
+        // Cambiar la imagen si existe para este color
+        if (colorIndex !== -1 && modelData.images[colorIndex]) {
+          const modelImage = modelCard.querySelector('.model-image');
+          if (modelImage) {
+            modelImage.src = modelData.images[colorIndex];
+            console.log(`Cambiando imagen a: ${modelData.images[colorIndex]} para color: ${selectedColor}`);
+          }
+        }
         
         console.log(`Color seleccionado: ${selectedColor}`);
       });
