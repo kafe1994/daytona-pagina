@@ -356,7 +356,29 @@ class DaytonaMotos {
         const modelCard = btn.closest('.model-card');
         const modelData = JSON.parse(modelCard.dataset.model);
         const brandName = modelCard.dataset.brand;
-        this.openCTAModal(brandName, modelData);
+        const selectedColor = modelCard.dataset.selectedColor || null;
+        this.openCTAModal(brandName, modelData, selectedColor);
+      });
+    });
+
+    // Event listeners para color swatches
+    modelsContainer.querySelectorAll('.color-swatch').forEach(swatch => {
+      swatch.addEventListener('click', (e) => {
+        e.stopPropagation();
+        
+        // Remover active de otros swatches en la misma tarjeta
+        const modelCard = swatch.closest('.model-card');
+        const allSwatches = modelCard.querySelectorAll('.color-swatch');
+        allSwatches.forEach(s => s.classList.remove('active'));
+        
+        // Agregar active al swatch clickeado
+        swatch.classList.add('active');
+        
+        // Guardar color seleccionado en el elemento para usar en el modal
+        const selectedColor = swatch.title;
+        modelCard.dataset.selectedColor = selectedColor;
+        
+        console.log(`Color seleccionado: ${selectedColor}`);
       });
     });
   }
@@ -490,7 +512,7 @@ class DaytonaMotos {
   // ============================================================
   // MODAL CTA ASESORAMIENTO
   // ============================================================
-  openCTAModal(brandName, modelData) {
+  openCTAModal(brandName, modelData, selectedColor = null) {
     const modal = document.querySelector('.cta-modal');
     if (!modal) return;
 
@@ -507,7 +529,7 @@ class DaytonaMotos {
     const colorSelect = modal.querySelector('#color-select');
     if (colorSelect) {
       colorSelect.innerHTML = modelData.colors.map(color => 
-        `<option value="${color}">${color}</option>`
+        `<option value="${color}" ${selectedColor === color ? 'selected' : ''}>${color}</option>`
       ).join('');
     }
 
