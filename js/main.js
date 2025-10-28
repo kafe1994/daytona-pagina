@@ -133,29 +133,35 @@ class DaytonaMotos {
       });
     });
 
-    // Mejorar compatibilidad de enlaces externos en dispositivos móviles
+    // Mejorar compatibilidad de enlaces externos SOLO cuando sea necesario
     document.querySelectorAll('a[target="_blank"]').forEach(externalLink => {
       externalLink.addEventListener('click', (e) => {
-        // Prevenir comportamiento predeterminado en algunos navegadores móviles
-        e.preventDefault();
-        
         const url = externalLink.href;
         const isExternal = url.startsWith('http://') || url.startsWith('https://');
         
-        if (isExternal) {
-          // Intentar abrir en nueva pestaña
-          const newWindow = window.open(url, '_blank', 'noopener,noreferrer');
+        // Solo aplicar lógica especial en casos muy específicos donde sepamos que hay problemas
+        if (isExternal && this.isMobileDevice() && this.hasPopupBlocker()) {
+          e.preventDefault();
           
-          // Si window.open falló (común en móviles), redirigir en la misma ventana
-          if (!newWindow || newWindow.closed || typeof newWindow.closed == 'undefined') {
-            // Mostrar un toast o mensaje antes de redirigir
-            if (confirm('¿Deseas abrir este enlace?')) {
-              window.location.href = url;
-            }
+          // En caso de bloqueador de popups muy restrictivo
+          if (confirm('¿Deseas abrir este enlace?')) {
+            window.location.href = url;
           }
         }
+        // Para la mayoría de casos, dejar que el enlace funcione normalmente
       });
     });
+  }
+
+  // Detectar si es dispositivo móvil
+  isMobileDevice() {
+    return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+  }
+
+  // Detectar si hay bloqueador de popups muy restrictivo
+  hasPopupBlocker() {
+    // Solo para casos extremos donde sabemos que window.open no funciona
+    return false; // Simplificado para evitar problemas
   }
 
   // ============================================================
