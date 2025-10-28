@@ -132,6 +132,30 @@ class DaytonaMotos {
         }
       });
     });
+
+    // Mejorar compatibilidad de enlaces externos en dispositivos móviles
+    document.querySelectorAll('a[target="_blank"]').forEach(externalLink => {
+      externalLink.addEventListener('click', (e) => {
+        // Prevenir comportamiento predeterminado en algunos navegadores móviles
+        e.preventDefault();
+        
+        const url = externalLink.href;
+        const isExternal = url.startsWith('http://') || url.startsWith('https://');
+        
+        if (isExternal) {
+          // Intentar abrir en nueva pestaña
+          const newWindow = window.open(url, '_blank', 'noopener,noreferrer');
+          
+          // Si window.open falló (común en móviles), redirigir en la misma ventana
+          if (!newWindow || newWindow.closed || typeof newWindow.closed == 'undefined') {
+            // Mostrar un toast o mensaje antes de redirigir
+            if (confirm('¿Deseas abrir este enlace?')) {
+              window.location.href = url;
+            }
+          }
+        }
+      });
+    });
   }
 
   // ============================================================

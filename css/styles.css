@@ -1101,11 +1101,25 @@ button {
   text-transform: uppercase;
   letter-spacing: 0.5px;
   transition: all var(--transition-fast);
+  padding: 8px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  touch-action: manipulation;
+  min-height: 44px;
+  min-width: 44px;
+  position: relative;
+  z-index: 1;
 }
 
 .post-cta:hover {
   color: var(--red-dark);
   transform: translateX(3px);
+}
+
+.post-cta:active {
+  color: var(--red-dark);
+  transform: translateX(3px) scale(0.98);
+  background-color: rgba(220, 38, 38, 0.1);
 }
 
 .post-cta::after {
@@ -1491,5 +1505,197 @@ button {
     bottom: -40px;
     padding: 0.5rem 1rem;
     font-size: 0.8rem;
+  }
+}
+
+/* ============================================================
+   DESKTOP OPTIMIZATION (1024px+)
+   ============================================================ */
+
+/* Desktop pequeño (1024px+) */
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+  
+  /* Navegación mejorada para desktop */
+  .navbar {
+    height: 90px;
+    padding: 0 2rem;
+  }
+  
+  .navbar-logo {
+    height: 140px;
+  }
+  
+  /* Hero section más espacioso */
+  .hero {
+    min-height: 700px;
+  }
+  
+  .hero-content {
+    padding: 0 3rem;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .hero p {
+    font-size: 1.25rem;
+    max-width: 600px;
+    margin: 0 auto 2rem;
+  }
+  
+  /* Secciones más espaciosas */
+  .section {
+    padding: 5rem 0;
+  }
+  
+  /* Título de sección */
+  .section-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .section-subtitle {
+    font-size: 1.125rem;
+    margin-bottom: 3rem;
+  }
+  
+  /* Grilla de marcas mejorada */
+  .brands-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  /* Grilla de modelos mejorada */
+  .models-grid {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  
+  .model-image {
+    height: 200px;
+  }
+  
+  /* Filtros más grandes */
+  .filter-btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+  }
+  
+  /* Posts del blog */
+  .blog-posts {
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2.5rem;
+  }
+  
+  /* Footer */
+  .footer-content {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+    text-align: left;
+  }
+  
+  /* Modal */
+  .cta-modal-content {
+    padding: 3rem;
+    max-width: 500px;
+  }
+}
+
+/* Desktop grande (1200px+) */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1400px;
+    padding: 0 3rem;
+  }
+  
+  /* Hero aún más espacioso */
+  .hero {
+    min-height: 800px;
+  }
+  
+  .hero h1 {
+    font-size: 4rem;
+  }
+  
+  .hero p {
+    font-size: 1.375rem;
+  }
+  
+  /* Secciones más altas */
+  .section {
+    padding: 6rem 0;
+  }
+  
+  .section-title {
+    font-size: 3rem;
+  }
+  
+  /* Más marcas por fila */
+  .brands-grid {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 2.5rem;
+    max-width: 1200px;
+  }
+  
+  /* Más modelos por fila */
+  .models-grid {
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 2.5rem;
+  }
+  
+  .model-image {
+    height: 220px;
+  }
+  
+  /* Posts más grandes */
+  .blog-posts {
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    gap: 3rem;
+  }
+}
+
+/* Desktop extra grande (1440px+) */
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1600px;
+  }
+  
+  .hero {
+    min-height: 900px;
+  }
+  
+  .hero h1 {
+    font-size: 4.5rem;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+    max-width: 800px;
+  }
+  
+  .section {
+    padding: 7rem 0;
+  }
+  
+  .brands-grid {
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  }
+  
+  .models-grid {
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  }
+  
+  .blog-posts {
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   }
 }
