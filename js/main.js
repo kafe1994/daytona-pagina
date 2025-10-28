@@ -20,6 +20,8 @@ class DaytonaMotos {
     this.initializeTheme();
     this.renderBrands();
     this.setupSearch();
+    this.setupImageZoom();
+    this.addZoomToImages();
   }
 
   // ============================================================
@@ -349,6 +351,24 @@ class DaytonaMotos {
 
     modelsContainer.innerHTML = modelsHTML || '<p class="text-muted">No hay modelos disponibles para esta cilindrada.</p>';
 
+    // Event listeners para imágenes de modelos (zoom)
+    modelsContainer.querySelectorAll('.model-image').forEach(img => {
+      img.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const modelCard = img.closest('.model-card');
+        const modelData = JSON.parse(modelCard.dataset.model);
+        const selectedColor = modelCard.dataset.selectedColor;
+        
+        // Información adicional para mostrar en el zoom
+        const colorInfo = selectedColor ? `${modelData.model} - ${selectedColor}` : `${modelData.model}`;
+        
+        // Abrir zoom con la imagen actual
+        this.openImageZoom(img.src, img.alt, colorInfo);
+        
+        console.log(`Zoom abierto para: ${modelData.model}`);
+      });
+    });
+
     // Event listeners para botones CTA
     modelsContainer.querySelectorAll('.cta-btn').forEach(btn => {
       btn.addEventListener('click', (e) => {
@@ -590,6 +610,82 @@ class DaytonaMotos {
     const modal = document.querySelector('.cta-modal');
     modal?.classList.remove('active');
     document.body.style.overflow = '';
+  }
+
+  // ============================================================
+  // ZOOM DE IMÁGENES
+  // ============================================================
+  setupImageZoom() {
+    const zoomOverlay = document.getElementById('image-zoom-overlay');
+    const zoomImg = document.getElementById('image-zoom-img');
+    const zoomInfo = document.getElementById('image-zoom-info');
+    const zoomClose = document.getElementById('image-zoom-close');
+
+    // Event listener para cerrar zoom
+    zoomClose?.addEventListener('click', () => this.closeImageZoom());
+    zoomOverlay?.addEventListener('click', (e) => {
+      if (e.target === zoomOverlay) this.closeImageZoom();
+    });
+
+    // Cerrar con Escape
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && zoomOverlay?.classList.contains('active')) {
+        this.closeImageZoom();
+      }
+    });
+  }
+
+  openImageZoom(imageSrc, imageAlt, colorInfo = '') {
+    const zoomOverlay = document.getElementById('image-zoom-overlay');
+    const zoomImg = document.getElementById('image-zoom-img');
+    const zoomInfo = document.getElementById('image-zoom-info');
+
+    if (zoomOverlay && zoomImg) {
+      zoomImg.src = imageSrc;
+      zoomImg.alt = imageAlt || 'Imagen ampliada';
+      zoomInfo.textContent = colorInfo || '';
+      
+      zoomOverlay.classList.add('active');
+      document.body.style.overflow = 'hidden';
+      
+      console.log(`Zoom abierto: ${imageSrc} - ${colorInfo}`);
+    }
+  }
+
+  closeImageZoom() {
+    const zoomOverlay = document.getElementById('image-zoom-overlay');
+    if (zoomOverlay) {
+      zoomOverlay.classList.remove('active');
+      document.body.style.overflow = '';
+      
+      // Limpiar fuente de imagen después de la animación
+      setTimeout(() => {
+        const zoomImg = document.getElementById('image-zoom-img');
+        if (zoomImg) {
+          zoomImg.src = '';
+        }
+      }, 300);
+    }
+  }
+
+  addZoomToImages() {
+    // Agregar event listeners para zoom en imágenes de modelos
+    document.addEventListener('click', (e) => {
+      if (e.target && e.target.classList.contains('model-image')) {
+        e.preventDefault();
+        e.stopPropagation();
+        
+        const img = e.target;
+        const modelCard = img.closest('.model-card');
+        const modelData = modelCard ? JSON.parse(modelCard.dataset.model || '{}') : {};
+        const selectedColor = modelCard?.dataset.selectedColor || '';
+        
+        const altText = img.alt || 'Motocicleta';
+        const colorInfo = selectedColor ? `Color: ${selectedColor}` : '';
+        
+        this.openImageZoom(img.src, altText, colorInfo);
+      }
+    });
   }
 
   // ============================================================

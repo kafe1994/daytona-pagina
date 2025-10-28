@@ -1,10 +1,84 @@
 {
+  "Guerrero": {
+    "name": "Guerrero",
+    "logo": "motos/Guerrero/logo.png",
+    "models": [
+      {
+        "model": "Trip Full",
+        "cilindrada": 110,
+        "colors": [
+          "Gris"
+        ],
+        "images": [
+          "motos/Guerrero/110cc/Trip Full/trip-full-gris.png"
+        ]
+      },
+      {
+        "model": "Trip Tunning",
+        "cilindrada": 110,
+        "colors": [
+          "Blanco"
+        ],
+        "images": [
+          "motos/Guerrero/110cc/Trip Tunning/trip-tunning-blanca.png"
+        ]
+      },
+      {
+        "model": "Trip full 125",
+        "cilindrada": 125,
+        "colors": [
+          "Blanco"
+        ],
+        "images": [
+          "motos/Guerrero/125cc/Trip full 125/blanca.png"
+        ]
+      },
+      {
+        "model": "Gc 150 Urban",
+        "cilindrada": 150,
+        "colors": [
+          "Rojo"
+        ],
+        "images": [
+          "motos/Guerrero/150cc/Gc 150 Urban/urban-150-rojo.png"
+        ]
+      },
+      {
+        "model": "Day 70",
+        "cilindrada": 70,
+        "colors": [
+          "Rojo"
+        ],
+        "images": [
+          "motos/Guerrero/70cc/Day 70/day-roja.png"
+        ]
+      }
+    ]
+  },
+  "Hero": {
+    "name": "Hero",
+    "logo": "motos/Hero/Hero_MotoLogo.png",
+    "models": [
+      {
+        "model": "Hunk 150 DD",
+        "cilindrada": 150,
+        "colors": [
+          "Negro",
+          "Rojo"
+        ],
+        "images": [
+          "motos/Hero/150cc/Hunk 150 DD/HUNK-150-DD-NEGRO-CELESTE.webp",
+          "motos/Hero/150cc/Hunk 150 DD/HUNK-150-DD-NEGRO-ROJO.webp"
+        ]
+      }
+    ]
+  },
   "bajaj": {
     "name": "Bajaj",
     "logo": "motos/bajaj/bajaj-motorcycle-seeklogo.png",
     "models": [
       {
-        "model": "Discover 125",
+        "model": "discover 125",
         "cilindrada": 125,
         "colors": [
           "Negro",
@@ -12,14 +86,13 @@
           "Rojo"
         ],
         "images": [
-          "images/bajaj_discover_125_azul-negro.webp",
-          "images/bajaj_discover_125_azul.webp",
-          "images/bajaj_discover_125_rojo-llama.webp",
-          "images/bajaj_discover_125_rojo-negro.webp"
+          "motos/bajaj/125cc/discover 125/azul-negro.webp",
+          "motos/bajaj/125cc/discover 125/azul.webp",
+          "motos/bajaj/125cc/discover 125/rojo-llama.webp"
         ]
       },
       {
-        "model": "Pulsar 125",
+        "model": "pulsar 125",
         "cilindrada": 125,
         "colors": [
           "Amarillo",
@@ -28,15 +101,29 @@
           "Rojo"
         ],
         "images": [
-          "images/bajaj_pulsar_125_amarillo.webp",
-          "images/bajaj_pulsar_125_blanco.webp",
-          "images/bajaj_pulsar_125_negro.webp",
-          "images/bajaj_pulsar_125_rojo.webp"
+          "motos/bajaj/125cc/pulsar 125/amarillo.webp",
+          "motos/bajaj/125cc/pulsar 125/blanco.webp",
+          "motos/bajaj/125cc/pulsar 125/negro.webp",
+          "motos/bajaj/125cc/pulsar 125/rojo.webp"
         ]
       },
       {
-        "model": " Pulsar Ns200 Fi Abs",
-        "cilindrada": 200,
+        "model": "rouser 125",
+        "cilindrada": 125,
+        "colors": [
+          "Gris",
+          "Negro",
+          "Rojo"
+        ],
+        "images": [
+          "motos/bajaj/125cc/rouser 125/rouser ns 125 Gris.jpg",
+          "motos/bajaj/125cc/rouser 125/rouser ns 125 negra.jpg",
+          "motos/bajaj/125cc/rouser 125/rouser ns 125 roja.jpg"
+        ]
+      },
+      {
+        "model": "pulsar ns200 fi abs",
+        "cilindrada": 250,
         "colors": [
           "Azul",
           "Blanco",
@@ -44,60 +131,84 @@
           "Rojo"
         ],
         "images": [
-          "images/bajaj__pulsar_ns200_fi_abs_azul.webp",
-          "images/bajaj__pulsar_ns200_fi_abs_blanco.webp",
-          "images/bajaj__pulsar_ns200_fi_abs_negro.webp",
-          "images/bajaj__pulsar_ns200_fi_abs_rojo.webp"
+          "motos/bajaj/200-250cc/ pulsar ns200 fi abs/azul.webp",
+          "motos/bajaj/200-250cc/ pulsar ns200 fi abs/blanco.webp",
+          "motos/bajaj/200-250cc/ pulsar ns200 fi abs/negro.webp",
+          "motos/bajaj/200-250cc/ pulsar ns200 fi abs/rojo.webp"
         ]
       },
       {
-        "model": "Dominar 250",
-        "cilindrada": 200,
+        "model": "dominar 250",
+        "cilindrada": 250,
         "colors": [
           "Negro",
           "Rojo"
         ],
         "images": [
-          "images/bajaj_dominar_250_negro-.webp",
-          "images/bajaj_dominar_250_rojo.webp"
+          "motos/bajaj/200-250cc/dominar 250/negro-.webp",
+          "motos/bajaj/200-250cc/dominar 250/rojo.webp"
         ]
       },
       {
-        "model": "Pulsar N250 Fi Abs",
-        "cilindrada": 200,
+        "model": "pulsar n250 fi abs",
+        "cilindrada": 250,
         "colors": [
           "Blanco",
           "Negro",
           "Rojo"
         ],
         "images": [
-          "images/bajaj_pulsar_n250_fi_abs_blanco.webp",
-          "images/bajaj_pulsar_n250_fi_abs_negro.webp",
-          "images/bajaj_pulsar_n250_fi_abs_rojo.webp"
+          "motos/bajaj/200-250cc/pulsar n250 fi abs/blanco.webp",
+          "motos/bajaj/200-250cc/pulsar n250 fi abs/negro.webp",
+          "motos/bajaj/200-250cc/pulsar n250 fi abs/rojo.webp"
         ]
       },
       {
-        "model": "Pulsar Rs200",
-        "cilindrada": 200,
+        "model": "pulsar rs200",
+        "cilindrada": 250,
         "colors": [
           "Gris",
           "Rojo"
         ],
         "images": [
-          "images/bajaj_pulsar_rs200_gris.webp",
-          "images/bajaj_pulsar_rs200_rojo-.webp"
+          "motos/bajaj/200-250cc/pulsar rs200/gris.webp",
+          "motos/bajaj/200-250cc/pulsar rs200/rojo-.webp"
         ]
       },
       {
-        "model": "Dominar D400",
+        "model": "rouser 200",
+        "cilindrada": 250,
+        "colors": [
+          "Azul",
+          "Blanco",
+          "Negro"
+        ],
+        "images": [
+          "motos/bajaj/200-250cc/rouser 200/NE200_AZUL_.jpg",
+          "motos/bajaj/200-250cc/rouser 200/NS200_BLANCA_.jpg",
+          "motos/bajaj/200-250cc/rouser 200/NS200_NEGRA_.jpg"
+        ]
+      },
+      {
+        "model": "rouser 250",
+        "cilindrada": 250,
+        "colors": [
+          "Negro"
+        ],
+        "images": [
+          "motos/bajaj/200-250cc/rouser 250/rouser_n250-negra.png"
+        ]
+      },
+      {
+        "model": "dominar d400",
         "cilindrada": 400,
         "colors": [
           "Negro",
           "Verde"
         ],
         "images": [
-          "images/bajaj_dominar_d400_negro.webp",
-          "images/bajaj_dominar_d400_verde.webp"
+          "motos/bajaj/400cc/dominar d400/negro.webp",
+          "motos/bajaj/400cc/dominar d400/verde.webp"
         ]
       }
     ]
@@ -107,23 +218,39 @@
     "logo": "motos/corven/corven3-493x408-2.png",
     "models": [
       {
-        "model": "Energy",
+        "model": "Energy Base",
         "cilindrada": 110,
         "colors": [
-          "Blanco",
-          "Gris",
           "Azul",
+          "Blanco",
+          "Negro",
           "Rojo"
         ],
         "images": [
-          "images/corven_energy_Energy-110-Blanca.png",
-          "images/corven_energy_Energy-110-Gris.png",
-          "images/corven_energy_eneegy-azul.png",
-          "images/corven_energy_energy-roja.webp"
+          "motos/corven/110cc/Energy Base/ENERGY-110-R2-AZUL.webp",
+          "motos/corven/110cc/Energy Base/ENERGY-110-R2-BLANCO.webp",
+          "motos/corven/110cc/Energy Base/ENERGY-110-R2-NEGRO-768x768.webp",
+          "motos/corven/110cc/Energy Base/ENERGY-110-R2-ROJO.webp"
         ]
       },
       {
-        "model": "Mirage",
+        "model": "Energy full",
+        "cilindrada": 110,
+        "colors": [
+          "Azul",
+          "Blanco",
+          "Negro",
+          "Rojo"
+        ],
+        "images": [
+          "motos/corven/110cc/Energy full/ENERGY-110-R2-ALEAC-DISCO-AZUL.webp",
+          "motos/corven/110cc/Energy full/ENERGY-110-R2-ALEAC-DISCO-BLANCO.webp",
+          "motos/corven/110cc/Energy full/ENERGY-110-R2-ALEAC-DISCO-NEGRO.webp",
+          "motos/corven/110cc/Energy full/ENERGY-110-R2-ALEAC-DISCO-ROJO.webp"
+        ]
+      },
+      {
+        "model": "Mirage base",
         "cilindrada": 110,
         "colors": [
           "Blanco",
@@ -131,13 +258,23 @@
           "Negro"
         ],
         "images": [
-          "images/corven_mirage_Corven-Mirage-blanca.webp",
-          "images/corven_mirage_Corven-Mirage-gris.png",
-          "images/corven_mirage_Corven-Mirage-negra.png"
+          "motos/corven/110cc/Mirage base/Corven-Mirage-blanca.webp",
+          "motos/corven/110cc/Mirage base/Corven-Mirage-gris.png",
+          "motos/corven/110cc/Mirage base/Corven-Mirage-negra.png"
         ]
       },
       {
-        "model": "Hunter 150",
+        "model": "Expert Milano 150",
+        "cilindrada": 150,
+        "colors": [
+          "Azul"
+        ],
+        "images": [
+          "motos/corven/150cc/Expert Milano 150/EXPERT-150-MILANO-CELESTE.webp"
+        ]
+      },
+      {
+        "model": "hunter 150",
         "cilindrada": 150,
         "colors": [
           "Azul",
@@ -146,22 +283,36 @@
           "Rojo"
         ],
         "images": [
-          "images/corven_hunter_150_hunter-150rt-azul1.webp",
-          "images/corven_hunter_150_hunter-150rt-blanco.webp",
-          "images/corven_hunter_150_hunter-150rt-gris.webp",
-          "images/corven_hunter_150_hunter-150rt-rojo-.webp"
+          "motos/corven/150cc/hunter 150/hunter-150rt-azul1.webp",
+          "motos/corven/150cc/hunter 150/hunter-150rt-blanco.webp",
+          "motos/corven/150cc/hunter 150/hunter-150rt-gris.webp",
+          "motos/corven/150cc/hunter 150/hunter-150rt-rojo-.webp"
         ]
       },
       {
-        "model": "Triax 150R3",
+        "model": "triax 150",
+        "cilindrada": 150,
+        "colors": [
+          "Blanco",
+          "Negro",
+          "Rojo"
+        ],
+        "images": [
+          "motos/corven/150cc/triax 150/TRIAX-150-BLANCO-768x768.webp",
+          "motos/corven/150cc/triax 150/TRIAX-150-NEGRO-768x768.webp",
+          "motos/corven/150cc/triax 150/TRIAX-150-ROJO.webp"
+        ]
+      },
+      {
+        "model": "triax 150R3",
         "cilindrada": 150,
         "colors": [
           "Negro",
           "Rojo"
         ],
         "images": [
-          "images/corven_triax_150r3_Triax-150R3-Perfil-Negra-scaled.jpg",
-          "images/corven_triax_150r3_Triax-150R3-Perfil-Roja-scaled.png.webp"
+          "motos/corven/150cc/triax 150R3/Triax-150R3-Perfil-Negra-scaled.jpg",
+          "motos/corven/150cc/triax 150R3/Triax-150R3-Perfil-Roja-scaled.png.webp"
         ]
       },
       {
@@ -173,23 +324,23 @@
           "Rojo"
         ],
         "images": [
-          "images/corven_triax_200_r3_triax200-blanca.png",
-          "images/corven_triax_200_r3_triax200-negra.png",
-          "images/corven_triax_200_r3_triax200-roja.png"
+          "motos/corven/200cc/Triax 200 R3/TRIAX-200-R3-BLANCO.png",
+          "motos/corven/200cc/Triax 200 R3/TRIAX-200-R3-NEGRO.webp",
+          "motos/corven/200cc/Triax 200 R3/TRIAX-200-R3-ROJO.webp"
         ]
       },
       {
-        "model": "Triax-250-Adventure",
-        "cilindrada": 200,
+        "model": "triax-250-adventure",
+        "cilindrada": 250,
         "colors": [
           "Blanco",
           "Negro",
           "Gris"
         ],
         "images": [
-          "images/corven_triax-250-adventure_Triax-250-adv-base-blanca.png.webp",
-          "images/corven_triax-250-adventure_Triax-250-adv-base-negra.png",
-          "images/corven_triax-250-adventure_Triax-250-adv-gris-nardo-lateral.png"
+          "motos/corven/250cc/triax-250-adventure/Triax-250-adv-base-blanca.png.webp",
+          "motos/corven/250cc/triax-250-adventure/Triax-250-adv-base-negra.png",
+          "motos/corven/250cc/triax-250-adventure/Triax-250-adv-gris-nardo-lateral.png"
         ]
       }
     ]
@@ -204,18 +355,18 @@
         "colors": [
           "Azul",
           "Gris",
-          "Varios",
+          "Marrón",
           "Rojo"
         ],
         "images": [
-          "images/gilera_smash_tunning_r_110_SMASH-TUNNING-R-110-AZUL-1.webp",
-          "images/gilera_smash_tunning_r_110_SMASH-TUNNING-R-110-GRIS.webp",
-          "images/gilera_smash_tunning_r_110_SMASH-TUNNING-R-110-MARRON-1.webp",
-          "images/gilera_smash_tunning_r_110_SMASH-TUNNING-R-110-ROJO-1.webp"
+          "motos/gilera/110cc/Smash Tunning R 110/SMASH-TUNNING-R-110-AZUL-1.webp",
+          "motos/gilera/110cc/Smash Tunning R 110/SMASH-TUNNING-R-110-GRIS.webp",
+          "motos/gilera/110cc/Smash Tunning R 110/SMASH-TUNNING-R-110-MARRON-1.webp",
+          "motos/gilera/110cc/Smash Tunning R 110/SMASH-TUNNING-R-110-ROJO-1.webp"
         ]
       },
       {
-        "model": "Smash Vs 2025",
+        "model": "Smash VS 2025",
         "cilindrada": 110,
         "colors": [
           "Azul",
@@ -223,13 +374,13 @@
           "Rojo"
         ],
         "images": [
-          "images/gilera_smash_vs_2025_SMASH-VS-2025-AZUL.webp",
-          "images/gilera_smash_vs_2025_SMASH-VS-2025-GRIS.webp",
-          "images/gilera_smash_vs_2025_SMASH-VS-2025-ROJO.webp"
+          "motos/gilera/110cc/Smash VS 2025/SMASH-VS-2025-AZUL.webp",
+          "motos/gilera/110cc/Smash VS 2025/SMASH-VS-2025-GRIS.webp",
+          "motos/gilera/110cc/Smash VS 2025/SMASH-VS-2025-ROJO.webp"
         ]
       },
       {
-        "model": "Smash Very 110 ",
+        "model": "Smash Very 110",
         "cilindrada": 110,
         "colors": [
           "Azul",
@@ -238,10 +389,10 @@
           "Rojo"
         ],
         "images": [
-          "images/gilera_smash_very_110__SMASH-VERY-AUTOMATICA-NEW-AZUL.webp",
-          "images/gilera_smash_very_110__SMASH-VERY-AUTOMATICA-NEW-GRIS.webp",
-          "images/gilera_smash_very_110__SMASH-VERY-AUTOMATICA-NEW-NEGRO.webp",
-          "images/gilera_smash_very_110__SMASH-VERY-AUTOMATICA-NEW-ROJO.webp"
+          "motos/gilera/110cc/Smash Very 110 /SMASH-VERY-AUTOMATICA-NEW-AZUL.webp",
+          "motos/gilera/110cc/Smash Very 110 /SMASH-VERY-AUTOMATICA-NEW-GRIS.webp",
+          "motos/gilera/110cc/Smash Very 110 /SMASH-VERY-AUTOMATICA-NEW-NEGRO.webp",
+          "motos/gilera/110cc/Smash Very 110 /SMASH-VERY-AUTOMATICA-NEW-ROJO.webp"
         ]
       },
       {
@@ -253,13 +404,13 @@
           "Rojo"
         ],
         "images": [
-          "images/gilera_sahel_150_2025_SAHEL-150-2025-BLANCA.webp",
-          "images/gilera_sahel_150_2025_SAHEL-150-2025-NEGRA.webp",
-          "images/gilera_sahel_150_2025_SAHEL-150-2025-ROJA.webp"
+          "motos/gilera/150cc/Sahel 150 2025/SAHEL-150-2025-BLANCA.webp",
+          "motos/gilera/150cc/Sahel 150 2025/SAHEL-150-2025-NEGRA.webp",
+          "motos/gilera/150cc/Sahel 150 2025/SAHEL-150-2025-ROJA.webp"
         ]
       },
       {
-        "model": "Vc 150 Base",
+        "model": "VC 150 Base",
         "cilindrada": 150,
         "colors": [
           "Gris",
@@ -267,13 +418,13 @@
           "Rojo"
         ],
         "images": [
-          "images/gilera_vc_150_base_VC-150-R-DISCO-GRIS-1.webp",
-          "images/gilera_vc_150_base_VC-150-R-DISCO-NEGRO-1.webp",
-          "images/gilera_vc_150_base_VC-150-R-DISCO-ROJO-1.webp"
+          "motos/gilera/150cc/VC 150 Base/VC-150-R-DISCO-GRIS-1.webp",
+          "motos/gilera/150cc/VC 150 Base/VC-150-R-DISCO-NEGRO-1.webp",
+          "motos/gilera/150cc/VC 150 Base/VC-150-R-DISCO-ROJO-1.webp"
         ]
       },
       {
-        "model": "Smx 200 Adventure",
+        "model": "SMX 200 Adventure",
         "cilindrada": 200,
         "colors": [
           "Gris",
@@ -281,13 +432,13 @@
           "Verde"
         ],
         "images": [
-          "images/gilera_smx_200_adventure_SMX-200-ADVENTURE-2025-GRIS.webp",
-          "images/gilera_smx_200_adventure_SMX-200-ADVENTURE-2025-ROJO.webp",
-          "images/gilera_smx_200_adventure_SMX-200-ADVENTURE-2025-VERDE.webp"
+          "motos/gilera/200cc/SMX 200 Adventure/SMX-200-ADVENTURE-2025-GRIS.webp",
+          "motos/gilera/200cc/SMX 200 Adventure/SMX-200-ADVENTURE-2025-ROJO.webp",
+          "motos/gilera/200cc/SMX 200 Adventure/SMX-200-ADVENTURE-2025-VERDE.webp"
         ]
       },
       {
-        "model": "Smx 200 Siii",
+        "model": "SMX 200 SIII",
         "cilindrada": 200,
         "colors": [
           "Blanco",
@@ -295,13 +446,13 @@
           "Rojo"
         ],
         "images": [
-          "images/gilera_smx_200_siii_SMX-200-SIII-2025-BLANCO.webp",
-          "images/gilera_smx_200_siii_SMX-200-SIII-2025-NEGRO.webp",
-          "images/gilera_smx_200_siii_SMX-200-SIII-2025-ROJO.webp"
+          "motos/gilera/200cc/SMX 200 SIII/SMX-200-SIII-2025-BLANCO.webp",
+          "motos/gilera/200cc/SMX 200 SIII/SMX-200-SIII-2025-NEGRO.webp",
+          "motos/gilera/200cc/SMX 200 SIII/SMX-200-SIII-2025-ROJO.webp"
         ]
       },
       {
-        "model": "Ac4 250",
+        "model": "AC4 250",
         "cilindrada": 250,
         "colors": [
           "Azul",
@@ -309,13 +460,13 @@
           "Rojo"
         ],
         "images": [
-          "images/gilera_ac4_250_AC4-250-AZUL-1.webp",
-          "images/gilera_ac4_250_AC4-250-NEGRO-1.webp",
-          "images/gilera_ac4_250_AC4-250-ROJO-1.webp"
+          "motos/gilera/250cc/AC4 250/AC4-250-AZUL-1.webp",
+          "motos/gilera/250cc/AC4 250/AC4-250-NEGRO-1.webp",
+          "motos/gilera/250cc/AC4 250/AC4-250-ROJO-1.webp"
         ]
       },
       {
-        "model": "Smx 250 Adventure",
+        "model": "SMX 250 ADVENTURE",
         "cilindrada": 250,
         "colors": [
           "Blanco",
@@ -323,9 +474,9 @@
           "Rojo"
         ],
         "images": [
-          "images/gilera_smx_250_adventure_SMX-250-ADVENTURE-2025-BLANCO.webp",
-          "images/gilera_smx_250_adventure_SMX-250-ADVENTURE-2025-NEGRO.webp",
-          "images/gilera_smx_250_adventure_SMX-250-ADVENTURE-2025-ROJO.webp"
+          "motos/gilera/250cc/SMX 250 ADVENTURE/SMX-250-ADVENTURE-2025-BLANCO.webp",
+          "motos/gilera/250cc/SMX 250 ADVENTURE/SMX-250-ADVENTURE-2025-NEGRO.webp",
+          "motos/gilera/250cc/SMX 250 ADVENTURE/SMX-250-ADVENTURE-2025-ROJO.webp"
         ]
       }
     ]
@@ -335,338 +486,211 @@
     "logo": "motos/honda/honda-seeklogo.png",
     "models": [
       {
-        "model": "Navi",
+        "model": "navi",
         "cilindrada": 110,
         "colors": [
           "Blanco",
           "Negro",
           "Rojo",
-          "Varios",
+          "Estándar",
           "Verde"
         ],
         "images": [
-          "images/honda_navi_navi-blanco.jpg",
-          "images/honda_navi_navi-negro.jpg",
-          "images/honda_navi_navi-rojo.jpg",
-          "images/honda_navi_navi-rosa.jpg"
+          "motos/honda/110cc/navi/navi-blanco.jpg",
+          "motos/honda/110cc/navi/navi-negro.jpg",
+          "motos/honda/110cc/navi/navi-rojo.jpg",
+          "motos/honda/110cc/navi/navi-rosa.jpg",
+          "motos/honda/110cc/navi/navi-verde.jpg"
         ]
       },
       {
-        "model": "Wave",
+        "model": "wave base",
         "cilindrada": 110,
         "colors": [
-          "Varios",
           "Blanco",
           "Gris",
           "Negro",
           "Rojo"
         ],
         "images": [
-          "images/honda_wave_portadawave.jpg",
-          "images/honda_wave_wave-base-blanca.jpg",
-          "images/honda_wave_wave-base-gris.jpg",
-          "images/honda_wave_wave-base-negra.jpg"
+          "motos/honda/110cc/wave base/wave-base-blanca.jpg",
+          "motos/honda/110cc/wave base/wave-base-gris.jpg",
+          "motos/honda/110cc/wave base/wave-base-negra.jpg",
+          "motos/honda/110cc/wave base/wave-base-roja.jpg"
         ]
       },
       {
-        "model": "Elite",
+        "model": "wave full",
+        "cilindrada": 110,
+        "colors": [
+          "Blanco",
+          "Gris",
+          "Negro",
+          "Rojo"
+        ],
+        "images": [
+          "motos/honda/110cc/wave full/wave-full-blanca.jpg",
+          "motos/honda/110cc/wave full/wave-full-gris.jpg",
+          "motos/honda/110cc/wave full/wave-full-negra.jpg",
+          "motos/honda/110cc/wave full/wave-full-roja.jpg"
+        ]
+      },
+      {
+        "model": "elite",
         "cilindrada": 125,
         "colors": [
-          "Rojo",
           "Azul",
           "Gris",
-          "Varios"
+          "Rojo"
         ],
         "images": [
-          "images/honda_elite_65c-075c-0img-elite-2024-rojo.jpg",
-          "images/honda_elite_65c-175c-1img-elite-2024-azul.jpg",
-          "images/honda_elite_65c-275c-2img-elite-2024-gris.jpg",
-          "images/honda_elite_portada1.jpg"
+          "motos/honda/125cc/elite/elite-2024-azul.jpg",
+          "motos/honda/125cc/elite/elite-2024-gris.jpg",
+          "motos/honda/125cc/elite/elite-2024-rojo.jpg"
         ]
       },
       {
-        "model": "Twister",
+        "model": "twister CB125f",
         "cilindrada": 125,
         "colors": [
           "Negro",
+          "Plateado",
+          "Rojo"
+        ],
+        "images": [
+          "motos/honda/125cc/twister CB125f/cb125f-2024-negra.jpg",
+          "motos/honda/125cc/twister CB125f/cb125f-2024-plateada.jpg",
+          "motos/honda/125cc/twister CB125f/cb125f-2024-roja.jpg"
+        ]
+      },
+      {
+        "model": "glh150",
+        "cilindrada": 150,
+        "colors": [
           "Gris",
           "Rojo"
         ],
         "images": [
-          "images/honda_twister_cb125f-2024-negra.jpg",
-          "images/honda_twister_cb125f-2024-plateada.jpg",
-          "images/honda_twister_cb125f-2024-roja.jpg"
+          "motos/honda/150cc/glh150/glh-gris.jpg",
+          "motos/honda/150cc/glh150/glh-negra-y-roja.jpg"
         ]
       },
       {
-        "model": "Amarillo",
+        "model": "xr150l",
         "cilindrada": 150,
         "colors": [
-          "Amarillo"
-        ],
-        "images": [
-          "images/honda_amarillo_Honda_CG_150_150CC_Yellow_01.jpg"
-        ]
-      },
-      {
-        "model": "Glh150",
-        "cilindrada": 150,
-        "colors": [
-          "Gris",
+          "Blanco",
           "Negro",
           "Rojo"
         ],
         "images": [
-          "images/honda_glh150_glh-gris.jpg",
-          "images/honda_glh150_glh-negra-y-roja.jpg",
-          "images/honda_glh150_glh-roja.jpg"
+          "motos/honda/150cc/xr150l/xr-150-blanca.jpg",
+          "motos/honda/150cc/xr150l/xr-150l-negra.jpg",
+          "motos/honda/150cc/xr150l/xr150l-roja.jpg"
         ]
       },
       {
-        "model": "Xr150L",
-        "cilindrada": 150,
+        "model": "PCX 160",
+        "cilindrada": 160,
         "colors": [
-          "Negro",
           "Blanco",
-          "Rojo"
-        ],
-        "images": [
-          "images/honda_xr150l_Honda_XR150L_black_enduro_motorcycle_offroad_action_side_view.jpg",
-          "images/honda_xr150l_xr-150-blanca.jpg",
-          "images/honda_xr150l_xr-150l-negra.jpg",
-          "images/honda_xr150l_xr150l-roja.jpg"
-        ]
-      },
-      {
-        "model": "Xr190L",
-        "cilindrada": 190,
-        "colors": [
-          "Varios",
-          "Blanco",
-          "Rojo"
-        ],
-        "images": [
-          "images/honda_xr190l_portada1.jpg",
-          "images/honda_xr190l_xr190l-beige.jpg",
-          "images/honda_xr190l_xr190l-blanca.jpg",
-          "images/honda_xr190l_xr190l-roja.jpg"
-        ]
-      },
-      {
-        "model": "Crf250R",
-        "cilindrada": 250,
-        "colors": [
-          "Rojo",
           "Negro"
         ],
         "images": [
-          "images/honda_crf250r_crf250r-roja.jpg",
-          "images/honda_crf250r_honda_crf250r_dirt_bike_red_blue_black_white_side_view_high_quality.jpg"
+          "motos/honda/160cc/PCX 160/pcx160-blanca.jpg",
+          "motos/honda/160cc/PCX 160/pcx160-negra.jpg"
         ]
       },
       {
-        "model": "Crf250Rx",
+        "model": "xr190l",
+        "cilindrada": 190,
+        "colors": [
+          "Beige",
+          "Blanco",
+          "Rojo"
+        ],
+        "images": [
+          "motos/honda/190cc/xr190l/xr190l-beige.jpg",
+          "motos/honda/190cc/xr190l/xr190l-blanca.jpg",
+          "motos/honda/190cc/xr190l/xr190l-roja.jpg"
+        ]
+      },
+      {
+        "model": "crf250r",
         "cilindrada": 250,
         "colors": [
-          "Negro",
+          "Rojo"
+        ],
+        "images": [
+          "motos/honda/250cc/crf250r/crf250r-roja.jpg"
+        ]
+      },
+      {
+        "model": "crf250rx",
+        "cilindrada": 250,
+        "colors": [
           "Rojo",
-          "Varios",
-          "Blanco"
+          "Estándar"
         ],
         "images": [
-          "images/honda_crf250rx_Honda_CRF_Red_Black_Blue_Dirt_Bike_Side_View.jpg",
-          "images/honda_crf250rx_honda-crf250rx-red-dirt-bike-mountain-trail-side-view.jpg",
-          "images/honda_crf250rx_honda-crf250rx-red-white-black-dirt-bike-side-view.jpg",
-          "images/honda_crf250rx_honda_crf250rx_colors_3.jpg"
+          "motos/honda/250cc/crf250rx/Honda_CRF_Red_Black_Blue_Dirt_Bike_Side_View.jpg",
+          "motos/honda/250cc/crf250rx/honda_crf250rx_colors_3.jpg"
         ]
       },
       {
-        "model": "Trx250 Atv",
+        "model": "trx250_atv",
         "cilindrada": 250,
         "colors": [
-          "Varios",
-          "Negro",
+          "Estándar",
           "Rojo"
         ],
         "images": [
-          "images/honda_trx250_atv_honda-trx250x-atv-quad-color-variations-2016-2024.jpg",
-          "images/honda_trx250_atv_honda_trx250_atv_quad_red_white_blue_black_side_view.jpg",
-          "images/honda_trx250_atv_honda_trx250_atv_red_side_view_high_quality.jpg",
-          "images/honda_trx250_atv_honda_trx250_atv_red_white_blue_black_forest_trail.jpg"
+          "motos/honda/250cc/trx250_atv/honda-trx250x-atv-quad-color-variations-2016-2024.jpg",
+          "motos/honda/250cc/trx250_atv/honda_trx250_atv_quad_red_white_blue_black_side_view.jpg"
         ]
       },
       {
-        "model": "Twister",
+        "model": "XR300L Tornado",
         "cilindrada": 300,
         "colors": [
-          "Varios",
-          "Negro",
-          "Azul",
-          "Rojo"
-        ],
-        "images": [
-          "images/honda_twister_portada1.jpg",
-          "images/honda_twister_portada2.jpg",
-          "images/honda_twister_portada3.jpg",
-          "images/honda_twister_thister300-negro.jpg"
-        ]
-      },
-      {
-        "model": "Xr300L Tornado",
-        "cilindrada": 300,
-        "colors": [
-          "Varios",
+          "Estándar",
           "Blanco",
           "Gris",
           "Rojo"
         ],
         "images": [
-          "images/honda_xr300l_tornado_portadaxr300.jpg",
-          "images/honda_xr300l_tornado_tornadoxr300l-blanca.jpg",
-          "images/honda_xr300l_tornado_tornadoxr300l-gris.jpg",
-          "images/honda_xr300l_tornado_tornadoxr300l-roja.jpg"
+          "motos/honda/300cc/XR300L Tornado/portadaxr300.jpg",
+          "motos/honda/300cc/XR300L Tornado/tornadoxr300l-blanca.jpg",
+          "motos/honda/300cc/XR300L Tornado/tornadoxr300l-gris.jpg",
+          "motos/honda/300cc/XR300L Tornado/tornadoxr300l-roja.jpg"
         ]
       },
       {
-        "model": "Cb350 Hness",
+        "model": "twister CB300F",
+        "cilindrada": 300,
+        "colors": [
+          "Negro",
+          "Azul",
+          "Rojo"
+        ],
+        "images": [
+          "motos/honda/300cc/twister CB300F/thister300-negro.jpg",
+          "motos/honda/300cc/twister CB300F/twister300-azul.jpg",
+          "motos/honda/300cc/twister CB300F/twister300-roja.jpg"
+        ]
+      },
+      {
+        "model": "CB350 H´ness",
         "cilindrada": 350,
         "colors": [
-          "Rojo",
           "Negro",
+          "Rojo",
           "Verde"
         ],
         "images": [
-          "images/honda_cb350_hness_honda_cb350_hness_classic_red_motorcycle_side_view.jpg",
-          "images/honda_cb350_hness_moto-cb350-hness--color-negro.jpg",
-          "images/honda_cb350_hness_moto-cb350-hness--color-rojo.jpg",
-          "images/honda_cb350_hness_moto-cb350-hness--color-verde.jpg"
-        ]
-      },
-      {
-        "model": "Crf450R",
-        "cilindrada": 450,
-        "colors": [
-          "Blanco",
-          "Varios",
-          "Rojo"
-        ],
-        "images": [
-          "images/honda_crf450r_honda-crf450r-dirt-bike-red-blue-white-side-view.jpg",
-          "images/honda_crf450r_portada.jpg",
-          "images/honda_crf450r_red_honda_crf450r_dirt_bike_motorcycle_side_view.jpg"
-        ]
-      },
-      {
-        "model": "Crf450Rx",
-        "cilindrada": 450,
-        "colors": [
-          "Rojo"
-        ],
-        "images": [
-          "images/honda_crf450rx_Honda_CRF450RX_Red_Dirt_Bike_Motorcycle_Side_View.jpg",
-          "images/honda_crf450rx_honda_crf450rx_red_blue_dirt_bike_motorcycle_side_view.jpg"
-        ]
-      },
-      {
-        "model": "Hornet",
-        "cilindrada": 500,
-        "colors": [
-          "Rojo",
-          "Blanco",
-          "Varios"
-        ],
-        "images": [
-          "images/honda_hornet_honda_cb500_hornet_red_sport_motorcycle_side_view.jpg",
-          "images/honda_hornet_honda_cb500_hornet_white_red_frame_sport_motorcycle_side_view.jpg",
-          "images/honda_hornet_portada.jpg",
-          "images/honda_hornet_portada2.jpg"
-        ]
-      },
-      {
-        "model": "Nx500",
-        "cilindrada": 500,
-        "colors": [
-          "Blanco",
-          "Negro",
-          "Varios"
-        ],
-        "images": [
-          "images/honda_nx500_honda_nx500_adventure_motorcycle_red_blue_white_side_view.jpg",
-          "images/honda_nx500_honda_nx500_adventure_motorcycle_white_black_side_view.jpg",
-          "images/honda_nx500_portada.jpg"
-        ]
-      },
-      {
-        "model": "Hornet",
-        "cilindrada": 750,
-        "colors": [
-          "Blanco",
-          "Varios"
-        ],
-        "images": [
-          "images/honda_hornet_honda_cb750_hornet_sport_motorcycle_white_red_side_view.jpg",
-          "images/honda_hornet_portada1.jpg",
-          "images/honda_hornet_portada2.jpg"
-        ]
-      },
-      {
-        "model": "Nc750X",
-        "cilindrada": 750,
-        "colors": [
-          "Blanco",
-          "Rojo",
-          "Varios"
-        ],
-        "images": [
-          "images/honda_nc750x_honda-nc750x-adventure-motorcycle-white-side-view.jpg",
-          "images/honda_nc750x_honda_nc750x_adventure_motorcycle_red_side_view.jpg",
-          "images/honda_nc750x_portada1.jpg",
-          "images/honda_nc750x_portada2.jpg"
-        ]
-      }
-    ]
-  },
-  "ktm": {
-    "name": "KTM",
-    "logo": "motos/ktm/ktm-seeklogo.png",
-    "models": [
-      {
-        "model": "Blanco",
-        "cilindrada": 200,
-        "colors": [
-          "Blanco"
-        ],
-        "images": [
-          "images/ktm_blanco_KTM_Duke_200_200_250CC_White_01.jpg",
-          "images/ktm_blanco_KTM_Duke_200_200_250CC_White_04.jpg",
-          "images/ktm_blanco_KTM_Duke_250_200_250CC_White_03.jpg",
-          "images/ktm_blanco_KTM_Duke_250_200_250CC_White_06.jpg"
-        ]
-      },
-      {
-        "model": "Naranja",
-        "cilindrada": 200,
-        "colors": [
-          "Naranja"
-        ],
-        "images": [
-          "images/ktm_naranja_KTM_Duke_200_200_250CC_Orange_01.jpg",
-          "images/ktm_naranja_KTM_Duke_200_200_250CC_Orange_04.jpg",
-          "images/ktm_naranja_KTM_Duke_250_200_250CC_Orange_03.jpg",
-          "images/ktm_naranja_KTM_RC_200_200_250CC_Orange_02.jpg"
-        ]
-      },
-      {
-        "model": "Naranja",
-        "cilindrada": 320,
-        "colors": [
-          "Naranja"
-        ],
-        "images": [
-          "images/ktm_naranja_KTM_Duke_390_320_400CC_Orange_01.jpg",
-          "images/ktm_naranja_KTM_Duke_390_320_400CC_Orange_03.jpg",
-          "images/ktm_naranja_KTM_Duke_390_320_400CC_Orange_05.jpg",
-          "images/ktm_naranja_KTM_RC_390_320_400CC_Orange_02.jpg"
+          "motos/honda/350cc/CB350 H´ness/moto-cb350-hness--color-negro.jpg",
+          "motos/honda/350cc/CB350 H´ness/moto-cb350-hness--color-rojo.jpg",
+          "motos/honda/350cc/CB350 H´ness/moto-cb350-hness--color-verde.jpg"
         ]
       }
     ]
@@ -676,7 +700,7 @@
     "logo": "motos/keller/marcas-01-300x300.png",
     "models": [
       {
-        "model": "Keller Cronos Base",
+        "model": "keller cronos base",
         "cilindrada": 110,
         "colors": [
           "Azul",
@@ -685,14 +709,14 @@
           "Rojo"
         ],
         "images": [
-          "images/keller_keller_cronos_base_CRONO-CLASSIC-ECO-110-AZUL.webp",
-          "images/keller_keller_cronos_base_CRONO-CLASSIC-ECO-110-GRIS.webp",
-          "images/keller_keller_cronos_base_CRONO-CLASSIC-ECO-110-NEGRO.webp",
-          "images/keller_keller_cronos_base_CRONO-CLASSIC-ECO-110-ROJO.webp"
+          "motos/keller/110cc/keller cronos base/CRONO-CLASSIC-ECO-110-AZUL.webp",
+          "motos/keller/110cc/keller cronos base/CRONO-CLASSIC-ECO-110-GRIS.webp",
+          "motos/keller/110cc/keller cronos base/CRONO-CLASSIC-ECO-110-NEGRO.webp",
+          "motos/keller/110cc/keller cronos base/CRONO-CLASSIC-ECO-110-ROJO.webp"
         ]
       },
       {
-        "model": "Keller Cronos Full",
+        "model": "keller cronos full",
         "cilindrada": 110,
         "colors": [
           "Azul",
@@ -701,14 +725,14 @@
           "Rojo"
         ],
         "images": [
-          "images/keller_keller_cronos_full_CRONO-FULL-110-USB-AZUL.webp",
-          "images/keller_keller_cronos_full_CRONO-FULL-110-USB-GRIS.webp",
-          "images/keller_keller_cronos_full_CRONO-FULL-110-USB-NEGRO.webp",
-          "images/keller_keller_cronos_full_CRONO-FULL-110-USB-ROJO.webp"
+          "motos/keller/110cc/keller cronos full/CRONO-FULL-110-USB-AZUL.webp",
+          "motos/keller/110cc/keller cronos full/CRONO-FULL-110-USB-GRIS.webp",
+          "motos/keller/110cc/keller cronos full/CRONO-FULL-110-USB-NEGRO.webp",
+          "motos/keller/110cc/keller cronos full/CRONO-FULL-110-USB-ROJO.webp"
         ]
       },
       {
-        "model": "Keller Crono Tunning",
+        "model": "keller crono tunning",
         "cilindrada": 125,
         "colors": [
           "Azul",
@@ -717,14 +741,14 @@
           "Rojo"
         ],
         "images": [
-          "images/keller_keller_crono_tunning_CRONO-TUNNING-125-AZUL.webp",
-          "images/keller_keller_crono_tunning_CRONO-TUNNING-125-GRIS.webp",
-          "images/keller_keller_crono_tunning_CRONO-TUNNING-125-NEGRO.webp",
-          "images/keller_keller_crono_tunning_CRONO-TUNNING-125-ROJO.webp"
+          "motos/keller/125cc/keller crono tunning/CRONO-TUNNING-125-AZUL.webp",
+          "motos/keller/125cc/keller crono tunning/CRONO-TUNNING-125-GRIS.webp",
+          "motos/keller/125cc/keller crono tunning/CRONO-TUNNING-125-NEGRO.webp",
+          "motos/keller/125cc/keller crono tunning/CRONO-TUNNING-125-ROJO.webp"
         ]
       },
       {
-        "model": "Keller Miracle",
+        "model": "keller miracle",
         "cilindrada": 150,
         "colors": [
           "Azul",
@@ -732,13 +756,13 @@
           "Rojo"
         ],
         "images": [
-          "images/keller_keller_miracle_MIRACLE-150-AZUL.webp",
-          "images/keller_keller_miracle_MIRACLE-150-NEGRO.webp",
-          "images/keller_keller_miracle_MIRACLE-150-ROJO.webp"
+          "motos/keller/150cc/keller miracle/MIRACLE-150-AZUL.webp",
+          "motos/keller/150cc/keller miracle/MIRACLE-150-NEGRO.webp",
+          "motos/keller/150cc/keller miracle/MIRACLE-150-ROJO.webp"
         ]
       },
       {
-        "model": "Keller Stratus Full",
+        "model": "keller stratus full",
         "cilindrada": 150,
         "colors": [
           "Azul",
@@ -747,14 +771,14 @@
           "Rojo"
         ],
         "images": [
-          "images/keller_keller_stratus_full_STRATUS-150-FULL-AZUL.webp",
-          "images/keller_keller_stratus_full_STRATUS-150-FULL-GRIS.webp",
-          "images/keller_keller_stratus_full_STRATUS-150-FULL-NEGRO.webp",
-          "images/keller_keller_stratus_full_STRATUS-150-FULL-ROJO.webp"
+          "motos/keller/150cc/keller stratus full/STRATUS-150-FULL-AZUL.webp",
+          "motos/keller/150cc/keller stratus full/STRATUS-150-FULL-GRIS.webp",
+          "motos/keller/150cc/keller stratus full/STRATUS-150-FULL-NEGRO.webp",
+          "motos/keller/150cc/keller stratus full/STRATUS-150-FULL-ROJO.webp"
         ]
       },
       {
-        "model": "Keller Miracle 200",
+        "model": "keller miracle 200",
         "cilindrada": 200,
         "colors": [
           "Azul",
@@ -762,13 +786,13 @@
           "Rojo"
         ],
         "images": [
-          "images/keller_keller_miracle_200_MIRACLE-200-AZUL.webp",
-          "images/keller_keller_miracle_200_MIRACLE-200-NEGRO.webp",
-          "images/keller_keller_miracle_200_MIRACLE-200-ROJO.webp"
+          "motos/keller/200cc/keller miracle 200/MIRACLE-200-AZUL.webp",
+          "motos/keller/200cc/keller miracle 200/MIRACLE-200-NEGRO.webp",
+          "motos/keller/200cc/keller miracle 200/MIRACLE-200-ROJO.webp"
         ]
       },
       {
-        "model": "Keller Quasar 250",
+        "model": "keller quasar 250",
         "cilindrada": 250,
         "colors": [
           "Naranja",
@@ -776,9 +800,55 @@
           "Rojo"
         ],
         "images": [
-          "images/keller_keller_quasar_250_QUASAR-250-NARANJA.webp",
-          "images/keller_keller_quasar_250_QUASAR-250-NEGRO.webp",
-          "images/keller_keller_quasar_250_QUASAR-250-ROJO.webp"
+          "motos/keller/250cc/keller quasar 250/QUASAR-250-NARANJA.webp",
+          "motos/keller/250cc/keller quasar 250/QUASAR-250-NEGRO.webp",
+          "motos/keller/250cc/keller quasar 250/QUASAR-250-ROJO.webp"
+        ]
+      }
+    ]
+  },
+  "ktm": {
+    "name": "KTM",
+    "logo": "motos/ktm/ktm-seeklogo.png",
+    "models": [
+      {
+        "model": "KTM RC 200 GP",
+        "cilindrada": 200,
+        "colors": [
+          "Estándar"
+        ],
+        "images": [
+          "motos/ktm/200cc/KTM RC 200 GP/ktm-rc-200-gp-amarrillo.jpg"
+        ]
+      },
+      {
+        "model": "Ktm Duke 200",
+        "cilindrada": 200,
+        "colors": [
+          "Amarillo"
+        ],
+        "images": [
+          "motos/ktm/200cc/Ktm Duke 200/ktm-duke-amarillo.jpg"
+        ]
+      },
+      {
+        "model": "Ktm 250 adventure",
+        "cilindrada": 250,
+        "colors": [
+          "Azul"
+        ],
+        "images": [
+          "motos/ktm/250cc/Ktm 250 adventure/ktm-250-adventure-azul.jpg"
+        ]
+      },
+      {
+        "model": "Ktm 390 Adventure",
+        "cilindrada": 390,
+        "colors": [
+          "Negro"
+        ],
+        "images": [
+          "motos/ktm/390cc/Ktm 390 Adventure/ktm-390-negra.jpg"
         ]
       }
     ]
@@ -797,10 +867,10 @@
           "Rojo"
         ],
         "images": [
-          "images/motomel_blitz_110_full_B110-FULL-ALEACION-II-AZUL-1.webp",
-          "images/motomel_blitz_110_full_B110-FULL-ALEACION-II-BLANCO-1.webp",
-          "images/motomel_blitz_110_full_B110-FULL-ALEACION-II-NEGRO-1.webp",
-          "images/motomel_blitz_110_full_B110-FULL-ALEACION-II-ROJO-1.webp"
+          "motos/motomel/110cc/Blitz 110 Full/B110-FULL-ALEACION-II-AZUL-1.webp",
+          "motos/motomel/110cc/Blitz 110 Full/B110-FULL-ALEACION-II-BLANCO-1.webp",
+          "motos/motomel/110cc/Blitz 110 Full/B110-FULL-ALEACION-II-NEGRO-1.webp",
+          "motos/motomel/110cc/Blitz 110 Full/B110-FULL-ALEACION-II-ROJO-1.webp"
         ]
       },
       {
@@ -813,10 +883,10 @@
           "Rojo"
         ],
         "images": [
-          "images/motomel_blitz_110_start_BLITZ-110-START-AZUL-1.webp",
-          "images/motomel_blitz_110_start_BLITZ-110-START-BLANCO.webp",
-          "images/motomel_blitz_110_start_BLITZ-110-START-NEGRO-1.webp",
-          "images/motomel_blitz_110_start_BLITZ-110-START-ROJO-1.webp"
+          "motos/motomel/110cc/Blitz 110 Start/BLITZ-110-START-AZUL-1.webp",
+          "motos/motomel/110cc/Blitz 110 Start/BLITZ-110-START-BLANCO.webp",
+          "motos/motomel/110cc/Blitz 110 Start/BLITZ-110-START-NEGRO-1.webp",
+          "motos/motomel/110cc/Blitz 110 Start/BLITZ-110-START-ROJO-1.webp"
         ]
       },
       {
@@ -828,9 +898,25 @@
           "Rojo"
         ],
         "images": [
-          "images/motomel_blitz_110_tunning_v8_BLITZ-110-TUNNING-V8-BLANCO.webp",
-          "images/motomel_blitz_110_tunning_v8_BLITZ-110-TUNNING-V8-NEGRO.webp",
-          "images/motomel_blitz_110_tunning_v8_BLITZ-110-TUNNING-V8-ROJO.webp"
+          "motos/motomel/110cc/Blitz 110 Tunning V8/BLITZ-110-TUNNING-V8-BLANCO.webp",
+          "motos/motomel/110cc/Blitz 110 Tunning V8/BLITZ-110-TUNNING-V8-NEGRO.webp",
+          "motos/motomel/110cc/Blitz 110 Tunning V8/BLITZ-110-TUNNING-V8-ROJO.webp"
+        ]
+      },
+      {
+        "model": "DLX110",
+        "cilindrada": 110,
+        "colors": [
+          "Azul",
+          "Gris",
+          "Negro",
+          "Rojo"
+        ],
+        "images": [
+          "motos/motomel/110cc/DLX110/DLX110-DELUXE-NUEVA-AZUL.webp",
+          "motos/motomel/110cc/DLX110/DLX110-DELUXE-NUEVA-GRIS.webp",
+          "motos/motomel/110cc/DLX110/DLX110-DELUXE-NUEVA-NEGRO.webp",
+          "motos/motomel/110cc/DLX110/DLX110-DELUXE-NUEVA-ROJO.webp"
         ]
       },
       {
@@ -842,13 +928,13 @@
           "Rojo"
         ],
         "images": [
-          "images/motomel_max_110_MAX-110-BLANCO.webp",
-          "images/motomel_max_110_MAX-110-NEGRO.webp",
-          "images/motomel_max_110_MAX-110-ROJO.webp"
+          "motos/motomel/110cc/Max 110/MAX-110-BLANCO.webp",
+          "motos/motomel/110cc/Max 110/MAX-110-NEGRO.webp",
+          "motos/motomel/110cc/Max 110/MAX-110-ROJO.webp"
         ]
       },
       {
-        "model": "Skua 125 Extreme",
+        "model": "Skua 125 extreme",
         "cilindrada": 125,
         "colors": [
           "Azul",
@@ -856,13 +942,13 @@
           "Rojo"
         ],
         "images": [
-          "images/motomel_skua_125_extreme_SKUA-125-X-TREME-AZUL.webp",
-          "images/motomel_skua_125_extreme_SKUA-125-X-TREME-NEGRO.webp",
-          "images/motomel_skua_125_extreme_SKUA-125-X-TREME-ROJO.webp"
+          "motos/motomel/125cc/Skua 125 extreme/SKUA-125-X-TREME-AZUL.webp",
+          "motos/motomel/125cc/Skua 125 extreme/SKUA-125-X-TREME-NEGRO.webp",
+          "motos/motomel/125cc/Skua 125 extreme/SKUA-125-X-TREME-ROJO.webp"
         ]
       },
       {
-        "model": "Cg 150 S2 Full Aleación Cbs",
+        "model": "CG 150 S2 Full Aleación CBS",
         "cilindrada": 150,
         "colors": [
           "Azul",
@@ -871,10 +957,10 @@
           "Rojo"
         ],
         "images": [
-          "images/motomel_cg_150_s2_full_aleación_cbs_CG-150-S2-FULL-LLANTA-ALEACION-FDI-AZUL-1.webp",
-          "images/motomel_cg_150_s2_full_aleación_cbs_CG-150-S2-FULL-LLANTA-ALEACION-FDI-GRIS.webp",
-          "images/motomel_cg_150_s2_full_aleación_cbs_CG-150-S2-FULL-LLANTA-ALEACION-FDI-NEGRO-1.webp",
-          "images/motomel_cg_150_s2_full_aleación_cbs_CG-150-S2-FULL-LLANTA-ALEACION-FDI-ROJO-1.webp"
+          "motos/motomel/150cc/CG 150 S2 Full Aleación CBS/CG-150-S2-FULL-LLANTA-ALEACION-FDI-AZUL-1.webp",
+          "motos/motomel/150cc/CG 150 S2 Full Aleación CBS/CG-150-S2-FULL-LLANTA-ALEACION-FDI-GRIS.webp",
+          "motos/motomel/150cc/CG 150 S2 Full Aleación CBS/CG-150-S2-FULL-LLANTA-ALEACION-FDI-NEGRO-1.webp",
+          "motos/motomel/150cc/CG 150 S2 Full Aleación CBS/CG-150-S2-FULL-LLANTA-ALEACION-FDI-ROJO-1.webp"
         ]
       },
       {
@@ -887,30 +973,40 @@
           "Rojo"
         ],
         "images": [
-          "images/motomel_s2_150_start_base_S2-150-START-LLANTA-RAYOS-AZUL-1.webp",
-          "images/motomel_s2_150_start_base_S2-150-START-LLANTA-RAYOS-GRIS.webp",
-          "images/motomel_s2_150_start_base_S2-150-START-LLANTA-RAYOS-NEGRO-1.webp",
-          "images/motomel_s2_150_start_base_S2-150-START-LLANTA-RAYOS-ROJO-1.webp"
+          "motos/motomel/150cc/S2 150 Start Base/S2-150-START-LLANTA-RAYOS-AZUL-1.webp",
+          "motos/motomel/150cc/S2 150 Start Base/S2-150-START-LLANTA-RAYOS-GRIS.webp",
+          "motos/motomel/150cc/S2 150 Start Base/S2-150-START-LLANTA-RAYOS-NEGRO-1.webp",
+          "motos/motomel/150cc/S2 150 Start Base/S2-150-START-LLANTA-RAYOS-ROJO-1.webp"
         ]
       },
       {
         "model": "Skua 150",
         "cilindrada": 150,
         "colors": [
-          "Varios",
+          "Arena",
           "Azul",
           "Negro",
           "Rojo"
         ],
         "images": [
-          "images/motomel_skua_150_SKUA-150-ARENA.webp",
-          "images/motomel_skua_150_SKUA-150-AZUL.webp",
-          "images/motomel_skua_150_SKUA-150-NEGRO.webp",
-          "images/motomel_skua_150_SKUA-150-ROJO.webp"
+          "motos/motomel/150cc/Skua 150/SKUA-150-ARENA.webp",
+          "motos/motomel/150cc/Skua 150/SKUA-150-AZUL.webp",
+          "motos/motomel/150cc/Skua 150/SKUA-150-NEGRO.webp",
+          "motos/motomel/150cc/Skua 150/SKUA-150-ROJO.webp"
         ]
       },
       {
-        "model": "Cx250 Xmm",
+        "model": "Skua 150 Silver Edition",
+        "cilindrada": 150,
+        "colors": [
+          "Gris"
+        ],
+        "images": [
+          "motos/motomel/150cc/Skua 150 Silver Edition/SKUA-150-SILVER-EDITION-SILVER-GRIS.webp"
+        ]
+      },
+      {
+        "model": "CX250 XMM",
         "cilindrada": 250,
         "colors": [
           "Azul",
@@ -918,9 +1014,23 @@
           "Rojo"
         ],
         "images": [
-          "images/motomel_cx250_xmm_CX250-XMM-AZUL.webp",
-          "images/motomel_cx250_xmm_CX250-XMM-NARANJA.webp",
-          "images/motomel_cx250_xmm_CX250-XMM-ROJO.webp"
+          "motos/motomel/250cc/CX250 XMM/CX250-XMM-AZUL.webp",
+          "motos/motomel/250cc/CX250 XMM/CX250-XMM-NARANJA.webp",
+          "motos/motomel/250cc/CX250 XMM/CX250-XMM-ROJO.webp"
+        ]
+      },
+      {
+        "model": "Skua CX250",
+        "cilindrada": 250,
+        "colors": [
+          "Azul",
+          "Negro",
+          "Rojo"
+        ],
+        "images": [
+          "motos/motomel/250cc/Skua CX250/CX250-SKUA-AZUL.webp",
+          "motos/motomel/250cc/Skua CX250/CX250-SKUA-NEGRO.webp",
+          "motos/motomel/250cc/Skua CX250/CX250-SKUA-ROJO.webp"
         ]
       }
     ]
@@ -930,7 +1040,7 @@
     "logo": "motos/siam/siam-motos-seeklogo.png",
     "models": [
       {
-        "model": "Qu 110 Base",
+        "model": "QU 110 Base",
         "cilindrada": 110,
         "colors": [
           "Azul",
@@ -939,10 +1049,82 @@
           "Rojo"
         ],
         "images": [
-          "images/siam_qu_110_base_QU-BASE-RAYO-TAMBOR-AZUL-768x768.webp",
-          "images/siam_qu_110_base_QU-BASE-RAYO-TAMBOR-BLANCO.webp",
-          "images/siam_qu_110_base_QU-BASE-RAYO-TAMBOR-NEGRO-768x768.webp",
-          "images/siam_qu_110_base_QU-BASE-RAYO-TAMBOR-ROJO.webp"
+          "motos/siam/110cc/QU 110 Base/QU_AZUL.jpg",
+          "motos/siam/110cc/QU 110 Base/QU_BLANCA.jpg",
+          "motos/siam/110cc/QU 110 Base/QU_NEGRA.jpg",
+          "motos/siam/110cc/QU 110 Base/QU_ROJA.jpg"
+        ]
+      },
+      {
+        "model": "QU 110 Full",
+        "cilindrada": 110,
+        "colors": [
+          "Azul",
+          "Blanco",
+          "Negro",
+          "Rojo"
+        ],
+        "images": [
+          "motos/siam/110cc/QU 110 Full/qu_azul_1.jpg",
+          "motos/siam/110cc/QU 110 Full/qu_blanca_1.jpg",
+          "motos/siam/110cc/QU 110 Full/qu_negra_1.jpg",
+          "motos/siam/110cc/QU 110 Full/qu_roja_1.jpg"
+        ]
+      },
+      {
+        "model": "Siam Nomad 150",
+        "cilindrada": 150,
+        "colors": [
+          "Blanco",
+          "Negro",
+          "Rojo"
+        ],
+        "images": [
+          "motos/siam/150cc/Siam Nomad 150/nomaf_blanca.jpg",
+          "motos/siam/150cc/Siam Nomad 150/nomaf_negra.jpg",
+          "motos/siam/150cc/Siam Nomad 150/nomaf_roja.jpg"
+        ]
+      },
+      {
+        "model": "Siam Quirion 150",
+        "cilindrada": 150,
+        "colors": [
+          "Azul",
+          "Blanco",
+          "Negro",
+          "Rojo"
+        ],
+        "images": [
+          "motos/siam/150cc/Siam Quirion 150/QUIRION_AZUL.jpg",
+          "motos/siam/150cc/Siam Quirion 150/QUIRION_BLANCA.jpg",
+          "motos/siam/150cc/Siam Quirion 150/QUIRION_NEGRA.jpg",
+          "motos/siam/150cc/Siam Quirion 150/QUIRION_ROJA.jpg"
+        ]
+      },
+      {
+        "model": "Siam Trender 150",
+        "cilindrada": 150,
+        "colors": [
+          "Azul",
+          "Blanco",
+          "Rojo",
+          "Verde"
+        ],
+        "images": [
+          "motos/siam/150cc/Siam Trender 150/trender_azul_.jpg",
+          "motos/siam/150cc/Siam Trender 150/trender_blanca_.jpg",
+          "motos/siam/150cc/Siam Trender 150/trender_roja_.jpg",
+          "motos/siam/150cc/Siam Trender 150/trender_verde_.jpg"
+        ]
+      },
+      {
+        "model": "Siam Vector 400",
+        "cilindrada": 400,
+        "colors": [
+          "Negro"
+        ],
+        "images": [
+          "motos/siam/400cc/Siam Vector 400/vector-negra.jpg"
         ]
       }
     ]
@@ -952,7 +1134,7 @@
     "logo": "motos/voge/voge-motos-seeklogo.png",
     "models": [
       {
-        "model": "300 Ds",
+        "model": "300 DS",
         "cilindrada": 300,
         "colors": [
           "Gris",
@@ -960,9 +1142,9 @@
           "Rojo"
         ],
         "images": [
-          "images/voge_300_ds_300-DS-BAULERA-GRIS.webp",
-          "images/voge_300_ds_300-DS-BAULERA-NEGRO.webp",
-          "images/voge_300_ds_300-DS-BAULERA-ROJO-768x768.webp"
+          "motos/voge/300cc/300 DS/300-DS-BAULERA-GRIS.webp",
+          "motos/voge/300cc/300 DS/300-DS-BAULERA-NEGRO.webp",
+          "motos/voge/300cc/300 DS/300-DS-BAULERA-ROJO-768x768.webp"
         ]
       },
       {
@@ -974,13 +1156,25 @@
           "Gris"
         ],
         "images": [
-          "images/voge_300_rally_300-RALLY-AMARILLO.webp",
-          "images/voge_300_rally_300-RALLY-BLANCO.webp",
-          "images/voge_300_rally_300-RALLY-GRIS.webp"
+          "motos/voge/300cc/300 Rally/300-RALLY-AMARILLO.webp",
+          "motos/voge/300cc/300 Rally/300-RALLY-BLANCO.webp",
+          "motos/voge/300cc/300 Rally/300-RALLY-GRIS.webp"
         ]
       },
       {
-        "model": "500 Ds",
+        "model": "AC 350",
+        "cilindrada": 350,
+        "colors": [
+          "Amarillo",
+          "Negro"
+        ],
+        "images": [
+          "motos/voge/350cc/AC 350/AC350-amarilla.webp",
+          "motos/voge/350cc/AC 350/AC350-negra.webp"
+        ]
+      },
+      {
+        "model": "500 DS",
         "cilindrada": 500,
         "colors": [
           "Gris",
@@ -988,13 +1182,13 @@
           "Rojo"
         ],
         "images": [
-          "images/voge_500_ds_500-DS-BAULERA-GRIS-b-768x768.webp",
-          "images/voge_500_ds_500-DS-BAULERA-NEGRO-b.webp",
-          "images/voge_500_ds_500-DS-BAULERA-ROJO-b.webp"
+          "motos/voge/500cc/500 DS/500-DS-BAULERA-GRIS-b-768x768.webp",
+          "motos/voge/500cc/500 DS/500-DS-BAULERA-NEGRO-b.webp",
+          "motos/voge/500cc/500 DS/500-DS-BAULERA-ROJO-b.webp"
         ]
       },
       {
-        "model": "500 Dsx",
+        "model": "500 DSX",
         "cilindrada": 500,
         "colors": [
           "Gris",
@@ -1002,9 +1196,9 @@
           "Rojo"
         ],
         "images": [
-          "images/voge_500_dsx_500-DSX-BAULERA-GRIS.webp",
-          "images/voge_500_dsx_500-DSX-BAULERA-NEGRO.webp",
-          "images/voge_500_dsx_500-DSX-BAULERA-ROJO.webp"
+          "motos/voge/500cc/500 DSX/500-DSX-BAULERA-GRIS.webp",
+          "motos/voge/500cc/500 DSX/500-DSX-BAULERA-NEGRO.webp",
+          "motos/voge/500cc/500 DSX/500-DSX-BAULERA-ROJO.webp"
         ]
       },
       {
@@ -1016,13 +1210,37 @@
           "Rojo"
         ],
         "images": [
-          "images/voge_500_r_500-R-GRIS.webp",
-          "images/voge_500_r_500-R-NEGRO.webp",
-          "images/voge_500_r_500-R-ROJO.webp"
+          "motos/voge/500cc/500 R/500-R-GRIS.webp",
+          "motos/voge/500cc/500 R/500-R-NEGRO.webp",
+          "motos/voge/500cc/500 R/500-R-ROJO.webp"
         ]
       },
       {
-        "model": "650 Ds",
+        "model": "525 R",
+        "cilindrada": 500,
+        "colors": [
+          "Gris",
+          "Negro"
+        ],
+        "images": [
+          "motos/voge/500cc/525 R/525-R-GRIS.webp",
+          "motos/voge/500cc/525 R/525-R-NEGRO.webp"
+        ]
+      },
+      {
+        "model": "DS 525X",
+        "cilindrada": 500,
+        "colors": [
+          "Azul",
+          "Gris"
+        ],
+        "images": [
+          "motos/voge/500cc/DS 525X/DS525X-AZUL.webp",
+          "motos/voge/500cc/DS 525X/DS525X-GRIS.webp"
+        ]
+      },
+      {
+        "model": "650 DS",
         "cilindrada": 650,
         "colors": [
           "Azul",
@@ -1030,13 +1248,13 @@
           "Rojo"
         ],
         "images": [
-          "images/voge_650_ds_650-DS-BAULERA-AZUL-b.webp",
-          "images/voge_650_ds_650-DS-BAULERA-NEGROb.webp",
-          "images/voge_650_ds_650-DS-BAULERA-ROJO-b.webp"
+          "motos/voge/650cc/650 DS/650-DS-BAULERA-AZUL-b.webp",
+          "motos/voge/650cc/650 DS/650-DS-BAULERA-NEGROb.webp",
+          "motos/voge/650cc/650 DS/650-DS-BAULERA-ROJO-b.webp"
         ]
       },
       {
-        "model": "650 Dsx",
+        "model": "650 DSX",
         "cilindrada": 650,
         "colors": [
           "Azul",
@@ -1044,9 +1262,31 @@
           "Rojo"
         ],
         "images": [
-          "images/voge_650_dsx_650-DSX-BAULERA-AZUL.webp",
-          "images/voge_650_dsx_650-DSX-BAULERA-NEGRO.webp",
-          "images/voge_650_dsx_650-DSX-BAULERA-ROJO.webp"
+          "motos/voge/650cc/650 DSX/650-DSX-BAULERA-AZUL.webp",
+          "motos/voge/650cc/650 DSX/650-DSX-BAULERA-NEGRO.webp",
+          "motos/voge/650cc/650 DSX/650-DSX-BAULERA-ROJO.webp"
+        ]
+      },
+      {
+        "model": "DS 900X",
+        "cilindrada": 900,
+        "colors": [
+          "Amarillo",
+          "Blanco"
+        ],
+        "images": [
+          "motos/voge/900cc/DS 900X/DS900X-AMARILLO.webp",
+          "motos/voge/900cc/DS 900X/DS900X-BLANCO.webp"
+        ]
+      },
+      {
+        "model": "DS900X Black Knight",
+        "cilindrada": 900,
+        "colors": [
+          "Negro"
+        ],
+        "images": [
+          "motos/voge/900cc/DS900X Black Knight/DS900X-BLACK-KNIGHT-NEGRO.webp"
         ]
       }
     ]
@@ -1056,21 +1296,21 @@
     "logo": "motos/yamaha/yamaha-seeklogo.png",
     "models": [
       {
-        "model": "Fascino Lcx 125",
+        "model": "Fascino LCX 125",
         "cilindrada": 125,
         "colors": [
-          "Varios",
+          "Azul",
           "Negro",
           "Rojo"
         ],
         "images": [
-          "images/yamaha_fascino_lcx_125_FASCINO-LCX-125-CELESTE.webp",
-          "images/yamaha_fascino_lcx_125_FASCINO-LCX-125-NEGRO.webp",
-          "images/yamaha_fascino_lcx_125_FASCINO-LCX-125-ROJO.webp"
+          "motos/yamaha/125cc/Fascino LCX 125/FASCINO-LCX-125-CELESTE.webp",
+          "motos/yamaha/125cc/Fascino LCX 125/FASCINO-LCX-125-NEGRO.webp",
+          "motos/yamaha/125cc/Fascino LCX 125/FASCINO-LCX-125-ROJO.webp"
         ]
       },
       {
-        "model": "Xtz125",
+        "model": "XTZ125",
         "cilindrada": 125,
         "colors": [
           "Azul",
@@ -1078,33 +1318,77 @@
           "Negro"
         ],
         "images": [
-          "images/yamaha_xtz125_XTZ125E-AR-AZUL-1.webp",
-          "images/yamaha_xtz125_XTZ125E-AR-BLANCO-1.webp",
-          "images/yamaha_xtz125_XTZ125E-AR-NEGRO-1.webp"
+          "motos/yamaha/125cc/XTZ125/XTZ125E-AR-AZUL-1.webp",
+          "motos/yamaha/125cc/XTZ125/XTZ125E-AR-BLANCO-1.webp",
+          "motos/yamaha/125cc/XTZ125/XTZ125E-AR-NEGRO-1.webp"
         ]
       },
       {
-        "model": "Fz X 150",
+        "model": "YBR Z 125",
+        "cilindrada": 125,
+        "colors": [
+          "Azul"
+        ],
+        "images": [
+          "motos/yamaha/125cc/YBR Z 125/ybrz125-azul.jpg"
+        ]
+      },
+      {
+        "model": "FZ 150 V4.0",
         "cilindrada": 150,
         "colors": [
           "Azul",
           "Negro"
         ],
         "images": [
-          "images/yamaha_fz_x_150_FZ-X-AZUL-MATE-1.webp",
-          "images/yamaha_fz_x_150_FZ-X-NEGRO.webp"
+          "motos/yamaha/150cc/FZ 150 V4.0/FZ-V4.0-AZUL.webp",
+          "motos/yamaha/150cc/FZ 150 V4.0/FZ-V4.0-NEGRO.webp"
         ]
       },
       {
-        "model": "Xtz 250 Abs",
+        "model": "FZ X 150",
+        "cilindrada": 150,
+        "colors": [
+          "Azul",
+          "Negro"
+        ],
+        "images": [
+          "motos/yamaha/150cc/FZ X 150/FZ-X-AZUL-MATE-1.webp",
+          "motos/yamaha/150cc/FZ X 150/FZ-X-NEGRO.webp"
+        ]
+      },
+      {
+        "model": "TT-R230",
+        "cilindrada": 230,
+        "colors": [
+          "Azul"
+        ],
+        "images": [
+          "motos/yamaha/230cc/TT-R230/TTR-230-AZUL.webp"
+        ]
+      },
+      {
+        "model": "XTZ 250 ABS",
         "cilindrada": 250,
         "colors": [
           "Azul",
           "Rojo"
         ],
         "images": [
-          "images/yamaha_xtz_250_abs_XTZ-250-ABS-AZUL.webp",
-          "images/yamaha_xtz_250_abs_XTZ-250-ABS-ROJO.webp"
+          "motos/yamaha/250cc/XTZ 250 ABS/XTZ-250-ABS-AZUL.webp",
+          "motos/yamaha/250cc/XTZ 250 ABS/XTZ-250-ABS-ROJO.webp"
+        ]
+      },
+      {
+        "model": "MT03",
+        "cilindrada": 350,
+        "colors": [
+          "Azul",
+          "Gris"
+        ],
+        "images": [
+          "motos/yamaha/350cc/MT03/MT03-A-AZUL.webp",
+          "motos/yamaha/350cc/MT03/MT03-A-GRIS.webp"
         ]
       }
     ]
@@ -1114,7 +1398,7 @@
     "logo": "motos/zanella/zanella-seeklogo.png",
     "models": [
       {
-        "model": "Zb 110 Lt Base",
+        "model": "ZB 110 LT Base",
         "cilindrada": 110,
         "colors": [
           "Azul",
@@ -1122,14 +1406,13 @@
           "Rojo"
         ],
         "images": [
-          "images/zanella_zb_110_lt_base_ZB-110-LT-RAYO-TAMBOR-AZUL.webp",
-          "images/zanella_zb_110_lt_base_ZB-110-LT-RAYO-TAMBOR-GRIS-CLARO.webp",
-          "images/zanella_zb_110_lt_base_ZB-110-LT-RAYO-TAMBOR-GRIS-OSCURO.webp",
-          "images/zanella_zb_110_lt_base_ZB-110-LT-RAYO-TAMBOR-ROJO.webp"
+          "motos/zanella/110cc/ZB 110 LT Base/ZB-110-LT-RAYO-TAMBOR-AZUL.webp",
+          "motos/zanella/110cc/ZB 110 LT Base/ZB-110-LT-RAYO-TAMBOR-GRIS-CLARO.webp",
+          "motos/zanella/110cc/ZB 110 LT Base/ZB-110-LT-RAYO-TAMBOR-ROJO.webp"
         ]
       },
       {
-        "model": "Zb 110 Rtfull",
+        "model": "ZB 110 RTFull",
         "cilindrada": 110,
         "colors": [
           "Azul",
@@ -1137,14 +1420,13 @@
           "Rojo"
         ],
         "images": [
-          "images/zanella_zb_110_rtfull_ZB-110-RT-ALEACION-DISCO-AZUL.webp",
-          "images/zanella_zb_110_rtfull_ZB-110-RT-ALEACION-DISCO-GRIS-CLARO.webp",
-          "images/zanella_zb_110_rtfull_ZB-110-RT-ALEACION-DISCO-GRIS-OSCURO.webp",
-          "images/zanella_zb_110_rtfull_ZB-110-RT-ALEACION-DISCO-ROJO.webp"
+          "motos/zanella/110cc/ZB 110 RTFull/ZB-110-RT-ALEACION-DISCO-AZUL.webp",
+          "motos/zanella/110cc/ZB 110 RTFull/ZB-110-RT-ALEACION-DISCO-GRIS-CLARO.webp",
+          "motos/zanella/110cc/ZB 110 RTFull/ZB-110-RT-ALEACION-DISCO-ROJO.webp"
         ]
       },
       {
-        "model": "Zb 125 R Tunning",
+        "model": "ZB 125 R Tunning",
         "cilindrada": 125,
         "colors": [
           "Azul",
@@ -1152,26 +1434,25 @@
           "Rojo"
         ],
         "images": [
-          "images/zanella_zb_125_r_tunning_ZB-125-R-TUNNING-AZUL.webp",
-          "images/zanella_zb_125_r_tunning_ZB-125-R-TUNNING-GRIS-CLARO-768x768.webp",
-          "images/zanella_zb_125_r_tunning_ZB-125-R-TUNNING-GRIS-OSCURO.webp",
-          "images/zanella_zb_125_r_tunning_ZB-125-R-TUNNING-ROJO.webp"
+          "motos/zanella/125cc/ZB 125 R Tunning/ZB-125-R-TUNNING-AZUL.webp",
+          "motos/zanella/125cc/ZB 125 R Tunning/ZB-125-R-TUNNING-GRIS-CLARO-768x768.webp",
+          "motos/zanella/125cc/ZB 125 R Tunning/ZB-125-R-TUNNING-ROJO.webp"
         ]
       },
       {
-        "model": "Zr 200 Ohc",
+        "model": "ZR 200 OHC",
         "cilindrada": 200,
         "colors": [
           "Azul",
           "Rojo"
         ],
         "images": [
-          "images/zanella_zr_200_ohc_ZR-200-OHC-AZUL.webp",
-          "images/zanella_zr_200_ohc_ZR-200-OHC-ROJO.webp"
+          "motos/zanella/200cc/ZR 200 OHC/ZR-200-OHC-AZUL.webp",
+          "motos/zanella/200cc/ZR 200 OHC/ZR-200-OHC-ROJO.webp"
         ]
       },
       {
-        "model": "Zr 250 Ohc",
+        "model": "ZR 250 OHC",
         "cilindrada": 200,
         "colors": [
           "Azul",
@@ -1180,10 +1461,10 @@
           "Rojo"
         ],
         "images": [
-          "images/zanella_zr_250_ohc_ZR-250-OHC-AZUL.webp",
-          "images/zanella_zr_250_ohc_ZR-250-OHC-BLANCO.webp",
-          "images/zanella_zr_250_ohc_ZR-250-OHC-NEGRO-768x768.webp",
-          "images/zanella_zr_250_ohc_ZR-250-OHC-ROJO.webp"
+          "motos/zanella/200cc/ZR 250 OHC/ZR-250-OHC-AZUL.webp",
+          "motos/zanella/200cc/ZR 250 OHC/ZR-250-OHC-BLANCO.webp",
+          "motos/zanella/200cc/ZR 250 OHC/ZR-250-OHC-NEGRO-768x768.webp",
+          "motos/zanella/200cc/ZR 250 OHC/ZR-250-OHC-ROJO.webp"
         ]
       },
       {
@@ -1194,8 +1475,8 @@
           "Negro"
         ],
         "images": [
-          "images/zanella_ceccato_x_250_CECCATO-X-GRIS.webp",
-          "images/zanella_ceccato_x_250_CECCATO-X-NEGRO.webp"
+          "motos/zanella/250cc/Ceccato X 250/CECCATO-X-GRIS.webp",
+          "motos/zanella/250cc/Ceccato X 250/CECCATO-X-NEGRO.webp"
         ]
       }
     ]

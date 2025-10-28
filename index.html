@@ -171,7 +171,7 @@
                         <span class="stat-label">Clientes satisfechos</span>
                     </div>
                     <div class="stat-item">
-                        <span class="stat-number">11</span>
+                        <span class="stat-number">13</span>
                         <span class="stat-label">Marcas disponibles</span>
                     </div>
                     <div class="stat-item">
@@ -447,6 +447,19 @@
          SCRIPTS
          ============================================================ -->
     <script src="js/main.js"></script>
+    
+    <!-- Modal de Zoom de Imágenes -->
+    <div class="image-zoom-overlay" id="image-zoom-overlay">
+        <div class="image-zoom-container">
+            <button class="image-zoom-close" id="image-zoom-close" aria-label="Cerrar imagen ampliada">
+                <svg viewBox="0 0 24 24" width="24" height="24">
+                    <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" fill="currentColor"/>
+                </svg>
+            </button>
+            <img class="image-zoom-img" id="image-zoom-img" src="" alt="">
+            <div class="image-zoom-info" id="image-zoom-info"></div>
+        </div>
+    </div>
     
 </body>
 </html>
