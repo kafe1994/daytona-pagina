@@ -70,6 +70,36 @@
           "motos/Hero/150cc/Hunk 150 DD/HUNK-150-DD-NEGRO-CELESTE.webp",
           "motos/Hero/150cc/Hunk 150 DD/HUNK-150-DD-NEGRO-ROJO.webp"
         ]
+      },
+      {
+        "model": "HUNK 160",
+        "cilindrada": 160,
+        "colors": [
+          "Azul",
+          "Blanco",
+          "Negro",
+          "Rojo"
+        ],
+        "images": [
+          "motos/Hero/160cc/HUNK-160-AZUL.webp",
+          "motos/Hero/160cc/HUNK-160-BLANCO.webp",
+          "motos/Hero/160cc/HUNK-160-NEGRO.webp",
+          "motos/Hero/160cc/HUNK-160-ROJO.webp"
+        ]
+      },
+      {
+        "model": "XPULSE 200",
+        "cilindrada": 200,
+        "colors": [
+          "Blanco",
+          "Negro",
+          "Rojo"
+        ],
+        "images": [
+          "motos/Hero/200cc/XPULSE-200-CAB-ABS-BLANCO.webp",
+          "motos/Hero/200cc/XPULSE-200-CAB-ABS-NEGRO.webp",
+          "motos/Hero/200cc/XPULSE-200-CAB-ABS-ROJO.webp"
+        ]
       }
     ]
   },
@@ -341,6 +371,20 @@
           "motos/corven/250cc/triax-250-adventure/Triax-250-adv-base-blanca.png.webp",
           "motos/corven/250cc/triax-250-adventure/Triax-250-adv-base-negra.png",
           "motos/corven/250cc/triax-250-adventure/Triax-250-adv-gris-nardo-lateral.png"
+        ]
+      },
+      {
+        "model": "Modelo 70cc",
+        "cilindrada": 70,
+        "colors": [
+          "Azul",
+          "Negro",
+          "Rojo"
+        ],
+        "images": [
+          "motos/corven/70cc/DX70-AZUL.webp",
+          "motos/corven/70cc/DX70-NEGRO.webp",
+          "motos/corven/70cc/DX70-ROJO.webp"
         ]
       }
     ]
@@ -1115,6 +1159,16 @@
           "motos/siam/150cc/Siam Trender 150/trender_blanca_.jpg",
           "motos/siam/150cc/Siam Trender 150/trender_roja_.jpg",
           "motos/siam/150cc/Siam Trender 150/trender_verde_.jpg"
+        ]
+      },
+      {
+        "model": "Modelo 200cc",
+        "cilindrada": 200,
+        "colors": [
+          "Negro"
+        ],
+        "images": [
+          "motos/siam/200cc/steppa-negra.jpg"
         ]
       },
       {
