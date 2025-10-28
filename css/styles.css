@@ -106,6 +106,45 @@ button {
 }
 
 /* ============================================================
+   ELIMINAR EFECTOS DE FOCUS NO DESEADOS
+   ============================================================ */
+
+/* Reset global para eliminar el outline azul del navegador */
+* {
+  outline: none !important;
+}
+
+/* Restaurar focus solo para elementos de formulario (accesibilidad) */
+input:focus,
+textarea:focus,
+select:focus,
+button:focus {
+  outline: 2px solid var(--red-primary) !important;
+  outline-offset: 2px;
+}
+
+/* Eliminar efectos de active no deseados */
+a:active,
+button:active,
+.clickable:active,
+.interactive:active,
+.post-cta:active,
+.cta-btn:active,
+.nav-menu-btn:active,
+.search-toggle:active {
+  transform: scale(0.98);
+  opacity: 0.9;
+}
+
+/* Efectos hover personalizados */
+.clickable:hover,
+.interactive:hover,
+.nav-menu-btn:hover,
+.search-toggle:hover {
+  opacity: 0.9;
+}
+
+/* ============================================================
    NAVEGACIÓN STICKY
    ============================================================ */
 .navbar {
