@@ -145,6 +145,148 @@ button:active,
 }
 
 /* ============================================================
+   ELIMINAR EFECTOS DE SELECCIÓN EN DISPOSITIVOS TÁCTILES
+   ============================================================ */
+
+/* Eliminar completamente efectos de selección azul del navegador */
+.brand-card,
+.brand-card *,
+.brand-grid-item,
+.moto-card,
+.moto-card *,
+.clickable,
+.interactive,
+.cta-btn,
+.moto-item {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Sobrescribir cualquier color de fondo de selección */
+.brand-card:active,
+.brand-card:focus,
+.brand-card:visited,
+.brand-card:hover:active,
+.brand-card:target,
+.brand-card[selected],
+.brand-card.selected {
+  background: var(--bg-primary) !important;
+  background-color: var(--bg-primary) !important;
+  color: inherit !important;
+}
+
+/* Asegurar que los elementos mantengan su apariencia normal */
+.brand-card:focus,
+.brand-card:active,
+.brand-card:hover,
+.brand-card.selected,
+.brand-card[aria-selected="true"],
+.brand-card[data-selected="true"] {
+  background: var(--bg-primary) !important;
+  background-color: var(--bg-primary) !important;
+  box-shadow: var(--shadow-card) !important;
+}
+
+/* Para todos los elementos clickeables */
+.clickable:focus,
+.clickable:active,
+.clickable:hover:active {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+
+/* Para elementos con overlay o efectos */
+.brand-card::after,
+.clickable::after {
+  background: transparent !important;
+}
+
+/* ============================================================
+   REGLAS ESPECÍFICAS PARA TODAS LAS TARJETAS Y ELEMENTOS INTERACTIVOS
+   ============================================================ */
+
+/* Eliminar efectos de selección en todas las tarjetas */
+.stat-item,
+.model-card,
+.post-card,
+.whatsapp-btn,
+.step-item,
+.search-result-item,
+.cta-modal,
+.side-panel,
+.color-swatch {
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+  -webkit-tap-highlight-color: transparent !important;
+  -webkit-touch-callout: none !important;
+  -webkit-appearance: none !important;
+  appearance: none !important;
+}
+
+/* Sobrescribir efectos de selección en todas las tarjetas */
+.stat-item:active,
+.stat-item:focus,
+.stat-item:visited,
+.stat-item:hover:active,
+.stat-item:target,
+.model-card:active,
+.model-card:focus,
+.model-card:visited,
+.model-card:hover:active,
+.model-card:target,
+.post-card:active,
+.post-card:focus,
+.post-card:visited,
+.post-card:hover:active,
+.post-card:target,
+.whatsapp-btn:active,
+.whatsapp-btn:focus,
+.whatsapp-btn:visited,
+.whatsapp-btn:hover:active,
+.step-item:active,
+.step-item:focus,
+.step-item:visited,
+.step-item:hover:active,
+.search-result-item:active,
+.search-result-item:focus,
+.search-result-item:visited,
+.search-result-item:hover:active {
+  background: var(--bg-primary) !important;
+  background-color: var(--bg-primary) !important;
+  color: inherit !important;
+  box-shadow: var(--shadow-card) !important;
+}
+
+/* Asegurar elementos específicos de UI */
+.model-card[style*="background"] {
+  background: var(--bg-primary) !important;
+  background-color: var(--bg-primary) !important;
+}
+
+/* Eliminar cualquier hint de selección del navegador */
+*[style*="rgba(66, 165, 245"] {
+  background: transparent !important;
+}
+
+/* Override para elementos que puedan tener estilos de browser */
+* {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+}
+
+/* ============================================================
    NAVEGACIÓN STICKY
    ============================================================ */
 .navbar {
