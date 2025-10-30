@@ -86,10 +86,54 @@ class DaytonaMotos {
       });
     }
 
-    // Cerrar búsqueda con Escape
+    // Toggle menú de navegación desplegable
+    const menuToggle = document.querySelector('#menu-toggle');
+    const navigationDropdown = document.querySelector('#navigation-dropdown');
+    const dropdownClose = document.querySelector('.dropdown-close');
+
+    if (menuToggle && navigationDropdown) {
+      menuToggle.addEventListener('click', () => {
+        const isActive = navigationDropdown.classList.contains('active');
+        navigationDropdown.classList.toggle('active');
+        
+        // Manejar scroll del body
+        if (!isActive) {
+          document.body.classList.add('menu-open');
+        } else {
+          document.body.classList.remove('menu-open');
+        }
+      });
+
+      // Cerrar menú con botón close
+      dropdownClose?.addEventListener('click', () => {
+        navigationDropdown.classList.remove('active');
+        document.body.classList.remove('menu-open');
+      });
+
+      // Cerrar menú al hacer click fuera
+      document.addEventListener('click', (e) => {
+        if (!navigationDropdown.contains(e.target) && !menuToggle.contains(e.target)) {
+          navigationDropdown.classList.remove('active');
+          document.body.classList.remove('menu-open');
+        }
+      });
+
+      // Cerrar menú al hacer click en un enlace
+      const navItems = navigationDropdown.querySelectorAll('.nav-item');
+      navItems.forEach(item => {
+        item.addEventListener('click', () => {
+          navigationDropdown.classList.remove('active');
+          document.body.classList.remove('menu-open');
+        });
+      });
+    }
+
+    // Cerrar con Escape
     document.addEventListener('keydown', (e) => {
       if (e.key === 'Escape') {
         searchBar?.classList.remove('active');
+        navigationDropdown?.classList.remove('active');
+        document.body.classList.remove('menu-open');
         this.closeSidePanel();
         this.closeCTAModal();
       }

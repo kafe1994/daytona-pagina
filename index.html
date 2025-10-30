@@ -77,7 +77,13 @@
         </div>
         
         <!-- Menú de navegación -->
-        <button class="nav-menu-btn" aria-label="Menú de navegación">
+        <button class="nav-menu-btn" aria-label="Menú de navegación" id="menu-toggle">
+            <!-- Icono de casita -->
+            <div class="home-icon">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                    <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/>
+                </svg>
+            </div>
             <span>MENÚ</span>
         </button>
     </nav>
@@ -89,6 +95,91 @@
         <div class="search-input-wrapper">
             <input type="text" class="search-input" placeholder="Buscar marca o modelo..." aria-label="Buscar motocicletas">
             <div class="search-results" role="listbox" aria-label="Resultados de búsqueda"></div>
+        </div>
+    </div>
+    
+    <!-- ============================================================
+         MENÚ DESPLEGABLE DE NAVEGACIÓN
+         ============================================================ -->
+    <div class="navigation-dropdown" id="navigation-dropdown" role="navigation" aria-label="Menú de navegación">
+        <div class="dropdown-content">
+            <div class="dropdown-header">
+                <h3>Navegación</h3>
+                <button class="dropdown-close" aria-label="Cerrar menú">
+                    <svg viewBox="0 0 24 24" width="24" height="24">
+                        <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
+                    </svg>
+                </button>
+            </div>
+            <nav class="dropdown-nav">
+                <a href="#about" class="nav-item">
+                    <div class="nav-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                        </svg>
+                    </div>
+                    <div class="nav-text">
+                        <span class="nav-title">Sobre nosotros</span>
+                        <span class="nav-subtitle">Conoce nuestra historia</span>
+                    </div>
+                    <div class="nav-arrow">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M8.59 16.59L10 18l6-6-6-6-1.41 1.41L13.17 12z"/>
+                        </svg>
+                    </div>
+                </a>
+                
+                <a href="#brands" class="nav-item">
+                    <div class="nav-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2L13.09 8.26L19 9L13.09 9.74L12 16L10.91 9.74L5 9L10.91 8.26L12 2Z"/>
+                        </svg>
+                    </div>
+                    <div class="nav-text">
+                        <span class="nav-title">Marcas</span>
+                        <span class="nav-subtitle">Ver nuestro catálogo</span>
+                    </div>
+                    <div class="nav-arrow">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M8.59 16.59L10 18l6-6-6-6-1.41 1.41L13.17 12z"/>
+                        </svg>
+                    </div>
+                </a>
+                
+                <a href="#financing" class="nav-item">
+                    <div class="nav-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                        </svg>
+                    </div>
+                    <div class="nav-text">
+                        <span class="nav-title">Financiación</span>
+                        <span class="nav-subtitle">Opciones de pago</span>
+                    </div>
+                    <div class="nav-arrow">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M8.59 16.59L10 18l6-6-6-6-1.41 1.41L13.17 12z"/>
+                        </svg>
+                    </div>
+                </a>
+                
+                <a href="#posts" class="nav-item">
+                    <div class="nav-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/>
+                        </svg>
+                    </div>
+                    <div class="nav-text">
+                        <span class="nav-title">Blog</span>
+                        <span class="nav-subtitle">Consejos y tips</span>
+                    </div>
+                    <div class="nav-arrow">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M8.59 16.59L10 18l6-6-6-6-1.41 1.41L13.17 12z"/>
+                        </svg>
+                    </div>
+                </a>
+            </nav>
         </div>
     </div>
     
@@ -167,7 +258,7 @@
                         <span class="stat-label">Años de experiencia</span>
                     </div>
                     <div class="stat-item">
-                        <span class="stat-number">1000+</span>
+                        <span class="stat-number">500+</span>
                         <span class="stat-label">Clientes satisfechos</span>
                     </div>
                     <div class="stat-item">
@@ -334,10 +425,10 @@
                     <h4>Contacto</h4>
                     <div class="footer-links">
                         <a href="https://wa.me/5493572592411" target="_blank" rel="noopener">
-                            📱 Franco Giraudo
+                            📱 Franco Giraudo (Dueño)
                         </a>
                         <a href="https://wa.me/5493572501539" target="_blank" rel="noopener">
-                            📱 Francisco Salgado
+                            📱 Francisco Salgado (Socio)
                         </a>
                         <a href="https://instagram.com/daytona.motocicletas" target="_blank" rel="noopener">
                             📷 @daytona.motocicletas
@@ -420,13 +511,13 @@
                             <svg viewBox="0 0 24 24">
                                 <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488z"/>
                             </svg>
-                            Franco
+                            Franco (Dueño)
                         </button>
                         <button type="button" class="whatsapp-btn" data-contact="partner">
                             <svg viewBox="0 0 24 24">
                                 <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488z"/>
                             </svg>
-                            Francisco
+                            Francisco (Socio)
                         </button>
                     </div>
                 </div>

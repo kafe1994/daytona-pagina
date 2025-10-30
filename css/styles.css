@@ -389,6 +389,276 @@ button:active,
   box-shadow: 0 8px 25px rgba(0,0,0,0.15);
 }
 
+/* Estilos mejorados para el botón de menú con casita */
+.nav-menu-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: linear-gradient(135deg, rgba(255,255,255,0.25), rgba(255,255,255,0.15));
+  border: 2px solid rgba(255,255,255,0.3);
+  border-radius: 50px;
+  padding: 0.75rem 1.25rem;
+  color: var(--white);
+  font-weight: 600;
+  font-size: 0.875rem;
+  letter-spacing: 0.5px;
+  position: relative;
+  overflow: hidden;
+  backdrop-filter: blur(10px);
+  transition: all var(--transition-medium);
+}
+
+.nav-menu-btn:hover {
+  background: rgba(255,255,255,0.35);
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 12px 35px rgba(0,0,0,0.2);
+  border-color: rgba(255,255,255,0.5);
+}
+
+.nav-menu-btn:active {
+  transform: translateY(-1px) scale(1.02);
+}
+
+/* Icono de casita */
+.home-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  background: rgba(255,255,255,0.2);
+  border-radius: 50%;
+  transition: all var(--transition-fast);
+}
+
+.nav-menu-btn:hover .home-icon {
+  background: rgba(255,255,255,0.3);
+  transform: scale(1.1);
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(255,255,255,0.4);
+  }
+  50% {
+    box-shadow: 0 0 0 10px rgba(255,255,255,0);
+  }
+}
+
+/* ============================================================
+   MENÚ DESPLEGABLE DE NAVEGACIÓN
+   ============================================================ */
+.navigation-dropdown {
+  position: fixed;
+  top: var(--nav-height);
+  right: 1rem;
+  width: 350px;
+  max-width: calc(100vw - 2rem);
+  background: var(--bg-primary);
+  border-radius: 20px;
+  box-shadow: var(--shadow-hover);
+  transform: translateY(-100vh) scale(0.9);
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1001;
+  transition: all var(--transition-medium);
+  border: 1px solid rgba(255,255,255,0.1);
+  backdrop-filter: blur(20px);
+}
+
+.navigation-dropdown.active {
+  transform: translateY(0) scale(1);
+  opacity: 1;
+  visibility: visible;
+}
+
+.dropdown-content {
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.dropdown-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 1.5rem 1rem;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  background: linear-gradient(135deg, var(--red-primary), var(--red-dark));
+  color: var(--white);
+  position: relative;
+}
+
+.dropdown-header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, rgba(255,255,255,0.1) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+.dropdown-header h3 {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 700;
+  font-family: var(--font-display);
+  letter-spacing: 1px;
+  position: relative;
+  z-index: 1;
+}
+
+.dropdown-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.2);
+  color: var(--white);
+  transition: all var(--transition-fast);
+  position: relative;
+  z-index: 1;
+}
+
+.dropdown-close:hover {
+  background: rgba(255,255,255,0.3);
+  transform: rotate(90deg);
+}
+
+.dropdown-nav {
+  padding: 0.5rem;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 12px;
+  color: var(--text-primary);
+  text-decoration: none;
+  transition: all var(--transition-fast);
+  position: relative;
+  overflow: hidden;
+  margin: 0.25rem;
+}
+
+.nav-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(198,40,40,0.1), transparent);
+  transition: left var(--transition-medium);
+}
+
+.nav-item:hover::before {
+  left: 100%;
+}
+
+.nav-item:hover {
+  background: linear-gradient(135deg, rgba(198,40,40,0.05), rgba(142,26,26,0.05));
+  transform: translateX(8px);
+  box-shadow: var(--shadow-soft);
+}
+
+.nav-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, var(--red-primary), var(--red-dark));
+  color: var(--white);
+  flex-shrink: 0;
+  transition: all var(--transition-fast);
+}
+
+.nav-item:hover .nav-icon {
+  transform: scale(1.1) rotate(5deg);
+  box-shadow: 0 8px 25px rgba(198,40,40,0.3);
+}
+
+.nav-icon svg {
+  width: 24px;
+  height: 24px;
+}
+
+.nav-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.nav-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  line-height: 1.2;
+}
+
+.nav-subtitle {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  line-height: 1.2;
+}
+
+.nav-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  color: var(--text-muted);
+  transition: all var(--transition-fast);
+}
+
+.nav-item:hover .nav-arrow {
+  transform: translateX(8px);
+  color: var(--red-primary);
+}
+
+/* Overlay para cerrar el menú */
+.navigation-dropdown::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.5);
+  opacity: 0;
+  visibility: hidden;
+  transition: all var(--transition-medium);
+  z-index: -1;
+}
+
+.navigation-dropdown.active::before {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Evitar scroll cuando el menú está abierto */
+body.menu-open {
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+}
+
+/* Asegurar que el menú aparezca sobre todo */
+.navigation-dropdown {
+  z-index: 1002;
+}
+
 /* ============================================================
    BUSCADOR DESPLEGABLE
    ============================================================ */
@@ -1564,6 +1834,45 @@ button:active,
   .cta-modal-content {
     padding: 1.5rem;
     margin: 1rem;
+  }
+  
+  /* Menú desplegable responsive */
+  .navigation-dropdown {
+    right: 0.5rem;
+    left: 0.5rem;
+    width: calc(100vw - 1rem);
+    border-radius: 16px;
+  }
+  
+  .nav-item {
+    padding: 0.875rem;
+    gap: 0.75rem;
+  }
+  
+  .nav-icon {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .nav-icon svg {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .nav-title {
+    font-size: 0.9rem;
+  }
+  
+  .nav-subtitle {
+    font-size: 0.8rem;
+  }
+  
+  .dropdown-header {
+    padding: 1.25rem 1.25rem 0.875rem;
+  }
+  
+  .dropdown-header h3 {
+    font-size: 1.125rem;
   }
 }
 
