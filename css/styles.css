@@ -1731,40 +1731,86 @@ body.menu-open {
 }
 
 /* ============================================================
-   BOTÓN INSTAGRAM FIJO
+   BOTÓN INSTAGRAM FIJO - SIEMPRE VISIBLE
    ============================================================ */
 .instagram-float {
-  position: fixed;
-  bottom: 6rem;
-  right: 2rem;
-  width: 60px;
-  height: 60px;
-  background: var(--red-primary);
-  color: var(--white);
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0 4px 12px rgba(220, 38, 38, 0.3);
-  transition: all var(--transition-fast);
-  z-index: 10000;
-  text-decoration: none;
-  cursor: pointer;
-  border: 2px solid transparent;
+  position: fixed !important;
+  bottom: 6rem !important;
+  right: 2rem !important;
+  width: 60px !important;
+  height: 60px !important;
+  background: #dc2626 !important;
+  color: white !important;
+  border-radius: 50% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  box-shadow: 0 8px 25px rgba(220, 38, 38, 0.5) !important;
+  transition: all 0.3s ease !important;
+  z-index: 999999 !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+  border: 3px solid white !important;
+  animation: pulse-instagram 2s infinite !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  transform-origin: center !important;
+  backface-visibility: visible !important;
+  overflow: visible !important;
+}
+
+@keyframes pulse-instagram {
+  0% { 
+    transform: scale(1);
+    box-shadow: 0 8px 25px rgba(220, 38, 38, 0.5);
+  }
+  50% { 
+    transform: scale(1.02);
+    box-shadow: 0 12px 35px rgba(220, 38, 38, 0.7);
+  }
+  100% { 
+    transform: scale(1);
+    box-shadow: 0 8px 25px rgba(220, 38, 38, 0.5);
+  }
 }
 
 .instagram-float:hover {
-  background: var(--red-dark);
-  transform: scale(1.05);
-  box-shadow: 0 6px 16px rgba(220, 38, 38, 0.4);
-  border-color: var(--white);
+  background: #b91c1c !important;
+  transform: scale(1.1) !important;
+  box-shadow: 0 12px 30px rgba(220, 38, 38, 0.8) !important;
+  border-color: #fef2f2 !important;
+  animation: none !important;
 }
 
 .instagram-float svg {
-  width: 24px;
-  height: 24px;
-  fill: currentColor;
-  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.1));
+  width: 26px !important;
+  height: 26px !important;
+  fill: white !important;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3)) !important;
+  display: block !important;
+}
+
+/* Forzar visibilidad en todos los casos */
+.instagram-float,
+.instagram-float *,
+.instagram-float *::before,
+.instagram-float *::after {
+  opacity: 1 !important;
+  visibility: visible !important;
+  pointer-events: auto !important;
+}
+
+/* Asegurar que no sea ocultado por otros elementos */
+.instagram-float {
+  position: fixed !important;
+  top: auto !important;
+  left: auto !important;
+  right: 2rem !important;
+  bottom: 6rem !important;
+  float: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  clear: both !important;
 }
 
 /* ============================================================
