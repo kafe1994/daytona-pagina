@@ -780,19 +780,24 @@ body.menu-open {
   width: 100%;
   height: 100%;
   opacity: 0;
-  transition: opacity 1s ease-in-out;
+  transform: scale(1.2);
+  transition: all 1.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-slide.active {
   opacity: 1;
+  transform: scale(1);
 }
 
 .hero-slide img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transform: scale(1.1);
-  animation: kenBurns 8s ease-out infinite alternate;
+  transition: transform 2s ease-in-out;
+}
+
+.hero-slide.active img {
+  transform: scale(1.05);
 }
 
 @keyframes kenBurns {
@@ -1699,6 +1704,38 @@ body.menu-open {
 }
 
 /* ============================================================
+   BOTÓN INSTAGRAM FIJO
+   ============================================================ */
+.instagram-float {
+  position: fixed;
+  bottom: 2rem;
+  left: 2rem;
+  width: 60px;
+  height: 60px;
+  background: var(--red-primary);
+  color: var(--white);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow-card);
+  transition: all var(--transition-fast);
+  z-index: 1000;
+  text-decoration: none;
+}
+
+.instagram-float:hover {
+  background: var(--red-dark);
+  transform: scale(1.1);
+}
+
+.instagram-float svg {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
+
+/* ============================================================
    RESPONSIVE - MOBILE FIRST
    ============================================================ */
 
@@ -1829,6 +1866,36 @@ body.menu-open {
     height: 50px;
     bottom: 1rem;
     right: 1rem;
+  }
+  
+  .instagram-float {
+    width: 50px;
+    height: 50px;
+    bottom: 1rem;
+    left: 1rem;
+  }
+  
+  .instagram-float svg {
+    width: 20px;
+    height: 20px;
+  }
+  
+  /* Hero slider responsive para móvil */
+  .hero-slide img {
+    object-fit: contain;
+    object-position: center;
+  }
+  
+  .hero-slide {
+    transform: scale(1);
+  }
+  
+  .hero-slide.active {
+    transform: scale(1);
+  }
+  
+  .hero-slide.active img {
+    transform: scale(1.02);
   }
   
   .search-bar {
