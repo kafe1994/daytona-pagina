@@ -1720,7 +1720,7 @@ body.menu-open {
   justify-content: center;
   box-shadow: var(--shadow-card);
   transition: all var(--transition-fast);
-  z-index: 1000;
+  z-index: 9999;
   text-decoration: none;
 }
 
@@ -1895,7 +1895,9 @@ body.menu-open {
   }
   
   .hero-slide.active img {
-    transform: scale(1.02);
+    transform: scale(1);
+    object-fit: contain;
+    object-position: center;
   }
   
   .search-bar {
