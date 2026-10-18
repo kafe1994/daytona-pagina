@@ -537,6 +537,44 @@
     </a>
     
     <!-- ============================================================
+         MODAL FICHA DE MODELO
+         ============================================================ -->
+    <div class="ficha-modal" id="ficha-modal" role="dialog" aria-modal="true" aria-labelledby="ficha-title" aria-hidden="true">
+        <div class="ficha-modal-content">
+            <button class="ficha-close" id="ficha-close" aria-label="Cerrar ficha">&times;</button>
+            
+            <div class="ficha-media">
+                <img id="ficha-image" src="" alt="">
+            </div>
+            
+            <div class="ficha-body">
+                <span class="ficha-brand" id="ficha-brand">Marca</span>
+                <h3 class="ficha-title" id="ficha-title">Modelo</h3>
+                <p class="ficha-type" id="ficha-type">Tipo</p>
+                
+                <p class="ficha-desc" id="ficha-desc"></p>
+                
+                <div id="ficha-specs-wrap">
+                    <p class="ficha-subtitle">Ficha técnica</p>
+                    <dl class="ficha-specs" id="ficha-specs"></dl>
+                </div>
+                
+                <p class="ficha-note" id="ficha-note" hidden>
+                    Ficha técnica completa disponible en el local. Escribinos y te pasamos todos los datos del modelo.
+                </p>
+                
+                <p class="ficha-subtitle">Colores disponibles</p>
+                <div class="ficha-colors" id="ficha-colors"></div>
+                
+                <div class="ficha-actions">
+                    <button class="ficha-cta" id="ficha-wa" type="button">Consultar por WhatsApp</button>
+                    <a class="ficha-cta secondary" href="https://instagram.com/daytona.motocicletas" target="_blank" rel="noopener">Ver Instagram</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- ============================================================
          SCRIPTS
          ============================================================ -->
     <script src="js/main.js"></script>

@@ -2324,3 +2324,325 @@ body.menu-open {
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   }
 }
+
+/* ============================================================
+   FICHA DE MODELO
+   ============================================================ */
+.ficha-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 0.75rem;
+  padding: 0.5rem 1rem;
+  background: transparent;
+  color: var(--red-primary);
+  border: 2px solid var(--red-primary);
+  border-radius: var(--border-radius-pill);
+  font-size: 0.8125rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.ficha-btn:hover,
+.ficha-btn:focus-visible {
+  background: var(--red-primary);
+  color: var(--white);
+  transform: translateY(-2px);
+}
+
+.ficha-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 1300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  background: rgba(0, 0, 0, 0.85);
+  opacity: 0;
+  visibility: hidden;
+  transition: all var(--transition-medium);
+}
+
+.ficha-modal.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.ficha-modal-content {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
+  width: min(980px, 100%);
+  max-height: 90vh;
+  background: var(--bg-primary);
+  border-radius: var(--border-radius);
+  border-top: 6px solid var(--red-primary);
+  box-shadow: var(--shadow-card);
+  overflow: hidden;
+  animation: modalSlideIn 0.3s ease-out;
+}
+
+.ficha-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background: var(--bg-secondary);
+  border-right: 1px solid rgba(198, 40, 40, 0.15);
+}
+
+.ficha-media img {
+  width: 100%;
+  max-height: 340px;
+  object-fit: contain;
+  filter: drop-shadow(0 18px 28px rgba(0, 0, 0, 0.18));
+}
+
+.ficha-body {
+  display: flex;
+  flex-direction: column;
+  padding: 2.25rem 2rem;
+  overflow-y: auto;
+}
+
+.ficha-brand {
+  align-self: flex-start;
+  display: inline-block;
+  padding: 0.3rem 0.75rem;
+  border-radius: var(--border-radius-pill);
+  background: var(--red-primary);
+  color: var(--white);
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.ficha-title {
+  margin: 0.75rem 0 0.25rem;
+  font-family: var(--font-display);
+  font-size: 2rem;
+  line-height: 1.1;
+  color: var(--text-primary);
+}
+
+.ficha-type {
+  margin-bottom: 1.25rem;
+  color: var(--red-primary);
+  font-size: 0.8125rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.ficha-desc {
+  margin-bottom: 1.5rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  font-size: 0.9375rem;
+}
+
+.ficha-subtitle {
+  margin-bottom: 0.75rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.ficha-specs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.ficha-spec {
+  padding: 0.6rem 0.75rem;
+  background: var(--bg-secondary);
+  border-left: 3px solid var(--red-primary);
+  border-radius: 6px;
+}
+
+.ficha-spec dt {
+  font-size: 0.6875rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.ficha-spec dd {
+  margin: 0.15rem 0 0;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.ficha-note {
+  margin-bottom: 1.5rem;
+  padding: 0.85rem 1rem;
+  border: 1px dashed rgba(198, 40, 40, 0.45);
+  border-radius: var(--border-radius);
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+}
+
+.ficha-colors {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.75rem;
+}
+
+.ficha-color {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.3rem 0.65rem 0.3rem 0.35rem;
+  border-radius: var(--border-radius-pill);
+  background: var(--bg-secondary);
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+}
+
+.ficha-color i {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.ficha-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: auto;
+  padding-top: 1rem;
+}
+
+.ficha-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.85rem 1.5rem;
+  border-radius: var(--border-radius-pill);
+  background: var(--red-primary);
+  color: var(--white);
+  font-weight: 700;
+  font-size: 0.875rem;
+  border: none;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.ficha-cta:hover {
+  background: var(--red-dark);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-soft);
+}
+
+.ficha-cta.secondary {
+  background: transparent;
+  color: var(--text-primary);
+  border: 2px solid rgba(198, 40, 40, 0.35);
+}
+
+.ficha-cta.secondary:hover {
+  border-color: var(--red-primary);
+  color: var(--red-primary);
+  box-shadow: none;
+}
+
+.ficha-close {
+  position: absolute;
+  top: 0.9rem;
+  right: 0.9rem;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: rgba(198, 40, 40, 0.12);
+  color: var(--red-primary);
+  border: none;
+  font-size: 1.4rem;
+  line-height: 1;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.ficha-close:hover {
+  background: var(--red-primary);
+  color: var(--white);
+}
+
+@media (max-height: 820px) {
+  .ficha-body {
+    padding: 1.5rem 1.75rem;
+  }
+
+  .ficha-title {
+    font-size: 1.625rem;
+    margin: 0.5rem 0 0.15rem;
+  }
+
+  .ficha-desc {
+    margin-bottom: 1rem;
+    font-size: 0.875rem;
+    line-height: 1.6;
+  }
+
+  .ficha-specs {
+    gap: 0.5rem 0.75rem;
+    margin-bottom: 1rem;
+  }
+
+  .ficha-spec {
+    padding: 0.45rem 0.6rem;
+  }
+
+  .ficha-colors {
+    margin-bottom: 1rem;
+  }
+
+  .ficha-media img {
+    max-height: 260px;
+  }
+}
+
+@media (max-width: 860px) {  .ficha-modal {
+    padding: 0;
+    align-items: flex-end;
+  }
+
+  .ficha-modal-content {
+    grid-template-columns: 1fr;
+    max-height: 92vh;
+    border-radius: var(--border-radius) var(--border-radius) 0 0;
+  }
+
+  .ficha-media {
+    padding: 1.25rem;
+    border-right: none;
+    border-bottom: 1px solid rgba(198, 40, 40, 0.15);
+  }
+
+  .ficha-media img {
+    max-height: 200px;
+  }
+
+  .ficha-body {
+    padding: 1.5rem 1.25rem 2rem;
+  }
+
+  .ficha-title {
+    font-size: 1.5rem;
+  }
+
+  .ficha-specs {
+    grid-template-columns: 1fr;
+  }
+}

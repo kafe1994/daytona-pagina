@@ -6,6 +6,7 @@
 class DaytonaMotos {
   constructor() {
     this.motosData = {};
+    this.fichasData = {};
     this.currentSlide = 0;
     this.slideInterval = null;
     this.searchResults = [];
@@ -15,6 +16,7 @@ class DaytonaMotos {
 
   async init() {
     await this.loadMotosData();
+    await this.loadFichasData();
     this.setupEventListeners();
     this.initializeSlider();
     this.renderBrands();
@@ -36,6 +38,17 @@ class DaytonaMotos {
       console.error('Error cargando datos de motos:', error);
       // Datos de fallback
       this.motosData = this.getFallbackData();
+    }
+  }
+
+  async loadFichasData() {
+    try {
+      const response = await fetch('data/fichas.json');
+      this.fichasData = await response.json();
+      console.log('Fichas cargadas:', Object.keys(this.fichasData).length);
+    } catch (error) {
+      console.warn('Sin fichas de modelos:', error);
+      this.fichasData = {};
     }
   }
 
@@ -136,6 +149,7 @@ class DaytonaMotos {
         document.body.classList.remove('menu-open');
         this.closeSidePanel();
         this.closeCTAModal();
+        this.closeFicha();
       }
     });
 
@@ -165,6 +179,15 @@ class DaytonaMotos {
       if (e.target === ctaModalOverlay) this.closeCTAModal();
     });
     ctaModalClose?.addEventListener('click', () => this.closeCTAModal());
+
+    // Modal ficha de modelo
+    const fichaModal = document.getElementById('ficha-modal');
+    const fichaClose = document.getElementById('ficha-close');
+
+    fichaClose?.addEventListener('click', () => this.closeFicha());
+    fichaModal?.addEventListener('click', (e) => {
+      if (e.target === fichaModal) this.closeFicha();
+    });
 
     // Smooth scroll para enlaces internos
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -428,7 +451,7 @@ class DaytonaMotos {
         btn.classList.add('active');
 
         const selectedCC = parseInt(btn.dataset.cc);
-        this.renderModelsForCilindrada(brand, selectedCC);
+        this.renderModelsForCilindrada(brand, selectedCC, brandKey);
       });
     });
 
@@ -438,14 +461,14 @@ class DaytonaMotos {
     document.body.style.overflow = 'hidden';
   }
 
-  renderModelsForCilindrada(brand, cilindrada) {
+  renderModelsForCilindrada(brand, cilindrada, brandKey) {
     const modelsContainer = document.getElementById('models-container');
     if (!modelsContainer) return;
 
     const filteredModels = brand.models.filter(model => model.cilindrada === cilindrada);
 
     const modelsHTML = filteredModels.map(model => `
-      <div class="model-card" data-model='${JSON.stringify(model)}' data-brand="${brand.name}">
+      <div class="model-card" data-model='${JSON.stringify(model)}' data-brand="${brand.name}" data-brand-key="${brandKey || ''}">
         <img src="${model.images[0] || 'images/placeholder.jpg'}" alt="${model.model}" class="model-image" loading="lazy" onerror="this.src='images/placeholder.jpg'">
         <div class="model-info">
           <h4>${model.model}</h4>
@@ -456,7 +479,8 @@ class DaytonaMotos {
               <div class="color-swatch color-${color.toLowerCase()}" title="${color}"></div>
             `).join('')}
           </div>
-          <button class="cta-btn" style="margin-top: 1rem; padding: 0.5rem 1rem; background: var(--red-primary); color: white; border: none; border-radius: 8px; font-weight: 600; cursor: pointer; transition: all 0.2s ease;">
+          <button class="ficha-btn" type="button">Ver ficha completa</button>
+          <button class="cta-btn" style="margin-top: 0.75rem; padding: 0.5rem 1rem; background: var(--red-primary); color: white; border: none; border-radius: 8px; font-weight: 600; cursor: pointer; transition: all 0.2s ease;">
             Pedir asesoramiento
           </button>
         </div>
@@ -495,6 +519,16 @@ class DaytonaMotos {
       });
     });
 
+    // Event listeners para "Ver ficha completa"
+    modelsContainer.querySelectorAll('.ficha-btn').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const modelCard = btn.closest('.model-card');
+        const modelData = JSON.parse(modelCard.dataset.model);
+        this.openFicha(modelCard.dataset.brandKey, modelData);
+      });
+    });
+
     // Event listeners para color swatches
     modelsContainer.querySelectorAll('.color-swatch').forEach(swatch => {
       swatch.addEventListener('click', (e) => {
@@ -530,6 +564,71 @@ class DaytonaMotos {
         console.log(`Color seleccionado: ${selectedColor}`);
       });
     });
+  }
+
+  // ============================================================
+  // FICHA DE MODELO
+  // ============================================================
+  openFicha(brandKey, modelData) {
+    const modal = document.getElementById('ficha-modal');
+    if (!modal || !modelData) return;
+
+    const brand = this.motosData[brandKey];
+    const ficha = this.fichasData[`${brandKey}|${modelData.model}`] || null;
+    const brandName = brand ? brand.name : '';
+
+    document.getElementById('ficha-image').src = modelData.images[0] || 'images/placeholder.jpg';
+    document.getElementById('ficha-image').alt = `${brandName} ${modelData.model}`;
+    document.getElementById('ficha-brand').textContent = brandName;
+    document.getElementById('ficha-title').textContent = modelData.model;
+    document.getElementById('ficha-type').textContent = ficha
+      ? `${ficha.tipo} · ${modelData.cilindrada}cc`
+      : `${modelData.cilindrada}cc`;
+    document.getElementById('ficha-desc').textContent = ficha
+      ? ficha.descripcion
+      : 'Escribinos y te contamos todo sobre este modelo.';
+
+    const specsWrap = document.getElementById('ficha-specs-wrap');
+    const specsList = document.getElementById('ficha-specs');
+    const note = document.getElementById('ficha-note');
+    const specs = ficha && ficha.specs ? Object.entries(ficha.specs) : [];
+
+    specsList.innerHTML = specs.map(([label, value]) => `
+      <div class="ficha-spec">
+        <dt>${label}</dt>
+        <dd>${value}</dd>
+      </div>
+    `).join('');
+    specsWrap.hidden = specs.length === 0;
+    note.hidden = specs.length > 0;
+
+    const palette = {
+      azul: '#007bff', negro: '#111111', blanco: '#ffffff', rojo: '#dc3545',
+      gris: '#6c757d', verde: '#28a745', amarillo: '#ffc107', naranja: '#fd7e14',
+      marrón: '#8b4513', marron: '#8b4513', rosa: '#e83e8c', celeste: '#00bcd4',
+      arena: '#d2b48c', silver: '#b0b0b0', beige: '#e8dcc0', plata: '#c0c0c0',
+      'único': '#c62828',
+    };
+    document.getElementById('ficha-colors').innerHTML = (modelData.colors || []).map(color => {
+      const hex = palette[color.toLowerCase()] || '#c62828';
+      return `<span class="ficha-color"><i style="background:${hex}"></i>${color}</span>`;
+    }).join('');
+
+    const wa = document.getElementById('ficha-wa');
+    const mensaje = encodeURIComponent(`Hola! Me interesa la ${brandName} ${modelData.model} (${modelData.cilindrada}cc). ¿Me pasan más información?`);
+    wa.onclick = () => window.open(`https://wa.me/5493572592411?text=${mensaje}`, '_blank');
+
+    modal.classList.add('active');
+    modal.setAttribute('aria-hidden', 'false');
+    document.body.style.overflow = 'hidden';
+  }
+
+  closeFicha() {
+    const modal = document.getElementById('ficha-modal');
+    if (!modal) return;
+    modal.classList.remove('active');
+    modal.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = '';
   }
 
   closeSidePanel() {

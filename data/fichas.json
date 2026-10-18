@@ -1,0 +1,1746 @@
+{
+  "Guerrero|Trip Full": {
+    "tipo": "Cub / utilitaria",
+    "descripcion": "Con su formato de cub y motor de 110cc, la Guerrero Trip Full combina economía y agilidad. Es la opción clásica para quien necesita una moto liviana, durable y fácil de manejar en el tránsito urbano.",
+    "specs": {},
+    "colores": [
+      "Gris"
+    ]
+  },
+  "Guerrero|Trip Tunning": {
+    "tipo": "Cub / utilitaria",
+    "descripcion": "Con su formato de cub y motor de 110cc, la Guerrero Trip Tunning combina economía y agilidad. Es la opción clásica para quien necesita una moto liviana, durable y fácil de manejar en el tránsito urbano.",
+    "specs": {},
+    "colores": [
+      "Blanco"
+    ]
+  },
+  "Guerrero|Trip full 125": {
+    "tipo": "Cub / utilitaria",
+    "descripcion": "Con su formato de cub y motor de 125cc, la Guerrero Trip full 125 combina economía y agilidad. Es la opción clásica para quien necesita una moto liviana, durable y fácil de manejar en el tránsito urbano.",
+    "specs": {},
+    "colores": [
+      "Blanco"
+    ]
+  },
+  "Guerrero|Gc 150 Urban": {
+    "tipo": "Street / naked",
+    "descripcion": "La Guerrero Gc 150 Urban es una street de 150cc con postura erguida y respuesta ágil. Un equilibrio entre prestaciones y practicidad para el uso urbano y las salidas de fin de semana.",
+    "specs": {},
+    "colores": [
+      "Rojo"
+    ]
+  },
+  "Guerrero|Day 70": {
+    "tipo": "Street / naked",
+    "descripcion": "Con estética naked y motor de 70cc, la Guerrero Day 70 ofrece una conducción divertida y previsible. Es una moto versátil, cómoda para la ciudad y con resto para la ruta corta.",
+    "specs": {},
+    "colores": [
+      "Rojo"
+    ]
+  },
+  "Guerrero|GXL 150 Tundra": {
+    "tipo": "On-Off / trail",
+    "descripcion": "La Guerrero GXL 150 Tundra es una trail de 150cc que se siente cómoda tanto en asfalto como en caminos de tierra. Suspensión de mayor recorrido, posición elevada y la robustez que pide el uso mixto.",
+    "specs": {},
+    "colores": [
+      "Único"
+    ]
+  },
+  "Guerrero|GT 70 Day": {
+    "tipo": "Cub / utilitaria",
+    "descripcion": "La Guerrero GT 70 Day (70cc) apunta a la movilidad de todos los días: arranque simple, mantenimiento accesible y un andar ágil en calles y avenidas. Ideal como primera moto o como reemplazo del auto en trayectos cortos.",
+    "specs": {},
+    "colores": [
+      "Único"
+    ]
+  },
+  "Guerrero|Trip Econo": {
+    "tipo": "Cub / utilitaria",
+    "descripcion": "La Guerrero Trip Econo (110cc) apunta a la movilidad de todos los días: arranque simple, mantenimiento accesible y un andar ágil en calles y avenidas. Ideal como primera moto o como reemplazo del auto en trayectos cortos.",
+    "specs": {},
+    "colores": [
+      "Único"
+    ]
+  },
+  "Guerrero|Trip Automatic": {
+    "tipo": "Cub / utilitaria",
+    "descripcion": "La Guerrero Trip Automatic (110cc) apunta a la movilidad de todos los días: arranque simple, mantenimiento accesible y un andar ágil en calles y avenidas. Ideal como primera moto o como reemplazo del auto en trayectos cortos.",
+    "specs": {},
+    "colores": [
+      "Único"
+    ]
+  },
+  "Hero|Hunk 150 DD": {
+    "tipo": "Street / naked",
+    "descripcion": "La Hero Hunk 150 DD es una street de 150cc con postura erguida y respuesta ágil. Un equilibrio entre prestaciones y practicidad para el uso urbano y las salidas de fin de semana.",
+    "specs": {},
+    "colores": [
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "Hero|HUNK 160": {
+    "tipo": "Street / naked",
+    "descripcion": "Con estética naked y motor de 160cc, la Hero HUNK 160 ofrece una conducción divertida y previsible. Es una moto versátil, cómoda para la ciudad y con resto para la ruta corta.",
+    "specs": {},
+    "colores": [
+      "Azul",
+      "Blanco",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "Hero|XPULSE 200": {
+    "tipo": "On-Off / trail",
+    "descripcion": "La Hero XPULSE 200 propone un uso on-off real: motor de 200cc, geometría de trail y protección para el viaje. Práctica en la ciudad y capaz en la tierra.",
+    "specs": {
+      "Motor": "4 tiempos, OHV, 4 válvulas",
+      "Cilindrada": "200 cc",
+      "Transmisión": "5 velocidades",
+      "Arranque": "Eléctrico y pedal",
+      "Capacidad de tanque": "13 litros",
+      "Llantas": "Rayos"
+    },
+    "colores": [
+      "Blanco",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "Hero|Hunk 125 R": {
+    "tipo": "Street / naked",
+    "descripcion": "La Hero Hunk 125 R (125cc) se mueve con soltura en el tránsito y mantiene buen ritmo fuera de la ciudad. Diseño deportivo, posición de manejo natural y un equipamiento acorde a la categoría.",
+    "specs": {
+      "Motor": "4 tiempos, SOHC, 2 válvulas",
+      "Cilindrada": "125 cc",
+      "Transmisión": "5 velocidades",
+      "Arranque": "Eléctrico y pedal",
+      "Capacidad de tanque": "10 litros",
+      "Llantas": "Aleación"
+    },
+    "colores": [
+      "Azul",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "bajaj|discover 125": {
+    "tipo": "Cub / utilitaria",
+    "descripcion": "La Bajaj discover 125 es una cub de 125cc pensada para el uso diario: posición de manejo cómoda, bajo consumo y mantenimiento simple. Una compañera práctica para moverte por la ciudad y hacer trámites sin complicaciones.",
+    "specs": {},
+    "colores": [
+      "Negro",
+      "Azul",
+      "Rojo"
+    ]
+  },
+  "bajaj|pulsar 125": {
+    "tipo": "Street / naked",
+    "descripcion": "Con estética naked y motor de 125cc, la Bajaj pulsar 125 ofrece una conducción divertida y previsible. Es una moto versátil, cómoda para la ciudad y con resto para la ruta corta.",
+    "specs": {},
+    "colores": [
+      "Amarillo",
+      "Blanco",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "bajaj|rouser 125": {
+    "tipo": "Street / naked",
+    "descripcion": "Con estética naked y motor de 125cc, la Bajaj rouser 125 ofrece una conducción divertida y previsible. Es una moto versátil, cómoda para la ciudad y con resto para la ruta corta.",
+    "specs": {},
+    "colores": [
+      "Gris",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "bajaj|pulsar ns200 fi abs": {
+    "tipo": "Cub / utilitaria",
+    "descripcion": "La Bajaj pulsar ns200 fi abs es una cub de 250cc pensada para el uso diario: posición de manejo cómoda, bajo consumo y mantenimiento simple. Una compañera práctica para moverte por la ciudad y hacer trámites sin complicaciones.",
+    "specs": {},
+    "colores": [
+      "Azul",
+      "Blanco",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "bajaj|dominar 250": {
+    "tipo": "Street / naked",
+    "descripcion": "La Bajaj dominar 250 (250cc) se mueve con soltura en el tránsito y mantiene buen ritmo fuera de la ciudad. Diseño deportivo, posición de manejo natural y un equipamiento acorde a la categoría.",
+    "specs": {},
+    "colores": [
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "bajaj|pulsar n250 fi abs": {
+    "tipo": "Street / naked",
+    "descripcion": "Con estética naked y motor de 250cc, la Bajaj pulsar n250 fi abs ofrece una conducción divertida y previsible. Es una moto versátil, cómoda para la ciudad y con resto para la ruta corta.",
+    "specs": {},
+    "colores": [
+      "Blanco",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "bajaj|pulsar rs200": {
+    "tipo": "Deportiva",
+    "descripcion": "La Bajaj pulsar rs200 es una deportiva de 250cc con clara inspiración racing: carenado, posición de manejo adelantada y una puesta a punto que invita a exigirla. Pensada para quien busca prestaciones y presencia.",
+    "specs": {},
+    "colores": [
+      "Gris",
+      "Rojo"
+    ]
+  },
+  "bajaj|rouser 200": {
+    "tipo": "Street / naked",
+    "descripcion": "Con estética naked y motor de 250cc, la Bajaj rouser 200 ofrece una conducción divertida y previsible. Es una moto versátil, cómoda para la ciudad y con resto para la ruta corta.",
+    "specs": {},
+    "colores": [
+      "Azul",
+      "Blanco",
+      "Negro"
+    ]
+  },
+  "bajaj|rouser 250": {
+    "tipo": "Street / naked",
+    "descripcion": "La Bajaj rouser 250 es una street de 250cc con postura erguida y respuesta ágil. Un equilibrio entre prestaciones y practicidad para el uso urbano y las salidas de fin de semana.",
+    "specs": {},
+    "colores": [
+      "Negro"
+    ]
+  },
+  "bajaj|dominar d400": {
+    "tipo": "Street / naked",
+    "descripcion": "La Bajaj dominar d400 es una street de 400cc con postura erguida y respuesta ágil. Un equilibrio entre prestaciones y practicidad para el uso urbano y las salidas de fin de semana.",
+    "specs": {},
+    "colores": [
+      "Negro",
+      "Verde"
+    ]
+  },
+  "bajaj|Boxer 150 AT": {
+    "tipo": "Trabajo / utilitaria",
+    "descripcion": "Robustez y bajo costo de mantenimiento: la Bajaj Boxer 150 AT (150cc) es la opción para quien usa la moto como herramienta de trabajo y necesita que aguante el uso intensivo.",
+    "specs": {},
+    "colores": [
+      "Único",
+      "Blanco",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "bajaj|Pulsar NS160": {
+    "tipo": "Street / naked",
+    "descripcion": "La Bajaj Pulsar NS160 es una street de 160cc con postura erguida y respuesta ágil. Un equilibrio entre prestaciones y practicidad para el uso urbano y las salidas de fin de semana.",
+    "specs": {},
+    "colores": [
+      "Blanco",
+      "Gris",
+      "Negro"
+    ]
+  },
+  "bajaj|Pulsar NS400Z": {
+    "tipo": "Street / naked",
+    "descripcion": "La Bajaj Pulsar NS400Z es una street de 400cc con postura erguida y respuesta ágil. Un equilibrio entre prestaciones y practicidad para el uso urbano y las salidas de fin de semana.",
+    "specs": {},
+    "colores": [
+      "Blanco",
+      "Gris",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "bajaj|Pulsar 150": {
+    "tipo": "Street / naked",
+    "descripcion": "La Bajaj Pulsar 150 es una street de 150cc con postura erguida y respuesta ágil. Un equilibrio entre prestaciones y practicidad para el uso urbano y las salidas de fin de semana.",
+    "specs": {},
+    "colores": [
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "bajaj|CT 100": {
+    "tipo": "Trabajo / utilitaria",
+    "descripcion": "La Bajaj CT 100 está pensada para el trabajo: estructura resistente, motor de 100cc y un enfoque en la carga y la durabilidad. Una herramienta para el reparto y las tareas de todos los días.",
+    "specs": {
+      "Motor": "Monocilindrico, 4T, 2 válvulas, refrigerado por aire",
+      "Cilindrada": "100 cc",
+      "Transmisión": "4 velocidades",
+      "Arranque": "Eléctrico",
+      "Capacidad de tanque": "10,4 litros",
+      "Llantas": "Aleación"
+    },
+    "colores": [
+      "Azul",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "corven|Energy Base": {
+    "tipo": "Cub / utilitaria",
+    "descripcion": "La Corven Energy Base es una cub de 110cc pensada para el uso diario: posición de manejo cómoda, bajo consumo y mantenimiento simple. Una compañera práctica para moverte por la ciudad y hacer trámites sin complicaciones.",
+    "specs": {},
+    "colores": [
+      "Azul",
+      "Blanco",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "corven|Energy full": {
+    "tipo": "Cub / utilitaria",
+    "descripcion": "La Corven Energy full (110cc) apunta a la movilidad de todos los días: arranque simple, mantenimiento accesible y un andar ágil en calles y avenidas. Ideal como primera moto o como reemplazo del auto en trayectos cortos.",
+    "specs": {},
+    "colores": [
+      "Azul",
+      "Blanco",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "corven|Mirage base": {
+    "tipo": "Street / naked",
+    "descripcion": "La Corven Mirage base (110cc) se mueve con soltura en el tránsito y mantiene buen ritmo fuera de la ciudad. Diseño deportivo, posición de manejo natural y un equipamiento acorde a la categoría.",
+    "specs": {},
+    "colores": [
+      "Blanco",
+      "Gris",
+      "Negro"
+    ]
+  },
+  "corven|Expert Milano 150": {
+    "tipo": "Street / naked",
+    "descripcion": "La Corven Expert Milano 150 (150cc) se mueve con soltura en el tránsito y mantiene buen ritmo fuera de la ciudad. Diseño deportivo, posición de manejo natural y un equipamiento acorde a la categoría.",
+    "specs": {},
+    "colores": [
+      "Azul"
+    ]
+  },
+  "corven|hunter 150": {
+    "tipo": "Street / naked",
+    "descripcion": "Con estética naked y motor de 150cc, la Corven hunter 150 ofrece una conducción divertida y previsible. Es una moto versátil, cómoda para la ciudad y con resto para la ruta corta.",
+    "specs": {
+      "Motor": "Monocilíndrico de 4T, refrigerado por aire",
+      "Cilindrada": "150 cc",
+      "Transmisión": "5 velocidades",
+      "Arranque": "Eléctrico y a patada",
+      "Capacidad de tanque": "12 litros",
+      "Llantas": "Rayos"
+    },
+    "colores": [
+      "Azul",
+      "Blanco",
+      "Gris",
+      "Rojo"
+    ]
+  },
+  "corven|triax 150": {
+    "tipo": "Street / naked",
+    "descripcion": "La Corven triax 150 (150cc) se mueve con soltura en el tránsito y mantiene buen ritmo fuera de la ciudad. Diseño deportivo, posición de manejo natural y un equipamiento acorde a la categoría.",
+    "specs": {},
+    "colores": [
+      "Blanco",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "corven|triax 150R3": {
+    "tipo": "Street / naked",
+    "descripcion": "La Corven triax 150R3 es una street de 150cc con postura erguida y respuesta ágil. Un equilibrio entre prestaciones y practicidad para el uso urbano y las salidas de fin de semana.",
+    "specs": {},
+    "colores": [
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "corven|Triax 200 R3": {
+    "tipo": "Street / naked",
+    "descripcion": "La Corven Triax 200 R3 (200cc) se mueve con soltura en el tránsito y mantiene buen ritmo fuera de la ciudad. Diseño deportivo, posición de manejo natural y un equipamiento acorde a la categoría.",
+    "specs": {},
+    "colores": [
+      "Blanco",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "corven|triax-250-adventure": {
+    "tipo": "On-Off / trail",
+    "descripcion": "La Corven triax-250-adventure es una trail de 250cc que se siente cómoda tanto en asfalto como en caminos de tierra. Suspensión de mayor recorrido, posición elevada y la robustez que pide el uso mixto.",
+    "specs": {
+      "Motor": "Monocilíndrico 4t OНС",
+      "Cilindrada": "250 cc",
+      "Transmisión": "6 velocidades",
+      "Arranque": "Eléctrico y pedal",
+      "Capacidad de tanque": "16 litros",
+      "Llantas": "Rayos"
+    },
+    "colores": [
+      "Blanco",
+      "Negro",
+      "Gris"
+    ]
+  },
+  "corven|Modelo 70cc": {
+    "tipo": "Street / naked",
+    "descripcion": "La Corven Modelo 70cc (70cc) se mueve con soltura en el tránsito y mantiene buen ritmo fuera de la ciudad. Diseño deportivo, posición de manejo natural y un equipamiento acorde a la categoría.",
+    "specs": {},
+    "colores": [
+      "Azul",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "corven|Energy Tunning": {
+    "tipo": "Cub / utilitaria",
+    "descripcion": "La Corven Energy Tunning es una cub de 110cc pensada para el uso diario: posición de manejo cómoda, bajo consumo y mantenimiento simple. Una compañera práctica para moverte por la ciudad y hacer trámites sin complicaciones.",
+    "specs": {},
+    "colores": [
+      "Gris",
+      "Negro"
+    ]
+  },
+  "corven|Triax 150 Max": {
+    "tipo": "Street / naked",
+    "descripcion": "La Corven Triax 150 Max (150cc) se mueve con soltura en el tránsito y mantiene buen ritmo fuera de la ciudad. Diseño deportivo, posición de manejo natural y un equipamiento acorde a la categoría.",
+    "specs": {},
+    "colores": [
+      "Blanco",
+      "Gris",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "corven|Triax 150 One": {
+    "tipo": "Street / naked",
+    "descripcion": "Con estética naked y motor de 150cc, la Corven Triax 150 One ofrece una conducción divertida y previsible. Es una moto versátil, cómoda para la ciudad y con resto para la ruta corta.",
+    "specs": {},
+    "colores": [
+      "Blanco",
+      "Gris",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "corven|Mirage 110": {
+    "tipo": "Cub / utilitaria",
+    "descripcion": "Con su formato de cub y motor de 110cc, la Corven Mirage 110 combina economía y agilidad. Es la opción clásica para quien necesita una moto liviana, durable y fácil de manejar en el tránsito urbano.",
+    "specs": {},
+    "colores": [
+      "Gris",
+      "Negro",
+      "Blanco"
+    ]
+  },
+  "gilera|Smash Tunning R 110": {
+    "tipo": "Cub / utilitaria",
+    "descripcion": "La Gilera Smash Tunning R 110 (110cc) apunta a la movilidad de todos los días: arranque simple, mantenimiento accesible y un andar ágil en calles y avenidas. Ideal como primera moto o como reemplazo del auto en trayectos cortos.",
+    "specs": {},
+    "colores": [
+      "Azul",
+      "Gris",
+      "Marrón",
+      "Rojo"
+    ]
+  },
+  "gilera|Smash VS 2025": {
+    "tipo": "Cub / utilitaria",
+    "descripcion": "La Gilera Smash VS 2025 es una cub de 110cc pensada para el uso diario: posición de manejo cómoda, bajo consumo y mantenimiento simple. Una compañera práctica para moverte por la ciudad y hacer trámites sin complicaciones.",
+    "specs": {},
+    "colores": [
+      "Azul",
+      "Gris",
+      "Rojo"
+    ]
+  },
+  "gilera|Smash Very 110": {
+    "tipo": "Cub / utilitaria",
+    "descripcion": "La Gilera Smash Very 110 es una cub de 110cc pensada para el uso diario: posición de manejo cómoda, bajo consumo y mantenimiento simple. Una compañera práctica para moverte por la ciudad y hacer trámites sin complicaciones.",
+    "specs": {},
+    "colores": [
+      "Azul",
+      "Gris",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "gilera|Sahel 150 2025": {
+    "tipo": "Street / naked",
+    "descripcion": "La Gilera Sahel 150 2025 (150cc) se mueve con soltura en el tránsito y mantiene buen ritmo fuera de la ciudad. Diseño deportivo, posición de manejo natural y un equipamiento acorde a la categoría.",
+    "specs": {
+      "Motor": "Monocilíndrico 4 tiempos",
+      "Cilindrada": "150 cc",
+      "Transmisión": "Manual 5 marchas",
+      "Arranque": "Eléctrico y a patada",
+      "Capacidad de tanque": "8,6 litros",
+      "Llantas": "Rayos"
+    },
+    "colores": [
+      "Blanco",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "gilera|VC 150 Base": {
+    "tipo": "Street / naked",
+    "descripcion": "La Gilera VC 150 Base (150cc) se mueve con soltura en el tránsito y mantiene buen ritmo fuera de la ciudad. Diseño deportivo, posición de manejo natural y un equipamiento acorde a la categoría.",
+    "specs": {},
+    "colores": [
+      "Gris",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "gilera|SMX 200 Adventure": {
+    "tipo": "On-Off / trail",
+    "descripcion": "La Gilera SMX 200 Adventure propone un uso on-off real: motor de 200cc, geometría de trail y protección para el viaje. Práctica en la ciudad y capaz en la tierra.",
+    "specs": {
+      "Motor": "Monocilíndrico 4T",
+      "Cilindrada": "200 cc",
+      "Transmisión": "Manual 5 marchas",
+      "Arranque": "Eléctrico y a patada",
+      "Capacidad de tanque": "13,5 litros",
+      "Llantas": "Rayos"
+    },
+    "colores": [
+      "Gris",
+      "Rojo",
+      "Verde"
+    ]
+  },
+  "gilera|SMX 200 SIII": {
+    "tipo": "On-Off / trail",
+    "descripcion": "Diseñada para salir del pavimento, la Gilera SMX 200 SIII (200cc) combina altura al piso, buena autonomía y un andar firme en terreno irregular. Una compañera para escapadas y caminos rurales.",
+    "specs": {},
+    "colores": [
+      "Blanco",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "gilera|AC4 250": {
+    "tipo": "Street / naked",
+    "descripcion": "Con estética naked y motor de 250cc, la Gilera AC4 250 ofrece una conducción divertida y previsible. Es una moto versátil, cómoda para la ciudad y con resto para la ruta corta.",
+    "specs": {},
+    "colores": [
+      "Azul",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "gilera|SMX 250 ADVENTURE": {
+    "tipo": "On-Off / trail",
+    "descripcion": "La Gilera SMX 250 ADVENTURE es una trail de 250cc que se siente cómoda tanto en asfalto como en caminos de tierra. Suspensión de mayor recorrido, posición elevada y la robustez que pide el uso mixto.",
+    "specs": {
+      "Motor": "Monocilíndrico 4T 4v",
+      "Cilindrada": "250 cc",
+      "Transmisión": "Manual 6 marchas",
+      "Arranque": "Eléctrico",
+      "Capacidad de tanque": "11,5 litros",
+      "Llantas": "Rayos"
+    },
+    "colores": [
+      "Blanco",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "gilera|Smash Full 2025": {
+    "tipo": "Cub / utilitaria",
+    "descripcion": "La Gilera Smash Full 2025 es una cub de 110cc pensada para el uso diario: posición de manejo cómoda, bajo consumo y mantenimiento simple. Una compañera práctica para moverte por la ciudad y hacer trámites sin complicaciones.",
+    "specs": {
+      "Motor": "Monocilíndrico 4 tiempos",
+      "Cilindrada": "110 cc",
+      "Transmisión": "Semiautomática 4 marchas",
+      "Arranque": "Eléctrico y a patada",
+      "Capacidad de tanque": "4,1 litros",
+      "Llantas": "Aleación"
+    },
+    "colores": [
+      "Azul",
+      "Gris",
+      "Rojo"
+    ]
+  },
+  "gilera|Smash Full R": {
+    "tipo": "Cub / utilitaria",
+    "descripcion": "Con su formato de cub y motor de 110cc, la Gilera Smash Full R combina economía y agilidad. Es la opción clásica para quien necesita una moto liviana, durable y fácil de manejar en el tránsito urbano.",
+    "specs": {},
+    "colores": [
+      "Azul",
+      "Gris",
+      "Marrón",
+      "Rojo"
+    ]
+  },
+  "gilera|Smash X 125 2025": {
+    "tipo": "Cub / utilitaria",
+    "descripcion": "Con su formato de cub y motor de 125cc, la Gilera Smash X 125 2025 combina economía y agilidad. Es la opción clásica para quien necesita una moto liviana, durable y fácil de manejar en el tránsito urbano.",
+    "specs": {
+      "Motor": "Monocilíndrico 4 tiempos",
+      "Cilindrada": "125 cc",
+      "Transmisión": "Semiautomática 4 marchas",
+      "Arranque": "Eléctrico y a patada",
+      "Capacidad de tanque": "4,5 litros",
+      "Llantas": "Aleación"
+    },
+    "colores": [
+      "Blanco",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "honda|NAVI": {
+    "tipo": "Street / naked",
+    "descripcion": "La Honda NAVI (110cc) se mueve con soltura en el tránsito y mantiene buen ritmo fuera de la ciudad. Diseño deportivo, posición de manejo natural y un equipamiento acorde a la categoría.",
+    "specs": {},
+    "colores": [
+      "Blanco",
+      "Negro",
+      "Rojo",
+      "Rosa",
+      "Verde"
+    ]
+  },
+  "honda|WAVE 110 BASE": {
+    "tipo": "Cub / utilitaria",
+    "descripcion": "La Honda WAVE 110 BASE (110cc) apunta a la movilidad de todos los días: arranque simple, mantenimiento accesible y un andar ágil en calles y avenidas. Ideal como primera moto o como reemplazo del auto en trayectos cortos.",
+    "specs": {},
+    "colores": [
+      "Blanco",
+      "Gris",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "honda|WAVE 110 CD FULL": {
+    "tipo": "Cub / utilitaria",
+    "descripcion": "Con su formato de cub y motor de 110cc, la Honda WAVE 110 CD FULL combina economía y agilidad. Es la opción clásica para quien necesita una moto liviana, durable y fácil de manejar en el tránsito urbano.",
+    "specs": {},
+    "colores": [
+      "Blanco",
+      "Gris",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "honda|ELITE": {
+    "tipo": "Scooter",
+    "descripcion": "La Honda ELITE combina la agilidad de un scooter 125cc con detalles de equipamiento moderno. Una moto cómoda para el día a día, con la ventaja de un manejo simple y directo.",
+    "specs": {},
+    "colores": [
+      "Azul",
+      "Gris",
+      "Rojo"
+    ]
+  },
+  "honda|CBF 125F TWISTER": {
+    "tipo": "Street / naked",
+    "descripcion": "Con estética naked y motor de 125cc, la Honda CBF 125F TWISTER ofrece una conducción divertida y previsible. Es una moto versátil, cómoda para la ciudad y con resto para la ruta corta.",
+    "specs": {},
+    "colores": [
+      "Azul",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "honda|GLH 150": {
+    "tipo": "Street / naked",
+    "descripcion": "La Honda GLH 150 (150cc) se mueve con soltura en el tránsito y mantiene buen ritmo fuera de la ciudad. Diseño deportivo, posición de manejo natural y un equipamiento acorde a la categoría.",
+    "specs": {},
+    "colores": [
+      "Gris",
+      "Negro-Rojo"
+    ]
+  },
+  "honda|XR 150L": {
+    "tipo": "On-Off / trail",
+    "descripcion": "La Honda XR 150L propone un uso on-off real: motor de 150cc, geometría de trail y protección para el viaje. Práctica en la ciudad y capaz en la tierra.",
+    "specs": {},
+    "colores": [
+      "Blanco",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "honda|PCX 160": {
+    "tipo": "Scooter",
+    "descripcion": "Ágil en el tránsito y fácil de estacionar, la Honda PCX 160 (160cc) es una opción urbana que prioriza confort y practicidad. Su formato scooter la vuelve accesible para quienes recién arrancan.",
+    "specs": {},
+    "colores": [
+      "Blanco",
+      "Deluxe",
+      "Gris"
+    ]
+  },
+  "honda|XR 190L": {
+    "tipo": "On-Off / trail",
+    "descripcion": "La Honda XR 190L es una trail de 190cc que se siente cómoda tanto en asfalto como en caminos de tierra. Suspensión de mayor recorrido, posición elevada y la robustez que pide el uso mixto.",
+    "specs": {},
+    "colores": [
+      "Beige",
+      "Blanco",
+      "Rojo"
+    ]
+  },
+  "honda|XR 300L TORNADO": {
+    "tipo": "On-Off / trail",
+    "descripcion": "La Honda XR 300L TORNADO propone un uso on-off real: motor de 300cc, geometría de trail y protección para el viaje. Práctica en la ciudad y capaz en la tierra.",
+    "specs": {},
+    "colores": [
+      "Blanco",
+      "Gris",
+      "Rojo"
+    ]
+  },
+  "honda|CB 300F TWISTER": {
+    "tipo": "Street / naked",
+    "descripcion": "Con estética naked y motor de 300cc, la Honda CB 300F TWISTER ofrece una conducción divertida y previsible. Es una moto versátil, cómoda para la ciudad y con resto para la ruta corta.",
+    "specs": {},
+    "colores": [
+      "Amarillo",
+      "Azul",
+      "Gris",
+      "Rojo"
+    ]
+  },
+  "honda|CB 350 H´NESS": {
+    "tipo": "Custom / clásica",
+    "descripcion": "La Honda CB 350 H´NESS es una custom de 350cc con postura descontracturada y estética clásica. Pensada para disfrutar del camino sin apuro, con presencia y comodidad a la vista.",
+    "specs": {},
+    "colores": [
+      "Negro",
+      "Rojo",
+      "Verde"
+    ]
+  },
+  "honda|Biz 110": {
+    "tipo": "Cub / utilitaria",
+    "descripcion": "La Honda Biz 110 es una cub de 110cc pensada para el uso diario: posición de manejo cómoda, bajo consumo y mantenimiento simple. Una compañera práctica para moverte por la ciudad y hacer trámites sin complicaciones.",
+    "specs": {
+      "Motor": "4 tiempos, 2 válvulas, monocilíndrico, OHC y refrigerado por aire",
+      "Cilindrada": "110 cc",
+      "Transmisión": "Cadena, 4 velocidades",
+      "Arranque": "Eléctrico",
+      "Capacidad de tanque": "5 litros",
+      "Llantas": "Aleación"
+    },
+    "colores": [
+      "Azul",
+      "Blanco",
+      "Gris",
+      "Rojo"
+    ]
+  },
+  "honda|CB 190": {
+    "tipo": "Street / naked",
+    "descripcion": "Con estética naked y motor de 190cc, la Honda CB 190 ofrece una conducción divertida y previsible. Es una moto versátil, cómoda para la ciudad y con resto para la ruta corta.",
+    "specs": {
+      "Motor": "4 tiempos, 2 válvulas, monocilíndrico, OHC y refrigerado por aire",
+      "Cilindrada": "190 cc",
+      "Transmisión": "5 velocidades",
+      "Arranque": "Eléctrico",
+      "Capacidad de tanque": "12 litros",
+      "Llantas": "Aleación"
+    },
+    "colores": [
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "honda|CB 500 Hornet": {
+    "tipo": "Street / naked",
+    "descripcion": "Con estética naked y motor de 500cc, la Honda CB 500 Hornet ofrece una conducción divertida y previsible. Es una moto versátil, cómoda para la ciudad y con resto para la ruta corta.",
+    "specs": {},
+    "colores": [
+      "Blanco",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "honda|CB 750 Hornet": {
+    "tipo": "Street / naked",
+    "descripcion": "La Honda CB 750 Hornet (750cc) se mueve con soltura en el tránsito y mantiene buen ritmo fuera de la ciudad. Diseño deportivo, posición de manejo natural y un equipamiento acorde a la categoría.",
+    "specs": {},
+    "colores": [
+      "Azul",
+      "Blanco"
+    ]
+  },
+  "honda|CB 750 Hornet E-Clutch": {
+    "tipo": "Street / naked",
+    "descripcion": "La Honda CB 750 Hornet E-Clutch es una street de 750cc con postura erguida y respuesta ágil. Un equilibrio entre prestaciones y practicidad para el uso urbano y las salidas de fin de semana.",
+    "specs": {},
+    "colores": [
+      "Amarillo",
+      "Azul",
+      "Gris"
+    ]
+  },
+  "honda|NC 750X": {
+    "tipo": "On-Off / trail",
+    "descripcion": "Diseñada para salir del pavimento, la Honda NC 750X (750cc) combina altura al piso, buena autonomía y un andar firme en terreno irregular. Una compañera para escapadas y caminos rurales.",
+    "specs": {},
+    "colores": [
+      "Blanco",
+      "Rojo",
+      "Verde"
+    ]
+  },
+  "honda|NX 190": {
+    "tipo": "On-Off / trail",
+    "descripcion": "Diseñada para salir del pavimento, la Honda NX 190 (190cc) combina altura al piso, buena autonomía y un andar firme en terreno irregular. Una compañera para escapadas y caminos rurales.",
+    "specs": {
+      "Motor": "4 tiempos, 2 válvulas, monocilíndrico, OHC y refrigerado por aire",
+      "Cilindrada": "190 cc",
+      "Transmisión": "Cadena, 5 velocidades, embrague anti-rebote",
+      "Arranque": "Eléctrico",
+      "Capacidad de tanque": "12 litros",
+      "Llantas": "Aleación"
+    },
+    "colores": [
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "keller|keller cronos base": {
+    "tipo": "Cub / utilitaria",
+    "descripcion": "Con su formato de cub y motor de 110cc, la Keller keller cronos base combina economía y agilidad. Es la opción clásica para quien necesita una moto liviana, durable y fácil de manejar en el tránsito urbano.",
+    "specs": {},
+    "colores": [
+      "Azul",
+      "Gris",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "keller|keller cronos full": {
+    "tipo": "Cub / utilitaria",
+    "descripcion": "Con su formato de cub y motor de 110cc, la Keller keller cronos full combina economía y agilidad. Es la opción clásica para quien necesita una moto liviana, durable y fácil de manejar en el tránsito urbano.",
+    "specs": {},
+    "colores": [
+      "Azul",
+      "Gris",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "keller|keller crono tunning": {
+    "tipo": "Cub / utilitaria",
+    "descripcion": "La Keller keller crono tunning es una cub de 125cc pensada para el uso diario: posición de manejo cómoda, bajo consumo y mantenimiento simple. Una compañera práctica para moverte por la ciudad y hacer trámites sin complicaciones.",
+    "specs": {},
+    "colores": [
+      "Azul",
+      "Gris",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "keller|keller miracle": {
+    "tipo": "Street / naked",
+    "descripcion": "La Keller keller miracle es una street de 150cc con postura erguida y respuesta ágil. Un equilibrio entre prestaciones y practicidad para el uso urbano y las salidas de fin de semana.",
+    "specs": {},
+    "colores": [
+      "Azul",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "keller|keller stratus full": {
+    "tipo": "Street / naked",
+    "descripcion": "La Keller keller stratus full (150cc) se mueve con soltura en el tránsito y mantiene buen ritmo fuera de la ciudad. Diseño deportivo, posición de manejo natural y un equipamiento acorde a la categoría.",
+    "specs": {},
+    "colores": [
+      "Azul",
+      "Gris",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "keller|keller miracle 200": {
+    "tipo": "Street / naked",
+    "descripcion": "Con estética naked y motor de 200cc, la Keller keller miracle 200 ofrece una conducción divertida y previsible. Es una moto versátil, cómoda para la ciudad y con resto para la ruta corta.",
+    "specs": {},
+    "colores": [
+      "Azul",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "keller|keller quasar 250": {
+    "tipo": "Street / naked",
+    "descripcion": "Con estética naked y motor de 250cc, la Keller keller quasar 250 ofrece una conducción divertida y previsible. Es una moto versátil, cómoda para la ciudad y con resto para la ruta corta.",
+    "specs": {
+      "Motor": "250 ml, SOHC, refrigerado por aire con balanceador",
+      "Cilindrada": "250 cc",
+      "Transmisión": "5 Velocidades",
+      "Arranque": "Eléctrico y a patada",
+      "Capacidad de tanque": "14 litros",
+      "Llantas": "Rayos"
+    },
+    "colores": [
+      "Naranja",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "keller|Crono Full R 110": {
+    "tipo": "Cub / utilitaria",
+    "descripcion": "Con su formato de cub y motor de 110cc, la Keller Crono Full R 110 combina economía y agilidad. Es la opción clásica para quien necesita una moto liviana, durable y fácil de manejar en el tránsito urbano.",
+    "specs": {
+      "Motor": "Monocilíndrico 4T",
+      "Cilindrada": "110 cc",
+      "Transmisión": "4 velocidades",
+      "Arranque": "Eléctrico y a patada",
+      "Capacidad de tanque": "4 litros",
+      "Llantas": "Aleación"
+    },
+    "colores": [
+      "Azul",
+      "Blanco",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "ktm|KTM RC 200 GP": {
+    "tipo": "Deportiva",
+    "descripcion": "La KTM KTM RC 200 GP es una deportiva de 200cc con clara inspiración racing: carenado, posición de manejo adelantada y una puesta a punto que invita a exigirla. Pensada para quien busca prestaciones y presencia.",
+    "specs": {},
+    "colores": [
+      "Estándar"
+    ]
+  },
+  "ktm|Ktm Duke 200": {
+    "tipo": "Street / naked",
+    "descripcion": "La KTM Ktm Duke 200 es una street de 200cc con postura erguida y respuesta ágil. Un equilibrio entre prestaciones y practicidad para el uso urbano y las salidas de fin de semana.",
+    "specs": {},
+    "colores": [
+      "Amarillo"
+    ]
+  },
+  "ktm|Ktm 250 adventure": {
+    "tipo": "On-Off / trail",
+    "descripcion": "Diseñada para salir del pavimento, la KTM Ktm 250 adventure (250cc) combina altura al piso, buena autonomía y un andar firme en terreno irregular. Una compañera para escapadas y caminos rurales.",
+    "specs": {},
+    "colores": [
+      "Azul"
+    ]
+  },
+  "ktm|Ktm 390 Adventure": {
+    "tipo": "On-Off / trail",
+    "descripcion": "Diseñada para salir del pavimento, la KTM Ktm 390 Adventure (390cc) combina altura al piso, buena autonomía y un andar firme en terreno irregular. Una compañera para escapadas y caminos rurales.",
+    "specs": {},
+    "colores": [
+      "Negro"
+    ]
+  },
+  "motomel|Blitz 110 Full": {
+    "tipo": "Cub / utilitaria",
+    "descripcion": "La Motomel Blitz 110 Full (110cc) apunta a la movilidad de todos los días: arranque simple, mantenimiento accesible y un andar ágil en calles y avenidas. Ideal como primera moto o como reemplazo del auto en trayectos cortos.",
+    "specs": {},
+    "colores": [
+      "Azul",
+      "Blanco",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "motomel|Blitz 110 Start": {
+    "tipo": "Cub / utilitaria",
+    "descripcion": "La Motomel Blitz 110 Start (110cc) apunta a la movilidad de todos los días: arranque simple, mantenimiento accesible y un andar ágil en calles y avenidas. Ideal como primera moto o como reemplazo del auto en trayectos cortos.",
+    "specs": {},
+    "colores": [
+      "Azul",
+      "Blanco",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "motomel|Blitz 110 Tunning V8": {
+    "tipo": "Cub / utilitaria",
+    "descripcion": "La Motomel Blitz 110 Tunning V8 (110cc) apunta a la movilidad de todos los días: arranque simple, mantenimiento accesible y un andar ágil en calles y avenidas. Ideal como primera moto o como reemplazo del auto en trayectos cortos.",
+    "specs": {},
+    "colores": [
+      "Blanco",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "motomel|DLX110": {
+    "tipo": "Cub / utilitaria",
+    "descripcion": "La Motomel DLX110 es una cub de 110cc pensada para el uso diario: posición de manejo cómoda, bajo consumo y mantenimiento simple. Una compañera práctica para moverte por la ciudad y hacer trámites sin complicaciones.",
+    "specs": {},
+    "colores": [
+      "Azul",
+      "Gris",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "motomel|Max 110": {
+    "tipo": "Cub / utilitaria",
+    "descripcion": "Con su formato de cub y motor de 110cc, la Motomel Max 110 combina economía y agilidad. Es la opción clásica para quien necesita una moto liviana, durable y fácil de manejar en el tránsito urbano.",
+    "specs": {},
+    "colores": [
+      "Blanco",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "motomel|Skua 125 extreme": {
+    "tipo": "Cub / utilitaria",
+    "descripcion": "La Motomel Skua 125 extreme (125cc) apunta a la movilidad de todos los días: arranque simple, mantenimiento accesible y un andar ágil en calles y avenidas. Ideal como primera moto o como reemplazo del auto en trayectos cortos.",
+    "specs": {
+      "Motor": "Monocilíndrico 4T",
+      "Cilindrada": "125 cc",
+      "Transmisión": "5 velocidades",
+      "Arranque": "Eléctrico y a patada",
+      "Capacidad de tanque": "7,5 litros",
+      "Llantas": "Rayos"
+    },
+    "colores": [
+      "Azul",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "motomel|CG 150 S2 Full Aleación CBS": {
+    "tipo": "Cub / utilitaria",
+    "descripcion": "Con su formato de cub y motor de 150cc, la Motomel CG 150 S2 Full Aleación CBS combina economía y agilidad. Es la opción clásica para quien necesita una moto liviana, durable y fácil de manejar en el tránsito urbano.",
+    "specs": {},
+    "colores": [
+      "Azul",
+      "Gris",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "motomel|S2 150 Start Base": {
+    "tipo": "Cub / utilitaria",
+    "descripcion": "La Motomel S2 150 Start Base es una cub de 150cc pensada para el uso diario: posición de manejo cómoda, bajo consumo y mantenimiento simple. Una compañera práctica para moverte por la ciudad y hacer trámites sin complicaciones.",
+    "specs": {},
+    "colores": [
+      "Azul",
+      "Gris",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "motomel|Skua 150": {
+    "tipo": "Street / naked",
+    "descripcion": "Con estética naked y motor de 150cc, la Motomel Skua 150 ofrece una conducción divertida y previsible. Es una moto versátil, cómoda para la ciudad y con resto para la ruta corta.",
+    "specs": {},
+    "colores": [
+      "Arena",
+      "Azul",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "motomel|Skua 150 Silver Edition": {
+    "tipo": "Street / naked",
+    "descripcion": "La Motomel Skua 150 Silver Edition es una street de 150cc con postura erguida y respuesta ágil. Un equilibrio entre prestaciones y practicidad para el uso urbano y las salidas de fin de semana.",
+    "specs": {},
+    "colores": [
+      "Gris"
+    ]
+  },
+  "motomel|CX250 XMM": {
+    "tipo": "Street / naked",
+    "descripcion": "Con estética naked y motor de 250cc, la Motomel CX250 XMM ofrece una conducción divertida y previsible. Es una moto versátil, cómoda para la ciudad y con resto para la ruta corta.",
+    "specs": {},
+    "colores": [
+      "Azul",
+      "Naranja",
+      "Rojo"
+    ]
+  },
+  "motomel|Skua CX250": {
+    "tipo": "Street / naked",
+    "descripcion": "Con estética naked y motor de 250cc, la Motomel Skua CX250 ofrece una conducción divertida y previsible. Es una moto versátil, cómoda para la ciudad y con resto para la ruta corta.",
+    "specs": {
+      "Motor": "Monocilíndrico 4T",
+      "Cilindrada": "250 cc",
+      "Transmisión": "5 velocidades",
+      "Arranque": "Eléctrico y pedal",
+      "Capacidad de tanque": "12,3 litros",
+      "Llantas": "Rayos"
+    },
+    "colores": [
+      "Azul",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "motomel|Blitz 110 Black Edition": {
+    "tipo": "Cub / utilitaria",
+    "descripcion": "La Motomel Blitz 110 Black Edition (110cc) apunta a la movilidad de todos los días: arranque simple, mantenimiento accesible y un andar ágil en calles y avenidas. Ideal como primera moto o como reemplazo del auto en trayectos cortos.",
+    "specs": {},
+    "colores": [
+      "Único"
+    ]
+  },
+  "motomel|Blitz 110 Plus": {
+    "tipo": "Cub / utilitaria",
+    "descripcion": "Con su formato de cub y motor de 110cc, la Motomel Blitz 110 Plus combina economía y agilidad. Es la opción clásica para quien necesita una moto liviana, durable y fácil de manejar en el tránsito urbano.",
+    "specs": {},
+    "colores": [
+      "Azul",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "motomel|Blitz One 110": {
+    "tipo": "Cub / utilitaria",
+    "descripcion": "La Motomel Blitz One 110 es una cub de 110cc pensada para el uso diario: posición de manejo cómoda, bajo consumo y mantenimiento simple. Una compañera práctica para moverte por la ciudad y hacer trámites sin complicaciones.",
+    "specs": {},
+    "colores": [
+      "Azul",
+      "Gris",
+      "Rojo"
+    ]
+  },
+  "motomel|Blitz One 110 Full": {
+    "tipo": "Cub / utilitaria",
+    "descripcion": "La Motomel Blitz One 110 Full es una cub de 110cc pensada para el uso diario: posición de manejo cómoda, bajo consumo y mantenimiento simple. Una compañera práctica para moverte por la ciudad y hacer trámites sin complicaciones.",
+    "specs": {
+      "Motor": "Monocilíndrico 4T",
+      "Cilindrada": "110 cc",
+      "Transmisión": "4 velocidades",
+      "Arranque": "Eléctrico y a patada",
+      "Capacidad de tanque": "3,5 litros",
+      "Llantas": "Aleación"
+    },
+    "colores": [
+      "Azul",
+      "Gris",
+      "Rojo"
+    ]
+  },
+  "motomel|Due 110 ST": {
+    "tipo": "Cub / utilitaria",
+    "descripcion": "La Motomel Due 110 ST es una cub de 110cc pensada para el uso diario: posición de manejo cómoda, bajo consumo y mantenimiento simple. Una compañera práctica para moverte por la ciudad y hacer trámites sin complicaciones.",
+    "specs": {},
+    "colores": [
+      "Azul",
+      "Blanco",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "motomel|Due 125 Sport": {
+    "tipo": "Cub / utilitaria",
+    "descripcion": "La Motomel Due 125 Sport es una cub de 125cc pensada para el uso diario: posición de manejo cómoda, bajo consumo y mantenimiento simple. Una compañera práctica para moverte por la ciudad y hacer trámites sin complicaciones.",
+    "specs": {},
+    "colores": [
+      "Blanco",
+      "Gris",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "motomel|Hot 90 Shot": {
+    "tipo": "Cub / utilitaria",
+    "descripcion": "La Motomel Hot 90 Shot es una cub de 90cc pensada para el uso diario: posición de manejo cómoda, bajo consumo y mantenimiento simple. Una compañera práctica para moverte por la ciudad y hacer trámites sin complicaciones.",
+    "specs": {},
+    "colores": [
+      "Azul",
+      "Rojo",
+      "Verde"
+    ]
+  },
+  "motomel|S2 Victory": {
+    "tipo": "Cub / utilitaria",
+    "descripcion": "La Motomel S2 Victory (150cc) apunta a la movilidad de todos los días: arranque simple, mantenimiento accesible y un andar ágil en calles y avenidas. Ideal como primera moto o como reemplazo del auto en trayectos cortos.",
+    "specs": {},
+    "colores": [
+      "Azul",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "motomel|SR4 Max": {
+    "tipo": "Scooter",
+    "descripcion": "La Motomel SR4 Max es un scooter de 400cc con manejo automático y posición relajada. Pensado para la ciudad, ofrece practicidad, espacio de guardado y la comodidad de no estar cambiando marchas.",
+    "specs": {},
+    "colores": [
+      "Azul",
+      "Blanco",
+      "Negro"
+    ]
+  },
+  "motomel|Strato Euro": {
+    "tipo": "Scooter",
+    "descripcion": "La Motomel Strato Euro es un scooter de 110cc con manejo automático y posición relajada. Pensado para la ciudad, ofrece practicidad, espacio de guardado y la comodidad de no estar cambiando marchas.",
+    "specs": {},
+    "colores": [
+      "Marrón",
+      "Negro",
+      "Verde"
+    ]
+  },
+  "siam|QU 110 Base": {
+    "tipo": "Cub / utilitaria",
+    "descripcion": "La Siam QU 110 Base (110cc) apunta a la movilidad de todos los días: arranque simple, mantenimiento accesible y un andar ágil en calles y avenidas. Ideal como primera moto o como reemplazo del auto en trayectos cortos.",
+    "specs": {},
+    "colores": [
+      "Azul",
+      "Blanco",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "siam|QU 110 Full": {
+    "tipo": "Cub / utilitaria",
+    "descripcion": "La Siam QU 110 Full (110cc) apunta a la movilidad de todos los días: arranque simple, mantenimiento accesible y un andar ágil en calles y avenidas. Ideal como primera moto o como reemplazo del auto en trayectos cortos.",
+    "specs": {},
+    "colores": [
+      "Azul",
+      "Blanco",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "siam|Siam Nomad 150": {
+    "tipo": "Street / naked",
+    "descripcion": "La Siam Siam Nomad 150 (150cc) se mueve con soltura en el tránsito y mantiene buen ritmo fuera de la ciudad. Diseño deportivo, posición de manejo natural y un equipamiento acorde a la categoría.",
+    "specs": {
+      "Motor": "Monocilíndrico 4T 0HC",
+      "Cilindrada": "150 cc",
+      "Transmisión": "Manual 5 velocidades",
+      "Arranque": "Eléctrico y patada",
+      "Capacidad de tanque": "11,5 litros",
+      "Llantas": "Rayos"
+    },
+    "colores": [
+      "Blanco",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "siam|Siam Quirion 150": {
+    "tipo": "Street / naked",
+    "descripcion": "Con estética naked y motor de 150cc, la Siam Siam Quirion 150 ofrece una conducción divertida y previsible. Es una moto versátil, cómoda para la ciudad y con resto para la ruta corta.",
+    "specs": {},
+    "colores": [
+      "Azul",
+      "Blanco",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "siam|Siam Trender 150": {
+    "tipo": "Street / naked",
+    "descripcion": "La Siam Siam Trender 150 es una street de 150cc con postura erguida y respuesta ágil. Un equilibrio entre prestaciones y practicidad para el uso urbano y las salidas de fin de semana.",
+    "specs": {},
+    "colores": [
+      "Azul",
+      "Blanco",
+      "Rojo",
+      "Verde"
+    ]
+  },
+  "siam|Modelo 200cc": {
+    "tipo": "Street / naked",
+    "descripcion": "La Siam Modelo 200cc es una street de 200cc con postura erguida y respuesta ágil. Un equilibrio entre prestaciones y practicidad para el uso urbano y las salidas de fin de semana.",
+    "specs": {},
+    "colores": [
+      "Negro"
+    ]
+  },
+  "siam|Siam Vector 400": {
+    "tipo": "Street / naked",
+    "descripcion": "La Siam Siam Vector 400 es una street de 400cc con postura erguida y respuesta ágil. Un equilibrio entre prestaciones y practicidad para el uso urbano y las salidas de fin de semana.",
+    "specs": {},
+    "colores": [
+      "Negro"
+    ]
+  },
+  "siam|QU Cargo 110": {
+    "tipo": "Trabajo / utilitaria",
+    "descripcion": "La Siam QU Cargo 110 está pensada para el trabajo: estructura resistente, motor de 110cc y un enfoque en la carga y la durabilidad. Una herramienta para el reparto y las tareas de todos los días.",
+    "specs": {},
+    "colores": [
+      "Negro"
+    ]
+  },
+  "voge|300 DS": {
+    "tipo": "On-Off / trail",
+    "descripcion": "La Voge 300 DS es una trail de 300cc que se siente cómoda tanto en asfalto como en caminos de tierra. Suspensión de mayor recorrido, posición elevada y la robustez que pide el uso mixto.",
+    "specs": {},
+    "colores": [
+      "Gris",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "voge|300 Rally": {
+    "tipo": "On-Off / trail",
+    "descripcion": "La Voge 300 Rally propone un uso on-off real: motor de 300cc, geometría de trail y protección para el viaje. Práctica en la ciudad y capaz en la tierra.",
+    "specs": {},
+    "colores": [
+      "Amarillo",
+      "Blanco",
+      "Gris"
+    ]
+  },
+  "voge|AC 350": {
+    "tipo": "Street / naked",
+    "descripcion": "Con estética naked y motor de 350cc, la Voge AC 350 ofrece una conducción divertida y previsible. Es una moto versátil, cómoda para la ciudad y con resto para la ruta corta.",
+    "specs": {},
+    "colores": [
+      "Amarillo",
+      "Negro"
+    ]
+  },
+  "voge|500 DS": {
+    "tipo": "On-Off / trail",
+    "descripcion": "La Voge 500 DS propone un uso on-off real: motor de 500cc, geometría de trail y protección para el viaje. Práctica en la ciudad y capaz en la tierra.",
+    "specs": {},
+    "colores": [
+      "Gris",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "voge|500 DSX": {
+    "tipo": "On-Off / trail",
+    "descripcion": "La Voge 500 DSX es una trail de 500cc que se siente cómoda tanto en asfalto como en caminos de tierra. Suspensión de mayor recorrido, posición elevada y la robustez que pide el uso mixto.",
+    "specs": {},
+    "colores": [
+      "Gris",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "voge|500 R": {
+    "tipo": "Custom / clásica",
+    "descripcion": "Estilo clásico y motor de 500cc definen a la Voge 500 R. Una moto para viajar cómodo, con detalles cuidados y una conducción relajada.",
+    "specs": {},
+    "colores": [
+      "Gris",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "voge|525 R": {
+    "tipo": "Custom / clásica",
+    "descripcion": "La Voge 525 R es una custom de 500cc con postura descontracturada y estética clásica. Pensada para disfrutar del camino sin apuro, con presencia y comodidad a la vista.",
+    "specs": {},
+    "colores": [
+      "Gris",
+      "Negro"
+    ]
+  },
+  "voge|DS 525X": {
+    "tipo": "On-Off / trail",
+    "descripcion": "Diseñada para salir del pavimento, la Voge DS 525X (500cc) combina altura al piso, buena autonomía y un andar firme en terreno irregular. Una compañera para escapadas y caminos rurales.",
+    "specs": {},
+    "colores": [
+      "Azul",
+      "Gris"
+    ]
+  },
+  "voge|650 DS": {
+    "tipo": "Street / naked",
+    "descripcion": "La Voge 650 DS (650cc) se mueve con soltura en el tránsito y mantiene buen ritmo fuera de la ciudad. Diseño deportivo, posición de manejo natural y un equipamiento acorde a la categoría.",
+    "specs": {},
+    "colores": [
+      "Azul",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "voge|650 DSX": {
+    "tipo": "On-Off / trail",
+    "descripcion": "La Voge 650 DSX es una trail de 650cc que se siente cómoda tanto en asfalto como en caminos de tierra. Suspensión de mayor recorrido, posición elevada y la robustez que pide el uso mixto.",
+    "specs": {},
+    "colores": [
+      "Azul",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "voge|DS 900X": {
+    "tipo": "On-Off / trail",
+    "descripcion": "Diseñada para salir del pavimento, la Voge DS 900X (900cc) combina altura al piso, buena autonomía y un andar firme en terreno irregular. Una compañera para escapadas y caminos rurales.",
+    "specs": {},
+    "colores": [
+      "Amarillo",
+      "Blanco"
+    ]
+  },
+  "voge|DS900X Black Knight": {
+    "tipo": "On-Off / trail",
+    "descripcion": "Diseñada para salir del pavimento, la Voge DS900X Black Knight (900cc) combina altura al piso, buena autonomía y un andar firme en terreno irregular. Una compañera para escapadas y caminos rurales.",
+    "specs": {},
+    "colores": [
+      "Negro"
+    ]
+  },
+  "voge|AC 525": {
+    "tipo": "Street / naked",
+    "descripcion": "La Voge AC 525 (500cc) se mueve con soltura en el tránsito y mantiene buen ritmo fuera de la ciudad. Diseño deportivo, posición de manejo natural y un equipamiento acorde a la categoría.",
+    "specs": {},
+    "colores": [
+      "Azul",
+      "Gris"
+    ]
+  },
+  "voge|DS 525X Black Knight": {
+    "tipo": "On-Off / trail",
+    "descripcion": "La Voge DS 525X Black Knight es una trail de 500cc que se siente cómoda tanto en asfalto como en caminos de tierra. Suspensión de mayor recorrido, posición elevada y la robustez que pide el uso mixto.",
+    "specs": {},
+    "colores": [
+      "Único"
+    ]
+  },
+  "voge|DS 900X Black Knight": {
+    "tipo": "On-Off / trail",
+    "descripcion": "La Voge DS 900X Black Knight es una trail de 900cc que se siente cómoda tanto en asfalto como en caminos de tierra. Suspensión de mayor recorrido, posición elevada y la robustez que pide el uso mixto.",
+    "specs": {
+      "Número de cilindros": "Bicilíndrico 4T DOHC 8v",
+      "Cilindrada": "900 cc",
+      "Transmisión": "6 velocidades",
+      "Arranque": "Eléctrico",
+      "Capacidad de tanque": "17 litros",
+      "Llantas": "Rayos"
+    },
+    "colores": [
+      "Único"
+    ]
+  },
+  "voge|DS 800X Rally": {
+    "tipo": "On-Off / trail",
+    "descripcion": "La Voge DS 800X Rally propone un uso on-off real: motor de 800cc, geometría de trail y protección para el viaje. Práctica en la ciudad y capaz en la tierra.",
+    "specs": {},
+    "colores": [
+      "Amarillo",
+      "Azul",
+      "Negro"
+    ]
+  },
+  "yamaha|Fascino LCX 125": {
+    "tipo": "Scooter",
+    "descripcion": "La Yamaha Fascino LCX 125 combina la agilidad de un scooter 125cc con detalles de equipamiento moderno. Una moto cómoda para el día a día, con la ventaja de un manejo simple y directo.",
+    "specs": {},
+    "colores": [
+      "Azul",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "yamaha|XTZ125": {
+    "tipo": "On-Off / trail",
+    "descripcion": "La Yamaha XTZ125 es una trail de 125cc que se siente cómoda tanto en asfalto como en caminos de tierra. Suspensión de mayor recorrido, posición elevada y la robustez que pide el uso mixto.",
+    "specs": {},
+    "colores": [
+      "Azul",
+      "Blanco",
+      "Negro"
+    ]
+  },
+  "yamaha|YBR Z 125": {
+    "tipo": "Street / naked",
+    "descripcion": "La Yamaha YBR Z 125 es una street de 125cc con postura erguida y respuesta ágil. Un equilibrio entre prestaciones y practicidad para el uso urbano y las salidas de fin de semana.",
+    "specs": {},
+    "colores": [
+      "Azul"
+    ]
+  },
+  "yamaha|FZ 150 V4.0": {
+    "tipo": "Street / naked",
+    "descripcion": "La Yamaha FZ 150 V4.0 es una street de 150cc con postura erguida y respuesta ágil. Un equilibrio entre prestaciones y practicidad para el uso urbano y las salidas de fin de semana.",
+    "specs": {
+      "Motor": "Monocilíndrico 4T, SOHC",
+      "Cilindrada": "150 cc",
+      "Transmisión": "5 velocidades",
+      "Arranque": "Eléctrico",
+      "Capacidad de tanque": "13 litros",
+      "Llantas": "Aleación"
+    },
+    "colores": [
+      "Azul",
+      "Negro"
+    ]
+  },
+  "yamaha|FZ X 150": {
+    "tipo": "Street / naked",
+    "descripcion": "La Yamaha FZ X 150 es una street de 150cc con postura erguida y respuesta ágil. Un equilibrio entre prestaciones y practicidad para el uso urbano y las salidas de fin de semana.",
+    "specs": {},
+    "colores": [
+      "Azul",
+      "Negro"
+    ]
+  },
+  "yamaha|TT-R230": {
+    "tipo": "On-Off / trail",
+    "descripcion": "La Yamaha TT-R230 es una trail de 230cc que se siente cómoda tanto en asfalto como en caminos de tierra. Suspensión de mayor recorrido, posición elevada y la robustez que pide el uso mixto.",
+    "specs": {
+      "Motor": "Monocilindrico, 4T, SOHC, Refrigerado por aire",
+      "Cilindrada": "230 cc",
+      "Transmisión": "6 velocidades",
+      "Arranque": "Eléctrico",
+      "Capacidad de tanque": "8 litros",
+      "Llantas": "Rayos"
+    },
+    "colores": [
+      "Azul"
+    ]
+  },
+  "yamaha|XTZ 250 ABS": {
+    "tipo": "On-Off / trail",
+    "descripcion": "Diseñada para salir del pavimento, la Yamaha XTZ 250 ABS (250cc) combina altura al piso, buena autonomía y un andar firme en terreno irregular. Una compañera para escapadas y caminos rurales.",
+    "specs": {},
+    "colores": [
+      "Azul",
+      "Rojo"
+    ]
+  },
+  "yamaha|MT03": {
+    "tipo": "Street / naked",
+    "descripcion": "La Yamaha MT03 (350cc) se mueve con soltura en el tránsito y mantiene buen ritmo fuera de la ciudad. Diseño deportivo, posición de manejo natural y un equipamiento acorde a la categoría.",
+    "specs": {},
+    "colores": [
+      "Azul",
+      "Gris"
+    ]
+  },
+  "yamaha|FZ25": {
+    "tipo": "Street / naked",
+    "descripcion": "La Yamaha FZ25 (250cc) se mueve con soltura en el tránsito y mantiene buen ritmo fuera de la ciudad. Diseño deportivo, posición de manejo natural y un equipamiento acorde a la categoría.",
+    "specs": {},
+    "colores": [
+      "Azul",
+      "Blanco",
+      "Rojo"
+    ]
+  },
+  "yamaha|Ray ZR 125 FI": {
+    "tipo": "Scooter",
+    "descripcion": "La Yamaha Ray ZR 125 FI combina la agilidad de un scooter 125cc con detalles de equipamiento moderno. Una moto cómoda para el día a día, con la ventaja de un manejo simple y directo.",
+    "specs": {},
+    "colores": [
+      "Azul",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "yamaha|NM-X Connected 150": {
+    "tipo": "Scooter",
+    "descripcion": "Ágil en el tránsito y fácil de estacionar, la Yamaha NM-X Connected 150 (150cc) es una opción urbana que prioriza confort y practicidad. Su formato scooter la vuelve accesible para quienes recién arrancan.",
+    "specs": {},
+    "colores": [
+      "Blanco",
+      "Gris",
+      "Negro"
+    ]
+  },
+  "zanella|ZB 110 LT Base": {
+    "tipo": "Cub / utilitaria",
+    "descripcion": "Con su formato de cub y motor de 110cc, la Zanella ZB 110 LT Base combina economía y agilidad. Es la opción clásica para quien necesita una moto liviana, durable y fácil de manejar en el tránsito urbano.",
+    "specs": {},
+    "colores": [
+      "Azul",
+      "Gris",
+      "Rojo"
+    ]
+  },
+  "zanella|ZB 110 RTFull": {
+    "tipo": "Cub / utilitaria",
+    "descripcion": "La Zanella ZB 110 RTFull (110cc) apunta a la movilidad de todos los días: arranque simple, mantenimiento accesible y un andar ágil en calles y avenidas. Ideal como primera moto o como reemplazo del auto en trayectos cortos.",
+    "specs": {},
+    "colores": [
+      "Azul",
+      "Gris",
+      "Rojo"
+    ]
+  },
+  "zanella|ZB 125 R Tunning": {
+    "tipo": "Cub / utilitaria",
+    "descripcion": "Con su formato de cub y motor de 125cc, la Zanella ZB 125 R Tunning combina economía y agilidad. Es la opción clásica para quien necesita una moto liviana, durable y fácil de manejar en el tránsito urbano.",
+    "specs": {},
+    "colores": [
+      "Azul",
+      "Gris",
+      "Rojo"
+    ]
+  },
+  "zanella|ZR 200 OHC": {
+    "tipo": "Street / naked",
+    "descripcion": "La Zanella ZR 200 OHC es una street de 200cc con postura erguida y respuesta ágil. Un equilibrio entre prestaciones y practicidad para el uso urbano y las salidas de fin de semana.",
+    "specs": {},
+    "colores": [
+      "Azul",
+      "Rojo"
+    ]
+  },
+  "zanella|ZR 250 OHC": {
+    "tipo": "Street / naked",
+    "descripcion": "La Zanella ZR 250 OHC (200cc) se mueve con soltura en el tránsito y mantiene buen ritmo fuera de la ciudad. Diseño deportivo, posición de manejo natural y un equipamiento acorde a la categoría.",
+    "specs": {},
+    "colores": [
+      "Azul",
+      "Blanco",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "zanella|Ceccato X 250": {
+    "tipo": "Custom / clásica",
+    "descripcion": "Estilo clásico y motor de 250cc definen a la Zanella Ceccato X 250. Una moto para viajar cómodo, con detalles cuidados y una conducción relajada.",
+    "specs": {},
+    "colores": [
+      "Gris",
+      "Negro"
+    ]
+  },
+  "zanella|ZB 110 Z3 Full": {
+    "tipo": "Cub / utilitaria",
+    "descripcion": "La Zanella ZB 110 Z3 Full es una cub de 110cc pensada para el uso diario: posición de manejo cómoda, bajo consumo y mantenimiento simple. Una compañera práctica para moverte por la ciudad y hacer trámites sin complicaciones.",
+    "specs": {
+      "Motor": "Monocilíndrico 4T",
+      "Cilindrada": "110 cc",
+      "Transmisión": "Manual",
+      "Arranque": "Eléctrico y pedal",
+      "Capacidad de tanque": "3,2 litros",
+      "Llantas": "Aleación"
+    },
+    "colores": [
+      "Azul",
+      "Blanco",
+      "Gris",
+      "Rojo"
+    ]
+  },
+  "zanella|ZB 110 Z3 ST": {
+    "tipo": "Cub / utilitaria",
+    "descripcion": "Con su formato de cub y motor de 110cc, la Zanella ZB 110 Z3 ST combina economía y agilidad. Es la opción clásica para quien necesita una moto liviana, durable y fácil de manejar en el tránsito urbano.",
+    "specs": {},
+    "colores": [
+      "Azul",
+      "Blanco",
+      "Gris",
+      "Rojo"
+    ]
+  },
+  "zanella|ZB 125 Z3 Sport": {
+    "tipo": "Cub / utilitaria",
+    "descripcion": "Con su formato de cub y motor de 125cc, la Zanella ZB 125 Z3 Sport combina economía y agilidad. Es la opción clásica para quien necesita una moto liviana, durable y fácil de manejar en el tránsito urbano.",
+    "specs": {
+      "Motor": "Monocilíndrico 4T",
+      "Cilindrada": "125 cc",
+      "Transmisión": "Manual",
+      "Arranque": "Eléctrico y pedal",
+      "Capacidad de tanque": "3,2 litros",
+      "Llantas": "Aleación"
+    },
+    "colores": [
+      "Blanco",
+      "Negro",
+      "Verde"
+    ]
+  },
+  "zanella|ZR 150 OHC": {
+    "tipo": "Street / naked",
+    "descripcion": "Con estética naked y motor de 150cc, la Zanella ZR 150 OHC ofrece una conducción divertida y previsible. Es una moto versátil, cómoda para la ciudad y con resto para la ruta corta.",
+    "specs": {},
+    "colores": [
+      "Blanco",
+      "Gris",
+      "Rojo"
+    ]
+  },
+  "zanella|RX 150 Z7 Full": {
+    "tipo": "Street / naked",
+    "descripcion": "Con estética naked y motor de 150cc, la Zanella RX 150 Z7 Full ofrece una conducción divertida y previsible. Es una moto versátil, cómoda para la ciudad y con resto para la ruta corta.",
+    "specs": {},
+    "colores": [
+      "Blanco",
+      "Gris",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "zanella|RX 150 Z7 ST Base": {
+    "tipo": "Street / naked",
+    "descripcion": "La Zanella RX 150 Z7 ST Base (150cc) se mueve con soltura en el tránsito y mantiene buen ritmo fuera de la ciudad. Diseño deportivo, posición de manejo natural y un equipamiento acorde a la categoría.",
+    "specs": {},
+    "colores": [
+      "Blanco",
+      "Gris",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "zanella|Sapucai 150 Z3 F": {
+    "tipo": "Scooter",
+    "descripcion": "La Zanella Sapucai 150 Z3 F es un scooter de 150cc con manejo automático y posición relajada. Pensado para la ciudad, ofrece practicidad, espacio de guardado y la comodidad de no estar cambiando marchas.",
+    "specs": {},
+    "colores": [
+      "Azul",
+      "Rojo",
+      "Verde"
+    ]
+  },
+  "zanella|Styler 150 Exclusive": {
+    "tipo": "Scooter",
+    "descripcion": "La Zanella Styler 150 Exclusive es un scooter de 150cc con manejo automático y posición relajada. Pensado para la ciudad, ofrece practicidad, espacio de guardado y la comodidad de no estar cambiando marchas.",
+    "specs": {},
+    "colores": [
+      "Blanco",
+      "Celeste",
+      "Verde"
+    ]
+  },
+  "zanella|Styler 150 Exclusive Edizione": {
+    "tipo": "Scooter",
+    "descripcion": "La Zanella Styler 150 Exclusive Edizione es un scooter de 150cc con manejo automático y posición relajada. Pensado para la ciudad, ofrece practicidad, espacio de guardado y la comodidad de no estar cambiando marchas.",
+    "specs": {},
+    "colores": [
+      "Azul",
+      "Negro",
+      "Rojo"
+    ]
+  },
+  "zanella|ZT 150": {
+    "tipo": "Street / naked",
+    "descripcion": "La Zanella ZT 150 (150cc) se mueve con soltura en el tránsito y mantiene buen ritmo fuera de la ciudad. Diseño deportivo, posición de manejo natural y un equipamiento acorde a la categoría.",
+    "specs": {},
+    "colores": [
+      "Azul",
+      "Blanco",
+      "Rojo"
+    ]
+  },
+  "zanella|Ceccato 60": {
+    "tipo": "Cub / utilitaria",
+    "descripcion": "La Zanella Ceccato 60 (60cc) apunta a la movilidad de todos los días: arranque simple, mantenimiento accesible y un andar ágil en calles y avenidas. Ideal como primera moto o como reemplazo del auto en trayectos cortos.",
+    "specs": {},
+    "colores": [
+      "Negro"
+    ]
+  },
+  "zanella|Ceccato Andina 300": {
+    "tipo": "On-Off / trail",
+    "descripcion": "La Zanella Ceccato Andina 300 es una trail de 300cc que se siente cómoda tanto en asfalto como en caminos de tierra. Suspensión de mayor recorrido, posición elevada y la robustez que pide el uso mixto.",
+    "specs": {},
+    "colores": [
+      "Azul",
+      "Gris",
+      "Silver",
+      "Verde"
+    ]
+  },
+  "zanella|Patagonian 150 ST": {
+    "tipo": "Custom / clásica",
+    "descripcion": "Estilo clásico y motor de 150cc definen a la Zanella Patagonian 150 ST. Una moto para viajar cómodo, con detalles cuidados y una conducción relajada.",
+    "specs": {},
+    "colores": [
+      "Negro"
+    ]
+  }
+}

@@ -35,7 +35,8 @@ daytona-motos/
 ├── js/
 │   └── main.js            # JavaScript principal
 ├── data/
-│   └── motos.json         # Datos de motocicletas
+│   ├── motos.json         # Datos de motocicletas
+│   └── fichas.json        # Descripción y ficha técnica por modelo
 ├── images/                # Imágenes del slider hero
 ├── logo/
 │   └── logo-daytona.svg   # Logo vectorial
