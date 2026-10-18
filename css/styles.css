@@ -2376,6 +2376,7 @@ body.menu-open {
   position: relative;
   display: grid;
   grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
+  grid-template-rows: minmax(0, 1fr);
   width: min(980px, 100%);
   max-height: 90vh;
   background: var(--bg-primary);
@@ -2390,6 +2391,7 @@ body.menu-open {
   display: flex;
   align-items: center;
   justify-content: center;
+  min-height: 0;
   padding: 2rem;
   background: var(--bg-secondary);
   border-right: 1px solid rgba(198, 40, 40, 0.15);
@@ -2407,8 +2409,10 @@ body.menu-open {
 .ficha-body {
   display: flex;
   flex-direction: column;
+  min-height: 0;
   padding: 2.25rem 2rem;
   overflow-y: auto;
+  overscroll-behavior: contain;
 }
 
 .ficha-brand {
@@ -2459,8 +2463,8 @@ body.menu-open {
 
 .ficha-specs {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0.75rem 1rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.6rem 0.75rem;
   margin-bottom: 1.5rem;
 }
 
@@ -2539,7 +2543,10 @@ body.menu-open {
   flex-wrap: wrap;
   gap: 0.75rem;
   margin-top: auto;
-  padding-top: 1rem;
+  padding: 0.75rem 0 0.5rem;
+  position: sticky;
+  bottom: 0;
+  background: var(--bg-primary);
 }
 
 .ficha-cta {
@@ -2638,6 +2645,7 @@ body.menu-open {
 
   .ficha-modal-content {
     grid-template-columns: 1fr;
+    grid-template-rows: auto minmax(0, 1fr);
     max-height: 94vh;
     border-radius: var(--border-radius) var(--border-radius) 0 0;
   }

@@ -705,25 +705,49 @@
   "honda|NAVI": {
     "tipo": "Street / naked",
     "descripcion": "La Honda NAVI (110cc) se mueve con soltura en el tránsito y mantiene buen ritmo fuera de la ciudad. Diseño deportivo, posición de manejo natural y un equipamiento acorde a la categoría.",
-    "specs": {},
+    "specs": {
+      "Motor": "4 tiempos, 2 válvulas, monocilíndrico, OHC y refrigerado por aire",
+      "Cilindrada": "109 cc",
+      "Alimentación": "Carburador",
+      "Transmisión": "Automática, tipo V-Matic",
+      "Arranque": "Eléctrico y a patada",
+      "Frenos": "Tambor de 130 mm / Tambor de 130 mm, CBS",
+      "Suspensión": "Horquilla telescópica, 89 mm de recorrido / Mono-amortiguador, 70 mm de recorrido",
+      "Peso": "104 kg",
+      "Tanque": "3.5 litros",
+      "Altura del asiento": "762 mm"
+    },
     "colores": [
       "Blanco",
       "Negro",
       "Rojo",
       "Rosa",
       "Verde"
-    ]
+    ],
+    "fuente": "Honda Argentina (ficha oficial PDF)"
   },
   "honda|WAVE 110 BASE": {
     "tipo": "Cub / utilitaria",
     "descripcion": "La Honda WAVE 110 BASE (110cc) apunta a la movilidad de todos los días: arranque simple, mantenimiento accesible y un andar ágil en calles y avenidas. Ideal como primera moto o como reemplazo del auto en trayectos cortos.",
-    "specs": {},
+    "specs": {
+      "Motor": "4 tiempos, 2 válvulas, monocilíndrico, OHC y refrigerado por aire",
+      "Cilindrada": "109 cc",
+      "Alimentación": "Carbur ador",
+      "Transmisión": "Cadena, 4 velocidades",
+      "Arranque": "Elé ctrico",
+      "Frenos": "Disco de 220 mm / Tambor de 110 mm, CBS",
+      "Suspensión": "Horquilla telescópica, 81 mm de recorrido / Doble amortiguador hidráulico, 81mm de recorrido",
+      "Peso": "102 Kg",
+      "Tanque": "3,7 litros",
+      "Altura del asiento": "763 mm"
+    },
     "colores": [
       "Blanco",
       "Gris",
       "Negro",
       "Rojo"
-    ]
+    ],
+    "fuente": "Honda Argentina (ficha oficial PDF)"
   },
   "honda|WAVE 110 CD FULL": {
     "tipo": "Cub / utilitaria",
@@ -739,181 +763,352 @@
   "honda|ELITE": {
     "tipo": "Scooter",
     "descripcion": "La Honda ELITE combina la agilidad de un scooter 125cc con detalles de equipamiento moderno. Una moto cómoda para el día a día, con la ventaja de un manejo simple y directo.",
-    "specs": {},
+    "specs": {
+      "Motor": "4 tiempos, 2 válvulas, monocilíndrico, OHC y refrigerado por aire",
+      "Cilindrada": "124 cc",
+      "Alimentación": "Sistema de inyección programada de combustible (PGM-FI)",
+      "Transmisión": "Automática, tipo V-matic",
+      "Arranque": "Eléctrico",
+      "Frenos": "Disco de 190mm / Tambor de 130mm, CBS",
+      "Suspensión": "Horquilla telescópica, 80mm de recorrido / Mono-amortiguador, 70mm de recorrido",
+      "Peso": "104 kg",
+      "Tanque": "5.3 litros",
+      "Altura del asiento": "765 mm"
+    },
     "colores": [
       "Azul",
       "Gris",
       "Rojo"
-    ]
+    ],
+    "fuente": "Honda Argentina (ficha oficial PDF)"
   },
   "honda|CBF 125F TWISTER": {
     "tipo": "Street / naked",
     "descripcion": "Con estética naked y motor de 125cc, la Honda CBF 125F TWISTER ofrece una conducción divertida y previsible. Es una moto versátil, cómoda para la ciudad y con resto para la ruta corta.",
-    "specs": {},
+    "specs": {
+      "Motor": "Monocilíndrico, 4 tiempos, 2 válvulas, OHC y refrigerado por aire",
+      "Cilindrada": "124,80 cc",
+      "Alimentación": "Carburador",
+      "Transmisión": "4 velocidades",
+      "Arranque": "Eléctrico",
+      "Frenos": "Disco hidráulico perforado / 240 mm / A tambor / 130 mm",
+      "Suspensión": "Horquilla telescópica / 116 mm / Basculante con doble amortiguador hidráulico y resorte",
+      "Peso": "117 kg",
+      "Tanque": "10,1 litros",
+      "Altura del asiento": "781 mm"
+    },
     "colores": [
       "Azul",
       "Negro",
       "Rojo"
-    ]
+    ],
+    "fuente": "Honda Argentina (ficha oficial PDF)"
   },
   "honda|GLH 150": {
     "tipo": "Street / naked",
     "descripcion": "La Honda GLH 150 (150cc) se mueve con soltura en el tránsito y mantiene buen ritmo fuera de la ciudad. Diseño deportivo, posición de manejo natural y un equipamiento acorde a la categoría.",
-    "specs": {},
+    "specs": {
+      "Motor": "4 tiempos, 2 válvulas, monocilíndrico, OHC y refrigerado por aire",
+      "Cilindrada": "149 cc",
+      "Alimentación": "Inyección Electrónica",
+      "Transmisión": "Cadena, 5 velocidades",
+      "Arranque": "Eléctrico",
+      "Frenos": "Disco de 240 mm / Tambor de 130 mm, CBS",
+      "Suspensión": "Horquilla telescopica, 107 mm de recorrido / Doble amortiguador hidráulico, 91mm de recorrido",
+      "Peso": "129 kg",
+      "Tanque": "12.7 litros",
+      "Altura del asiento": "757 mm"
+    },
     "colores": [
       "Gris",
       "Negro-Rojo"
-    ]
+    ],
+    "fuente": "Honda Argentina (ficha oficial PDF)"
   },
   "honda|XR 150L": {
     "tipo": "On-Off / trail",
     "descripcion": "La Honda XR 150L propone un uso on-off real: motor de 150cc, geometría de trail y protección para el viaje. Práctica en la ciudad y capaz en la tierra.",
-    "specs": {},
+    "specs": {
+      "Motor": "4 tiempos, 2 válvulas, monocilíndrico, OHC y refrigerado por aire",
+      "Cilindrada": "149 cc",
+      "Alimentación": "Carburador",
+      "Transmisión": "Cadena, 5 velocidades",
+      "Arranque": "Eléctrico y a patada",
+      "Frenos": "Disco de 240mm, ABS / Tambor de 110mm",
+      "Suspensión": "Horquilla telescópica, 160mm de recorrido / Monoshock, 149mm de recorrido",
+      "Peso": "131 kg",
+      "Tanque": "12 litros",
+      "Altura del asiento": "834 mm"
+    },
     "colores": [
       "Blanco",
       "Negro",
       "Rojo"
-    ]
+    ],
+    "fuente": "Honda Argentina (ficha oficial PDF)"
   },
   "honda|PCX 160": {
     "tipo": "Scooter",
     "descripcion": "Ágil en el tránsito y fácil de estacionar, la Honda PCX 160 (160cc) es una opción urbana que prioriza confort y practicidad. Su formato scooter la vuelve accesible para quienes recién arrancan.",
-    "specs": {},
+    "specs": {
+      "Motor": "4 tiempos, 4 válvulas, monocilíndrico, OHC y refrigerado por líquido",
+      "Cilindrada": "157 cc",
+      "Alimentación": "Sistema de inyección programada de combustible (PGM-FI)",
+      "Transmisión": "Automática, tipo V-Matic",
+      "Arranque": "Eléctrico",
+      "Frenos": "Disco de 220mm, ABS / Disco de 220mm",
+      "Suspensión": "Horquilla telescópica Showa, 89mm de recorrido / Doble amortiguador hidráulico Showa, 95mm de recorrido",
+      "Peso": "133 kg",
+      "Tanque": "8 Litros",
+      "Altura del asiento": "764 mm"
+    },
     "colores": [
       "Blanco",
       "Deluxe",
       "Gris"
-    ]
+    ],
+    "fuente": "Honda Argentina (ficha oficial PDF)"
   },
   "honda|XR 190L": {
     "tipo": "On-Off / trail",
     "descripcion": "La Honda XR 190L es una trail de 190cc que se siente cómoda tanto en asfalto como en caminos de tierra. Suspensión de mayor recorrido, posición elevada y la robustez que pide el uso mixto.",
-    "specs": {},
+    "specs": {
+      "Motor": "4 tiempos, 2 válvulas, monocilíndrico, OHC y refrigerado por aire",
+      "Cilindrada": "184 cc",
+      "Alimentación": "Inyección electrónica",
+      "Transmisión": "Cadena, 5 velocidades",
+      "Arranque": "Eléctrico y a patada",
+      "Frenos": "Disco de 240mm, ABS / Disco de 220mm",
+      "Suspensión": "Horquilla telescópica, 162mm de recorrido / Monoshock, 147mm de recorrido",
+      "Peso": "135 kg",
+      "Tanque": "12 litros",
+      "Altura del asiento": "835 mm"
+    },
     "colores": [
       "Beige",
       "Blanco",
       "Rojo"
-    ]
+    ],
+    "fuente": "Honda Argentina (ficha oficial PDF)"
   },
   "honda|XR 300L TORNADO": {
     "tipo": "On-Off / trail",
     "descripcion": "La Honda XR 300L TORNADO propone un uso on-off real: motor de 300cc, geometría de trail y protección para el viaje. Práctica en la ciudad y capaz en la tierra.",
-    "specs": {},
+    "specs": {
+      "Motor": "4 tiempos, 4 válvulas, monocilíndrico, OHC y refrigerado por aire y aceite",
+      "Cilindrada": "294 cc",
+      "Alimentación": "Sistema de inyección programada de combustible (PGM-FI)",
+      "Transmisión": "Cadena, 6 velocidades",
+      "Arranque": "Eléctrico",
+      "Frenos": "Disco de 256mm, pinza Nissin de 2 pistones, ABS / Disco de 220mm, pinza Nissin de pistón simple, ABS",
+      "Suspensión": "Horquilla telescópica Showa, 221mm de recorrido / Monoshock Pro-Link Showa, 227mm de recorrido",
+      "Peso": "153 kg",
+      "Tanque": "13.8 litros",
+      "Altura del asiento": "890 mm"
+    },
     "colores": [
       "Blanco",
       "Gris",
       "Rojo"
-    ]
+    ],
+    "fuente": "Honda Argentina (ficha oficial PDF)"
   },
   "honda|CB 300F TWISTER": {
     "tipo": "Street / naked",
     "descripcion": "Con estética naked y motor de 300cc, la Honda CB 300F TWISTER ofrece una conducción divertida y previsible. Es una moto versátil, cómoda para la ciudad y con resto para la ruta corta.",
-    "specs": {},
+    "specs": {
+      "Motor": "4 tiempos, 4 válvulas, monocilíndrico, OHC y refrigerado por aire",
+      "Cilindrada": "294 cc",
+      "Alimentación": "Sistema de inyección programada de combustible (PGM-FI)",
+      "Transmisión": "Cadena, 6 velocidades, embrague anti-rebote",
+      "Arranque": "Eléctrico",
+      "Frenos": "Disco de 276mm, pinza Nissin de 2 pistones, ABS / Disco de 220mm, pinza Nissin de pistón simple, ABS",
+      "Suspensión": "Horquilla invertida Showa, 118mm de recorrido / Monoshock Showa, 120mm de recorrido",
+      "Peso": "151 kg",
+      "Tanque": "14.1 litros",
+      "Altura del asiento": "789 mm"
+    },
     "colores": [
       "Amarillo",
       "Azul",
       "Gris",
       "Rojo"
-    ]
+    ],
+    "fuente": "Honda Argentina (ficha oficial PDF)"
   },
   "honda|CB 350 H´NESS": {
     "tipo": "Custom / clásica",
     "descripcion": "La Honda CB 350 H´NESS es una custom de 350cc con postura descontracturada y estética clásica. Pensada para disfrutar del camino sin apuro, con presencia y comodidad a la vista.",
-    "specs": {},
+    "specs": {
+      "Motor": "4 tiempos, 2 válvulas, monocilíndrico, OHC y refrigerado por aire",
+      "Cilindrada": "348,4 cc",
+      "Alimentación": "Sistema de inyección programada de combustible (PGM-FI)",
+      "Transmisión": "Cadena, 5 velocidades, embrague anti-rebote",
+      "Arranque": "Eléctrico",
+      "Frenos": "Disco de 310mm, pinza Nissin de 2 pistones, ABS / Disco de 240mm, pinza Nissin de pistón simple, ABS",
+      "Suspensión": "Horquilla telescopica Showa, 106mm de recorrido / Doble amortiguador Showa, 120mm de recorrido",
+      "Peso": "181 kg",
+      "Tanque": "15.0 litros",
+      "Altura del asiento": "800 mm"
+    },
     "colores": [
       "Negro",
       "Rojo",
       "Verde"
-    ]
+    ],
+    "fuente": "Honda Argentina (ficha oficial PDF)"
   },
   "honda|Biz 110": {
     "tipo": "Cub / utilitaria",
     "descripcion": "La Honda Biz 110 es una cub de 110cc pensada para el uso diario: posición de manejo cómoda, bajo consumo y mantenimiento simple. Una compañera práctica para moverte por la ciudad y hacer trámites sin complicaciones.",
     "specs": {
       "Motor": "4 tiempos, 2 válvulas, monocilíndrico, OHC y refrigerado por aire",
-      "Cilindrada": "110 cc",
+      "Cilindrada": "109 cc",
+      "Alimentación": "Inyección electronica (PGM-FI)",
       "Transmisión": "Cadena, 4 velocidades",
       "Arranque": "Eléctrico",
-      "Capacidad de tanque": "5 litros",
-      "Llantas": "Aleación"
+      "Frenos": "Disco de 220mm / Tambor de 130mm, CBS",
+      "Suspensión": "Horquilla telescópica, 89 mm de recorrido / Doble amortiguador hidráulico, 86 mm de recorrido",
+      "Peso": "99 kg",
+      "Tanque": "5 litros",
+      "Altura del asiento": "750 mm"
     },
     "colores": [
       "Azul",
       "Blanco",
       "Gris",
       "Rojo"
-    ]
+    ],
+    "fuente": "Honda Argentina (ficha oficial PDF)"
   },
   "honda|CB 190": {
     "tipo": "Street / naked",
     "descripcion": "Con estética naked y motor de 190cc, la Honda CB 190 ofrece una conducción divertida y previsible. Es una moto versátil, cómoda para la ciudad y con resto para la ruta corta.",
     "specs": {
       "Motor": "4 tiempos, 2 válvulas, monocilíndrico, OHC y refrigerado por aire",
-      "Cilindrada": "190 cc",
-      "Transmisión": "5 velocidades",
+      "Cilindrada": "184 cc",
+      "Alimentación": "Sistema de inyección programada de combustible (PGM-FI)",
+      "Transmisión": "Cadena, 5 velocidades, embrague anti-rebote.",
       "Arranque": "Eléctrico",
-      "Capacidad de tanque": "12 litros",
-      "Llantas": "Aleación"
+      "Frenos": "Disco de 276mm, pinza Nissin de 2 pistones, ABS / Disco de 220mm, pinza Nissin de pistón simple, ABS",
+      "Suspensión": "Horquilla invertida Showa, 118mm de recorrido / Monoshock Showa, 115mm de recorrido",
+      "Peso": "141 kg",
+      "Tanque": "12 litros",
+      "Altura del asiento": "796 mm"
     },
     "colores": [
       "Negro",
       "Rojo"
-    ]
+    ],
+    "fuente": "Honda Argentina (ficha oficial PDF)"
   },
   "honda|CB 500 Hornet": {
     "tipo": "Street / naked",
     "descripcion": "Con estética naked y motor de 500cc, la Honda CB 500 Hornet ofrece una conducción divertida y previsible. Es una moto versátil, cómoda para la ciudad y con resto para la ruta corta.",
-    "specs": {},
+    "specs": {
+      "Motor": "4 tiempos, 8 válvulas, bicilíndrico, DOHC y refrigerado por líquido",
+      "Cilindrada": "471 cc",
+      "Alimentación": "Sistema de inyección programada de combustible (PGM-FI)",
+      "Transmisión": "Cadena, 6 velocidades, embrague anti-rebote",
+      "Arranque": "Eléctrico",
+      "Frenos": "Doble disco de 296mm, pinza Nissin de 2 pistones, ABS / Disco de 240mm, pinza Nissin de pistón simple, ABS",
+      "Suspensión": "Horquilla invertida Showa, 108mm de recorrido / Monoshock Pro-Link Showa, 119mm de recorrido",
+      "Peso": "192 kg / 188 kg",
+      "Tanque": "17.1 litros",
+      "Altura del asiento": "789 mm"
+    },
     "colores": [
       "Blanco",
       "Negro",
       "Rojo"
-    ]
+    ],
+    "fuente": "Honda Argentina (ficha oficial PDF)"
   },
   "honda|CB 750 Hornet": {
     "tipo": "Street / naked",
     "descripcion": "La Honda CB 750 Hornet (750cc) se mueve con soltura en el tránsito y mantiene buen ritmo fuera de la ciudad. Diseño deportivo, posición de manejo natural y un equipamiento acorde a la categoría.",
-    "specs": {},
+    "specs": {
+      "Motor": "4 tiempos, 8 válvulas, bicilíndrico, OHC y refrigerado por líquido",
+      "Cilindrada": "755 cc",
+      "Alimentación": "Sistema de inyección programada de combustible (PGM-FI)",
+      "Transmisión": "Cadena, 6 velocidades, embrague anti-rebote",
+      "Arranque": "Eléctrico",
+      "Frenos": "Doble disco de 296mm, pinza Nissin de 2 pistones, ABS / Disco de 240mm, pinza Nissin de pistón simple, ABS",
+      "Suspensión": "Horquilla invertida Showa SFF-BP™ USD , 118mm de recorrido / Monoshock Pro-Link Showa, 130mm de recorrido",
+      "Peso": "196 kg / 190 kg",
+      "Tanque": "15.2 litros",
+      "Altura del asiento": "795 mm"
+    },
     "colores": [
       "Azul",
       "Blanco"
-    ]
+    ],
+    "fuente": "Honda Argentina (ficha oficial PDF)"
   },
   "honda|CB 750 Hornet E-Clutch": {
     "tipo": "Street / naked",
     "descripcion": "La Honda CB 750 Hornet E-Clutch es una street de 750cc con postura erguida y respuesta ágil. Un equilibrio entre prestaciones y practicidad para el uso urbano y las salidas de fin de semana.",
-    "specs": {},
+    "specs": {
+      "Motor": "4 tiempos, 8 válvulas, bicilíndrico, OHC y refrigerado por líquido",
+      "Cilindrada": "755 cc",
+      "Alimentación": "Sistema de inyección programada de combustible (PGM-FI)",
+      "Transmisión": "Cadena, 6 velocidades, embrague anti-rebote",
+      "Arranque": "Eléctrico",
+      "Frenos": "Doble disco de 296mm, pinza Nissin de 2 pistones, ABS / Disco de 240mm, pinza Nissin de pistón simple, ABS",
+      "Suspensión": "Horquilla invertida Showa SFF-BP™ USD , 118mm de recorrido / Monoshock Pro-Link Showa, 130mm de recorrido",
+      "Peso": "196 kg / 190 kg",
+      "Tanque": "15.2 litros",
+      "Altura del asiento": "795 mm"
+    },
     "colores": [
       "Amarillo",
       "Azul",
       "Gris"
-    ]
+    ],
+    "fuente": "Honda Argentina (ficha oficial PDF)"
   },
   "honda|NC 750X": {
     "tipo": "On-Off / trail",
     "descripcion": "Diseñada para salir del pavimento, la Honda NC 750X (750cc) combina altura al piso, buena autonomía y un andar firme en terreno irregular. Una compañera para escapadas y caminos rurales.",
-    "specs": {},
+    "specs": {
+      "Motor": "4 tiempos, 8 válvulas, bicilíndrico paralelo, OHC y refrigerado por líquido",
+      "Cilindrada": "745 cc",
+      "Alimentación": "Sistema de inyección programada de combustible (PGM-FI)",
+      "Transmisión": "Cadena, 6 velocidades, embrague anti-rebote",
+      "Arranque": "Eléctrico",
+      "Frenos": "Doble disco de 296mm, pinza Nissin de 2 pistones, ABS / Disco de 240mm, pinza de pistón simple, ABS",
+      "Suspensión": "Horquilla telescópica, 120mm de recorrido / Amortiguador Monoshock, basculante Pro-Link, 120mm de recorrido",
+      "Peso": "215 kg",
+      "Tanque": "14,1 Litros",
+      "Altura del asiento": "802 mm"
+    },
     "colores": [
       "Blanco",
       "Rojo",
       "Verde"
-    ]
+    ],
+    "fuente": "Honda Argentina (ficha oficial PDF)"
   },
   "honda|NX 190": {
     "tipo": "On-Off / trail",
     "descripcion": "Diseñada para salir del pavimento, la Honda NX 190 (190cc) combina altura al piso, buena autonomía y un andar firme en terreno irregular. Una compañera para escapadas y caminos rurales.",
     "specs": {
       "Motor": "4 tiempos, 2 válvulas, monocilíndrico, OHC y refrigerado por aire",
-      "Cilindrada": "190 cc",
-      "Transmisión": "Cadena, 5 velocidades, embrague anti-rebote",
+      "Cilindrada": "184 cc",
+      "Alimentación": "Sistema de inyección programada de combustible (PGM-FI)",
+      "Transmisión": "Cadena, 5 velocidades, embrague anti-rebote.",
       "Arranque": "Eléctrico",
-      "Capacidad de tanque": "12 litros",
-      "Llantas": "Aleación"
+      "Frenos": "Disco de 276mm, pinza Nissin de 2 pistones, ABS / Disco de 220mm, pinza Nissin de pistón simple, ABS",
+      "Suspensión": "Horquilla invertida Showa, 118mm de recorrido / Monoshock Showa, 115mm de recorrido",
+      "Peso": "147 kg",
+      "Tanque": "12 litros",
+      "Altura del asiento": "810 mm"
     },
     "colores": [
       "Negro",
       "Rojo"
-    ]
+    ],
+    "fuente": "Honda Argentina (ficha oficial PDF)"
   },
   "keller|keller cronos base": {
     "tipo": "Cub / utilitaria",
@@ -1869,41 +2064,81 @@
   "zanella|ZR 200 OHC": {
     "tipo": "Street / naked",
     "descripcion": "La Zanella ZR 200 OHC es una street de 200cc con postura erguida y respuesta ágil. Un equilibrio entre prestaciones y practicidad para el uso urbano y las salidas de fin de semana.",
-    "specs": {},
+    "specs": {
+      "Motor": "Monocilíndrico 4T OHC",
+      "Cilindrada": "198 cm3",
+      "Potencia": "14,5 hp",
+      "Transmisión": "Manual - 5 velocidades",
+      "Arranque": "Eléctrico y patada",
+      "Frenos": "Delantero a / Trasero a",
+      "Suspensión": "Del: Horquilla Telescópica Hidráulica / Tras: Mono Amortiguador Hidráulico",
+      "Peso": "110 kg",
+      "Tanque": "12 Lts",
+      "Llantas": "Rayos"
+    },
     "colores": [
       "Azul",
       "Rojo"
-    ]
+    ],
+    "fuente": "Zanella (ficha oficial PDF)"
   },
   "zanella|ZR 250 OHC": {
     "tipo": "Street / naked",
     "descripcion": "La Zanella ZR 250 OHC (200cc) se mueve con soltura en el tránsito y mantiene buen ritmo fuera de la ciudad. Diseño deportivo, posición de manejo natural y un equipamiento acorde a la categoría.",
-    "specs": {},
+    "specs": {
+      "Motor": "Monocilíndrico 4T OHC - Balanceado",
+      "Cilindrada": "249,9 cm3",
+      "Potencia": "19 hp",
+      "Transmisión": "Manual - 6 velocidades",
+      "Arranque": "Eléctrico",
+      "Frenos": "Delantero a / Trasero a",
+      "Suspensión": "Del: Horquilla Telescópica Hidráulica PROTECCIÓN DE MOTOR / Tras: Mono Amortiguador Hidráulico",
+      "Peso": "115 kg",
+      "Tanque": "12 Lts",
+      "Llantas": "Rayos"
+    },
     "colores": [
       "Azul",
       "Blanco",
       "Negro",
       "Rojo"
-    ]
+    ],
+    "fuente": "Zanella (ficha oficial PDF)"
   },
   "zanella|Ceccato X 250": {
     "tipo": "Custom / clásica",
     "descripcion": "Estilo clásico y motor de 250cc definen a la Zanella Ceccato X 250. Una moto para viajar cómodo, con detalles cuidados y una conducción relajada.",
-    "specs": {},
+    "specs": {
+      "Motor": "Monocilíndrico 4T",
+      "Cilindrada": "250 cm3",
+      "Potencia": "20 hp",
+      "Transmisión": "Manual, 6 velocidades",
+      "Arranque": "Eléctrico CDI",
+      "Frenos": "Delantero doble / Trasero a",
+      "Suspensión": "Del: Horquilla Telescópica invertida / Tras: Monoshock",
+      "Peso": "108 kg",
+      "Tanque": "12,5 Lts",
+      "Llantas": "Rayos"
+    },
     "colores": [
       "Gris",
       "Negro"
-    ]
+    ],
+    "fuente": "Zanella (ficha oficial PDF)"
   },
   "zanella|ZB 110 Z3 Full": {
     "tipo": "Cub / utilitaria",
     "descripcion": "La Zanella ZB 110 Z3 Full es una cub de 110cc pensada para el uso diario: posición de manejo cómoda, bajo consumo y mantenimiento simple. Una compañera práctica para moverte por la ciudad y hacer trámites sin complicaciones.",
     "specs": {
       "Motor": "Monocilíndrico 4T",
-      "Cilindrada": "110 cc",
+      "Cilindrada": "107 cm3",
+      "Potencia": "6,5 hp",
       "Transmisión": "Manual",
-      "Arranque": "Eléctrico y pedal",
-      "Capacidad de tanque": "3,2 litros",
+      "Arranque": "Eléctrico y patada",
+      "Frenos": "Delantero a / Trasero a tambor",
+      "Suspensión": "Del: Horquilla Telescópica Hidráulica / Tras: Doble Amortiguador Hidráulico",
+      "Peso": "91 kg",
+      "Tanque": "3,2 Lts",
       "Llantas": "Aleación"
     },
     "colores": [
@@ -1911,107 +2146,209 @@
       "Blanco",
       "Gris",
       "Rojo"
-    ]
+    ],
+    "fuente": "Zanella (ficha oficial PDF)"
   },
   "zanella|ZB 110 Z3 ST": {
     "tipo": "Cub / utilitaria",
     "descripcion": "Con su formato de cub y motor de 110cc, la Zanella ZB 110 Z3 ST combina economía y agilidad. Es la opción clásica para quien necesita una moto liviana, durable y fácil de manejar en el tránsito urbano.",
-    "specs": {},
+    "specs": {
+      "Motor": "Monocilíndrico 4T",
+      "Cilindrada": "107 cm3",
+      "Potencia": "6,5 hp",
+      "Transmisión": "Manual",
+      "Arranque": "Eléctrico y patada",
+      "Frenos": "Delantero a tambor / Trasero a tambor",
+      "Suspensión": "Del: Horquilla Telescópica Hidráulica PLÁSTICOS CON PROTECCIÓN UV / Tras: Doble Amortiguador Hidráulico",
+      "Peso": "88 kg",
+      "Tanque": "3,2 Lts",
+      "Llantas": "Rayos"
+    },
     "colores": [
       "Azul",
       "Blanco",
       "Gris",
       "Rojo"
-    ]
+    ],
+    "fuente": "Zanella (ficha oficial PDF)"
   },
   "zanella|ZB 125 Z3 Sport": {
     "tipo": "Cub / utilitaria",
     "descripcion": "Con su formato de cub y motor de 125cc, la Zanella ZB 125 Z3 Sport combina economía y agilidad. Es la opción clásica para quien necesita una moto liviana, durable y fácil de manejar en el tránsito urbano.",
     "specs": {
       "Motor": "Monocilíndrico 4T",
-      "Cilindrada": "125 cc",
+      "Cilindrada": "120 cm3",
+      "Potencia": "7,5 hp",
       "Transmisión": "Manual",
-      "Arranque": "Eléctrico y pedal",
-      "Capacidad de tanque": "3,2 litros",
+      "Arranque": "Eléctrico y patada",
+      "Frenos": "Delantero a / Trasero a tambor",
+      "Suspensión": "Del: Horquilla Telescópica Hidráulica / Tras: Doble Amortiguador Hidráulico",
+      "Peso": "93 kg",
+      "Tanque": "3,2 Lts",
       "Llantas": "Aleación"
     },
     "colores": [
       "Blanco",
       "Negro",
       "Verde"
-    ]
+    ],
+    "fuente": "Zanella (ficha oficial PDF)"
   },
   "zanella|ZR 150 OHC": {
     "tipo": "Street / naked",
     "descripcion": "Con estética naked y motor de 150cc, la Zanella ZR 150 OHC ofrece una conducción divertida y previsible. Es una moto versátil, cómoda para la ciudad y con resto para la ruta corta.",
-    "specs": {},
+    "specs": {
+      "Motor": "Monocilíndrico 4T OHC",
+      "Cilindrada": "149 cm3",
+      "Potencia": "11,5 hp",
+      "Transmisión": "Manual - 5 velocidades",
+      "Arranque": "Eléctrico y patada",
+      "Frenos": "Delantero a / Trasero a tambor",
+      "Suspensión": "Del: Horquilla Telescópica Hidráulica / Tras: Mono Amortiguador Hidráulico",
+      "Peso": "110 kg",
+      "Tanque": "12 Lts",
+      "Llantas": "Rayos"
+    },
     "colores": [
       "Blanco",
       "Gris",
       "Rojo"
-    ]
+    ],
+    "fuente": "Zanella (ficha oficial PDF)"
   },
   "zanella|RX 150 Z7 Full": {
     "tipo": "Street / naked",
     "descripcion": "Con estética naked y motor de 150cc, la Zanella RX 150 Z7 Full ofrece una conducción divertida y previsible. Es una moto versátil, cómoda para la ciudad y con resto para la ruta corta.",
-    "specs": {},
+    "specs": {
+      "Motor": "Monocilíndrico 4T",
+      "Cilindrada": "149 cm3",
+      "Potencia": "12,7 hp",
+      "Transmisión": "5 velocidades",
+      "Arranque": "Eléctrico y patada",
+      "Frenos": "Delantero a / Trasero a tambor",
+      "Suspensión": "Del: Horquilla Telescópica Hidráulica / Tras: Doble Amortiguador Hidráulico",
+      "Peso": "109 kg",
+      "Tanque": "12 Lts",
+      "Llantas": "Aleación"
+    },
     "colores": [
       "Blanco",
       "Gris",
       "Negro",
       "Rojo"
-    ]
+    ],
+    "fuente": "Zanella (ficha oficial PDF)"
   },
   "zanella|RX 150 Z7 ST Base": {
     "tipo": "Street / naked",
     "descripcion": "La Zanella RX 150 Z7 ST Base (150cc) se mueve con soltura en el tránsito y mantiene buen ritmo fuera de la ciudad. Diseño deportivo, posición de manejo natural y un equipamiento acorde a la categoría.",
-    "specs": {},
+    "specs": {
+      "Motor": "Monocilíndrico 4T",
+      "Cilindrada": "149 cm3",
+      "Potencia": "12,7 hp",
+      "Transmisión": "5 velocidades",
+      "Arranque": "Eléctrico y patada",
+      "Frenos": "Delantero a tambor / Trasero a tambor",
+      "Suspensión": "Del: Horquilla Telescópica Hidráulica / Tras: Doble Amortiguador Hidráulico",
+      "Peso": "109 kg",
+      "Tanque": "12 Lts",
+      "Llantas": "Rayos"
+    },
     "colores": [
       "Blanco",
       "Gris",
       "Negro",
       "Rojo"
-    ]
+    ],
+    "fuente": "Zanella (ficha oficial PDF)"
   },
   "zanella|Sapucai 150 Z3 F": {
     "tipo": "Scooter",
     "descripcion": "La Zanella Sapucai 150 Z3 F es un scooter de 150cc con manejo automático y posición relajada. Pensado para la ciudad, ofrece practicidad, espacio de guardado y la comodidad de no estar cambiando marchas.",
-    "specs": {},
+    "specs": {
+      "Motor": "Monocilíndrico 4T",
+      "Cilindrada": "149 cm3",
+      "Potencia": "12 hp",
+      "Transmisión": "Manual - 5 velocidades",
+      "Arranque": "Eléctrico y patada",
+      "Frenos": "Delantero a tambor / Trasero a tambor",
+      "Suspensión": "Del: Horquilla Telescópica Hidráulica / Tras: Doble Amortiguador Hidráulico",
+      "Peso": "96 kg",
+      "Tanque": "8,4 Lts",
+      "Llantas": "Rayos"
+    },
     "colores": [
       "Azul",
       "Rojo",
       "Verde"
-    ]
+    ],
+    "fuente": "Zanella (ficha oficial PDF)"
   },
   "zanella|Styler 150 Exclusive": {
     "tipo": "Scooter",
     "descripcion": "La Zanella Styler 150 Exclusive es un scooter de 150cc con manejo automático y posición relajada. Pensado para la ciudad, ofrece practicidad, espacio de guardado y la comodidad de no estar cambiando marchas.",
-    "specs": {},
+    "specs": {
+      "Motor": "Monocilíndrico 4T",
+      "Cilindrada": "149,6 cm3",
+      "Potencia": "9 hp",
+      "Transmisión": "Automática V.AV.",
+      "Arranque": "Eléctrico y patada",
+      "Frenos": "Delantero / Trasero Tambor",
+      "Suspensión": "Del: Horquilla telescópica huidráulica / Tras: Doble amortiguador hidráulico",
+      "Peso": "102 kg",
+      "Tanque": "5,5 Lts",
+      "Llantas": "Aleación"
+    },
     "colores": [
       "Blanco",
       "Celeste",
       "Verde"
-    ]
+    ],
+    "fuente": "Zanella (ficha oficial PDF)"
   },
   "zanella|Styler 150 Exclusive Edizione": {
     "tipo": "Scooter",
     "descripcion": "La Zanella Styler 150 Exclusive Edizione es un scooter de 150cc con manejo automático y posición relajada. Pensado para la ciudad, ofrece practicidad, espacio de guardado y la comodidad de no estar cambiando marchas.",
-    "specs": {},
+    "specs": {
+      "Motor": "Monocilíndrico 4T",
+      "Cilindrada": "149,6 cm3",
+      "Potencia": "9 hp",
+      "Transmisión": "Automática V.AV.",
+      "Arranque": "Eléctrico y patada",
+      "Frenos": "Delantero / Trasero Tambor",
+      "Suspensión": "Del: Horquilla telescópica huidráulica / Tras: Doble amortiguador hidráulico",
+      "Peso": "102 kg",
+      "Tanque": "5,5 Lts",
+      "Llantas": "Aleación"
+    },
     "colores": [
       "Azul",
       "Negro",
       "Rojo"
-    ]
+    ],
+    "fuente": "Zanella (ficha oficial PDF)"
   },
   "zanella|ZT 150": {
     "tipo": "Street / naked",
     "descripcion": "La Zanella ZT 150 (150cc) se mueve con soltura en el tránsito y mantiene buen ritmo fuera de la ciudad. Diseño deportivo, posición de manejo natural y un equipamiento acorde a la categoría.",
-    "specs": {},
+    "specs": {
+      "Motor": "Monocilíndrico 4T OHC",
+      "Cilindrada": "149,9 cm3",
+      "Potencia": "11,5 hp",
+      "Transmisión": "5 velocidades",
+      "Arranque": "Eléctrico y patada",
+      "Frenos": "Delantero a / Trasero a tambor",
+      "Suspensión": "Del: Horquilla Telescópica Hidráulica / Tras: Mono Amortiguador Hidráulico",
+      "Peso": "120 kg",
+      "Tanque": "12 Lts",
+      "Llantas": "Rayos"
+    },
     "colores": [
       "Azul",
       "Blanco",
       "Rojo"
-    ]
+    ],
+    "fuente": "Zanella (ficha oficial PDF)"
   },
   "zanella|Ceccato 60": {
     "tipo": "Cub / utilitaria",
@@ -2035,9 +2372,21 @@
   "zanella|Patagonian 150 ST": {
     "tipo": "Custom / clásica",
     "descripcion": "Estilo clásico y motor de 150cc definen a la Zanella Patagonian 150 ST. Una moto para viajar cómodo, con detalles cuidados y una conducción relajada.",
-    "specs": {},
+    "specs": {
+      "Motor": "Monocilíndrico 4T",
+      "Cilindrada": "149 cm3",
+      "Potencia": "13 hp",
+      "Transmisión": "5 velocidades",
+      "Arranque": "Eléctrico y patada",
+      "Frenos": "Delantero a / Trasero a tambor",
+      "Suspensión": "Del: Horquilla Telescópica Hidráulica / Tras: Doble Amortiguador Hidráulico",
+      "Peso": "129 kg",
+      "Tanque": "11,5 Lts",
+      "Llantas": "Aleación"
+    },
     "colores": [
       "Negro"
-    ]
+    ],
+    "fuente": "Zanella (ficha oficial PDF)"
   }
 }
