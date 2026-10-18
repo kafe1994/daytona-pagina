@@ -834,10 +834,12 @@ body.menu-open {
   position: absolute;
   inset: 0;
   pointer-events: none;
-  background: linear-gradient(90deg,
-    rgba(8, 8, 8, 0.86) 0%,
-    rgba(8, 8, 8, 0.66) 45%,
-    rgba(8, 8, 8, 0.4) 100%);
+  background: linear-gradient(180deg,
+    rgba(8, 8, 8, 0.30) 0%,
+    rgba(8, 8, 8, 0.58) 26%,
+    rgba(8, 8, 8, 0.64) 50%,
+    rgba(8, 8, 8, 0.58) 74%,
+    rgba(8, 8, 8, 0.30) 100%);
 }
 
 .hero--marcas .hero-overlay {
