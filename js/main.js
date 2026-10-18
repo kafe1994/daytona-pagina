@@ -184,12 +184,26 @@ class DaytonaMotos {
     // funcione siempre (cruz, fondo y contenido que pueda quedar encima)
     const fichaModal = document.getElementById('ficha-modal');
 
-    fichaModal?.addEventListener('click', (e) => {
-      if (e.target.closest('.ficha-close') || e.target === fichaModal) {
-        e.preventDefault();
+    const cerrarSiCorresponde = (e) => {
+      const objetivo = e.target;
+      if (!objetivo || !objetivo.closest) return false;
+      if (objetivo.closest('.ficha-close, .close-alt') || objetivo === fichaModal) {
         this.closeFicha();
+        return true;
       }
+      return false;
+    };
+
+    fichaModal?.addEventListener('click', (e) => {
+      if (cerrarSiCorresponde(e)) e.preventDefault();
     });
+    // en móviles algunos navegadores no sintetizan el click: cerramos también con el toque
+    fichaModal?.addEventListener('pointerup', (e) => {
+      if (cerrarSiCorresponde(e)) e.preventDefault();
+    });
+    fichaModal?.addEventListener('touchend', (e) => {
+      cerrarSiCorresponde(e);
+    }, { passive: true });
 
     // Smooth scroll para enlaces internos
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
