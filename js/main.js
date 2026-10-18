@@ -242,6 +242,7 @@ class DaytonaMotos {
 
     // Mostrar primera slide
     slides[0]?.classList.add('active');
+    this.updateHeroTheme();
 
     // Auto-play
     this.slideInterval = setInterval(() => {
@@ -271,6 +272,7 @@ class DaytonaMotos {
     slides[this.currentSlide]?.classList.remove('active');
     this.currentSlide = (this.currentSlide + 1) % slides.length;
     slides[this.currentSlide]?.classList.add('active');
+    this.updateHeroTheme();
   }
 
   previousSlide() {
@@ -280,6 +282,16 @@ class DaytonaMotos {
     slides[this.currentSlide]?.classList.remove('active');
     this.currentSlide = this.currentSlide === 0 ? slides.length - 1 : this.currentSlide - 1;
     slides[this.currentSlide]?.classList.add('active');
+    this.updateHeroTheme();
+  }
+
+  // La diapositiva de marcas necesita un overlay más suave para que se lean los logos
+  updateHeroTheme() {
+    const hero = document.querySelector('.hero');
+    if (!hero) return;
+    const activa = document.querySelector('.hero-slide.active');
+    const esMarcas = !!(activa && activa.classList.contains('hero-slide--marcas'));
+    hero.classList.toggle('hero--marcas', esMarcas);
   }
 
   setupSwipeGestures(element) {

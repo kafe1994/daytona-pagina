@@ -817,6 +817,41 @@ body.menu-open {
     transparent 70%);
 }
 
+/* Diapositiva de marcas: mostrar la grilla completa sobre fondo rojo */
+.hero-slide--marcas img {
+  object-fit: contain;
+  background: var(--red-primary);
+}
+
+/* sin zoom ken-burns: recortaría los logos de los bordes */
+.hero-slide--marcas.active img {
+  transform: none;
+}
+
+/* velo oscuro dentro de la diapositiva: no afecta al texto ni a los botones */
+.hero-slide--marcas::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(90deg,
+    rgba(8, 8, 8, 0.86) 0%,
+    rgba(8, 8, 8, 0.66) 45%,
+    rgba(8, 8, 8, 0.4) 100%);
+}
+
+.hero--marcas .hero-overlay {
+  background: none;
+}
+
+/* en pantallas chicas la diapositiva se muestra completa sobre fondo rojo,
+   igual que el resto de los slides del hero */
+
+.hero--marcas .hero-title,
+.hero--marcas .hero-subtitle {
+  text-shadow: 0 4px 28px rgba(0, 0, 0, 0.75);
+}
+
 .hero-content {
   position: relative;
   z-index: 2;
