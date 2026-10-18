@@ -180,13 +180,15 @@ class DaytonaMotos {
     });
     ctaModalClose?.addEventListener('click', () => this.closeCTAModal());
 
-    // Modal ficha de modelo
+    // Modal ficha de modelo: delegación de eventos para que el cierre
+    // funcione siempre (cruz, fondo y contenido que pueda quedar encima)
     const fichaModal = document.getElementById('ficha-modal');
-    const fichaClose = document.getElementById('ficha-close');
 
-    fichaClose?.addEventListener('click', () => this.closeFicha());
     fichaModal?.addEventListener('click', (e) => {
-      if (e.target === fichaModal) this.closeFicha();
+      if (e.target.closest('.ficha-close') || e.target === fichaModal) {
+        e.preventDefault();
+        this.closeFicha();
+      }
     });
 
     // Smooth scroll para enlaces internos
@@ -651,7 +653,9 @@ class DaytonaMotos {
     if (!modal) return;
     modal.classList.remove('active');
     modal.setAttribute('aria-hidden', 'true');
-    document.body.style.overflow = '';
+    // si el panel lateral sigue abierto, mantener el scroll bloqueado
+    const panelAbierto = document.querySelector('.side-panel')?.classList.contains('active');
+    document.body.style.overflow = panelAbierto ? 'hidden' : '';
   }
 
   closeSidePanel() {
