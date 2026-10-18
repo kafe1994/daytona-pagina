@@ -1734,6 +1734,111 @@ body.menu-open {
   color: #999;
 }
 
+/* Crédito del diseñador: link a WhatsApp bien visible y clickeable */
+.footer-credit {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem 0.75rem;
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+
+.footer-credit-sep {
+  color: rgba(255, 255, 255, 0.25);
+}
+
+.footer-credit-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-height: 40px;
+  padding: 0.4rem 0.9rem;
+  border-radius: var(--border-radius-pill);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  background: rgba(255, 255, 255, 0.06);
+  color: #fff;
+  text-decoration: none;
+  transition: all var(--transition-fast);
+}
+
+.footer-credit-link svg {
+  width: 18px;
+  height: 18px;
+  flex: 0 0 auto;
+  fill: currentColor;
+}
+
+.footer-credit-link strong {
+  font-weight: 700;
+}
+
+.footer-credit-cta {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.15rem 0.5rem;
+  border-radius: var(--border-radius-pill);
+  background: rgba(198, 40, 40, 0.9);
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.footer-credit-link:hover,
+.footer-credit-link:focus-visible {
+  background: var(--red-primary);
+  border-color: var(--red-primary);
+  color: var(--white);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(198, 40, 40, 0.35);
+  text-decoration: none;
+}
+
+.footer-credit-link:focus-visible {
+  outline: 2px solid var(--white);
+  outline-offset: 3px;
+}
+
+.footer-credit-link:hover .footer-credit-cta {
+  background: rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 860px) {
+  /* espacio para que los botones flotantes (Instagram / tema) no tapen el crédito */
+  .footer-bottom {
+    padding-bottom: 10rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-credit {
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+
+  .footer-credit-sep {
+    display: none;
+  }
+
+  .footer-credit-link {
+    width: 100%;
+    max-width: 100%;
+    min-height: 44px;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 0.8125rem;
+    padding: 0.5rem 0.75rem;
+  }
+
+  .footer-credit-cta {
+    font-size: 0.625rem;
+    padding: 0.12rem 0.45rem;
+  }
+}
+
 /* ============================================================
    TOGGLE MODO NOCTURNO
    ============================================================ */
