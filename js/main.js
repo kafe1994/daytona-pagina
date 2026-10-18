@@ -525,7 +525,10 @@ class DaytonaMotos {
         e.stopPropagation();
         const modelCard = btn.closest('.model-card');
         const modelData = JSON.parse(modelCard.dataset.model);
-        this.openFicha(modelCard.dataset.brandKey, modelData);
+        const activeSwatch = modelCard.querySelector('.color-swatch.active');
+        const selectedColor = modelCard.dataset.selectedColor
+          || (activeSwatch ? activeSwatch.title : null);
+        this.openFicha(modelCard.dataset.brandKey, modelData, selectedColor);
       });
     });
 
@@ -569,7 +572,7 @@ class DaytonaMotos {
   // ============================================================
   // FICHA DE MODELO
   // ============================================================
-  openFicha(brandKey, modelData) {
+  openFicha(brandKey, modelData, selectedColor) {
     const modal = document.getElementById('ficha-modal');
     if (!modal || !modelData) return;
 
@@ -577,8 +580,17 @@ class DaytonaMotos {
     const ficha = this.fichasData[`${brandKey}|${modelData.model}`] || null;
     const brandName = brand ? brand.name : '';
 
-    document.getElementById('ficha-image').src = modelData.images[0] || 'images/placeholder.jpg';
-    document.getElementById('ficha-image').alt = `${brandName} ${modelData.model}`;
+    const colors = modelData.colors || [];
+    let index = colors.indexOf(selectedColor);
+    if (index < 0) index = 0;
+
+    const imageEl = document.getElementById('ficha-image');
+    const setImage = (i) => {
+      imageEl.src = modelData.images[i] || modelData.images[0] || 'images/placeholder.jpg';
+      imageEl.alt = `${brandName} ${modelData.model}${colors[i] ? ' ' + colors[i] : ''}`;
+    };
+    setImage(index);
+
     document.getElementById('ficha-brand').textContent = brandName;
     document.getElementById('ficha-title').textContent = modelData.model;
     document.getElementById('ficha-type').textContent = ficha
@@ -609,13 +621,24 @@ class DaytonaMotos {
       arena: '#d2b48c', silver: '#b0b0b0', beige: '#e8dcc0', plata: '#c0c0c0',
       'único': '#c62828',
     };
-    document.getElementById('ficha-colors').innerHTML = (modelData.colors || []).map(color => {
+
+    const colorsWrap = document.getElementById('ficha-colors');
+    colorsWrap.innerHTML = colors.map((color, i) => {
       const hex = palette[color.toLowerCase()] || '#c62828';
-      return `<span class="ficha-color"><i style="background:${hex}"></i>${color}</span>`;
+      return `<button type="button" class="ficha-color${i === index ? ' active' : ''}" data-index="${i}"><i style="background:${hex}"></i>${color}</button>`;
     }).join('');
 
+    colorsWrap.querySelectorAll('.ficha-color').forEach(chip => {
+      chip.addEventListener('click', () => {
+        const i = parseInt(chip.dataset.index, 10);
+        colorsWrap.querySelectorAll('.ficha-color').forEach(c => c.classList.remove('active'));
+        chip.classList.add('active');
+        setImage(i);
+      });
+    });
+
     const wa = document.getElementById('ficha-wa');
-    const mensaje = encodeURIComponent(`Hola! Me interesa la ${brandName} ${modelData.model} (${modelData.cilindrada}cc). ¿Me pasan más información?`);
+    const mensaje = encodeURIComponent(`Hola! Me interesa la ${brandName} ${modelData.model} (${modelData.cilindrada}cc)${colors[index] && colors[index] !== 'Único' ? ' en color ' + colors[index] : ''}. ¿Me pasan más información?`);
     wa.onclick = () => window.open(`https://wa.me/5493572592411?text=${mensaje}`, '_blank');
 
     modal.classList.add('active');

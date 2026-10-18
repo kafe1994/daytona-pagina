@@ -438,160 +438,269 @@
   "gilera|Smash Tunning R 110": {
     "tipo": "Cub / utilitaria",
     "descripcion": "La Gilera Smash Tunning R 110 (110cc) apunta a la movilidad de todos los días: arranque simple, mantenimiento accesible y un andar ágil en calles y avenidas. Ideal como primera moto o como reemplazo del auto en trayectos cortos.",
-    "specs": {},
+    "specs": {
+      "Motor": "Monocilíndrico 4T · 107cc",
+      "Cilindrada": "107cc",
+      "Potencia": "7.2hp / 7000rpm",
+      "Transmisión": "Semiautomática 4 marchas",
+      "Arranque": "Eléctrico y Pedal",
+      "Frenos": "CBS / Disco / Disco",
+      "Suspensión": "Horquilla telescópica hidráulica / Doble amortiguador hidráulico",
+      "Llantas": "Aleación / Aleación",
+      "Peso": "100 kg",
+      "Tanque": "4.1 lts"
+    },
     "colores": [
       "Azul",
       "Gris",
       "Marrón",
       "Rojo"
-    ]
+    ],
+    "fuente": "Gilera (ficha oficial)"
   },
   "gilera|Smash VS 2025": {
     "tipo": "Cub / utilitaria",
     "descripcion": "La Gilera Smash VS 2025 es una cub de 110cc pensada para el uso diario: posición de manejo cómoda, bajo consumo y mantenimiento simple. Una compañera práctica para moverte por la ciudad y hacer trámites sin complicaciones.",
-    "specs": {},
+    "specs": {
+      "Motor": "Monocilíndrico 4T · 107cc",
+      "Cilindrada": "107cc",
+      "Potencia": "7.2hp / 7000rpm",
+      "Transmisión": "Semiautomática 4 marchas",
+      "Arranque": "Eléctrico y Pedal",
+      "Frenos": "CBS / Tambor / Tambor",
+      "Suspensión": "Horquilla telescópica hidráulica / Doble amortiguador hidráulico",
+      "Llantas": "Rayos / Rayos",
+      "Peso": "100 kg",
+      "Tanque": "4.1 lts"
+    },
     "colores": [
       "Azul",
       "Gris",
       "Rojo"
-    ]
+    ],
+    "fuente": "Gilera (ficha oficial)"
   },
   "gilera|Smash Very 110": {
     "tipo": "Cub / utilitaria",
     "descripcion": "La Gilera Smash Very 110 es una cub de 110cc pensada para el uso diario: posición de manejo cómoda, bajo consumo y mantenimiento simple. Una compañera práctica para moverte por la ciudad y hacer trámites sin complicaciones.",
-    "specs": {},
+    "specs": {
+      "Motor": "Monocilíndrico 4T · 107cc",
+      "Cilindrada": "107cc",
+      "Potencia": "7.2hp / 7000rpm",
+      "Transmisión": "Automática 4 marchas",
+      "Arranque": "Eléctrico y Pedal",
+      "Frenos": "CBS / Tambor / Tambor",
+      "Suspensión": "Horquilla telescópica hidráulica / Doble amortiguador hidráulico",
+      "Llantas": "Rayos / Rayos",
+      "Peso": "100 kg",
+      "Tanque": "4.1 lts"
+    },
     "colores": [
       "Azul",
       "Gris",
       "Negro",
       "Rojo"
-    ]
+    ],
+    "fuente": "Gilera (ficha oficial)"
   },
   "gilera|Sahel 150 2025": {
     "tipo": "Street / naked",
     "descripcion": "La Gilera Sahel 150 2025 (150cc) se mueve con soltura en el tránsito y mantiene buen ritmo fuera de la ciudad. Diseño deportivo, posición de manejo natural y un equipamiento acorde a la categoría.",
     "specs": {
-      "Motor": "Monocilíndrico 4 tiempos",
-      "Cilindrada": "150 cc",
+      "Motor": "Monocilíndrico 4T · 149 cc",
+      "Cilindrada": "149 cc",
+      "Potencia": "10.7 Hp @ 8500 rpm",
       "Transmisión": "Manual 5 marchas",
-      "Arranque": "Eléctrico y a patada",
-      "Capacidad de tanque": "8,6 litros",
-      "Llantas": "Rayos"
+      "Arranque": "Eléctrico y Pedal",
+      "Frenos": "--- / Disco / Tambor",
+      "Suspensión": "Horquilla hidráulica / Monoamortiguador",
+      "Llantas": "Rayos / Rayos",
+      "Peso": "120 kgs",
+      "Tanque": "8.6 lts"
     },
     "colores": [
       "Blanco",
       "Negro",
       "Rojo"
-    ]
+    ],
+    "fuente": "Gilera (ficha oficial)"
   },
   "gilera|VC 150 Base": {
     "tipo": "Street / naked",
     "descripcion": "La Gilera VC 150 Base (150cc) se mueve con soltura en el tránsito y mantiene buen ritmo fuera de la ciudad. Diseño deportivo, posición de manejo natural y un equipamiento acorde a la categoría.",
-    "specs": {},
+    "specs": {
+      "Motor": "Monocilíndrico 4T · 149cc",
+      "Cilindrada": "149cc",
+      "Potencia": "12hp @ 8500rpm",
+      "Transmisión": "Manual 5 marchas",
+      "Arranque": "Eléctrico y Pedal",
+      "Frenos": "CBS / Disco / Disco",
+      "Suspensión": "Horquilla telescópica hidráulica / Doble amortiguador hidráulico",
+      "Llantas": "Rayos / Rayos",
+      "Peso": "109 kga",
+      "Tanque": "12 lts"
+    },
     "colores": [
       "Gris",
       "Negro",
       "Rojo"
-    ]
+    ],
+    "fuente": "Gilera (ficha oficial)"
   },
   "gilera|SMX 200 Adventure": {
     "tipo": "On-Off / trail",
     "descripcion": "La Gilera SMX 200 Adventure propone un uso on-off real: motor de 200cc, geometría de trail y protección para el viaje. Práctica en la ciudad y capaz en la tierra.",
     "specs": {
-      "Motor": "Monocilíndrico 4T",
-      "Cilindrada": "200 cc",
-      "Transmisión": "Manual 5 marchas",
-      "Arranque": "Eléctrico y a patada",
-      "Capacidad de tanque": "13,5 litros",
-      "Llantas": "Rayos"
+      "Motor": "Monocilíndrico 4T · 197 cc",
+      "Cilindrada": "197 cc",
+      "Potencia": "15,4hp @ 8000rpm",
+      "Transmisión": "Manual 6 marchas",
+      "Arranque": "Eléctrico",
+      "Frenos": "--- / Disco / Disco",
+      "Suspensión": "Horquilla hidráulica / Monoamortiguador",
+      "Llantas": "Rayos / Rayos",
+      "Peso": "135 kgs",
+      "Tanque": "13.5 lts"
     },
     "colores": [
       "Gris",
       "Rojo",
       "Verde"
-    ]
+    ],
+    "fuente": "Gilera (ficha oficial)"
   },
   "gilera|SMX 200 SIII": {
     "tipo": "On-Off / trail",
     "descripcion": "Diseñada para salir del pavimento, la Gilera SMX 200 SIII (200cc) combina altura al piso, buena autonomía y un andar firme en terreno irregular. Una compañera para escapadas y caminos rurales.",
-    "specs": {},
+    "specs": {
+      "Motor": "Monocilíndrico 4T · 197 cc",
+      "Cilindrada": "197 cc",
+      "Potencia": "13.7hp @ 8500rpm",
+      "Transmisión": "Manual 5 marchas",
+      "Arranque": "Eléctrico y Pedal",
+      "Frenos": "--- / Disco / Disco",
+      "Suspensión": "Horquilla hidráulica / Monoamortiguador",
+      "Llantas": "Rayos / Rayos",
+      "Peso": "120 kgs",
+      "Tanque": "13.5 lts"
+    },
     "colores": [
       "Blanco",
       "Negro",
       "Rojo"
-    ]
+    ],
+    "fuente": "Gilera (ficha oficial)"
   },
   "gilera|AC4 250": {
     "tipo": "Street / naked",
     "descripcion": "Con estética naked y motor de 250cc, la Gilera AC4 250 ofrece una conducción divertida y previsible. Es una moto versátil, cómoda para la ciudad y con resto para la ruta corta.",
-    "specs": {},
+    "specs": {
+      "Motor": "Monocilíndrico 4T 4v · 249.4 cc",
+      "Cilindrada": "249.4 cc",
+      "Potencia": "24.1 Hp @ 7500 rpm",
+      "Transmisión": "Manual 6 marchas",
+      "Arranque": "Eléctrico",
+      "Frenos": "CBS / Disco / Disco",
+      "Suspensión": "Horquilla hidráulica invertida / Monoamortiguador",
+      "Llantas": "Aleación / Aleación",
+      "Peso": "139 kgs",
+      "Tanque": "15.5 lts"
+    },
     "colores": [
       "Azul",
       "Negro",
       "Rojo"
-    ]
+    ],
+    "fuente": "Gilera (ficha oficial)"
   },
   "gilera|SMX 250 ADVENTURE": {
     "tipo": "On-Off / trail",
     "descripcion": "La Gilera SMX 250 ADVENTURE es una trail de 250cc que se siente cómoda tanto en asfalto como en caminos de tierra. Suspensión de mayor recorrido, posición elevada y la robustez que pide el uso mixto.",
     "specs": {
-      "Motor": "Monocilíndrico 4T 4v",
-      "Cilindrada": "250 cc",
+      "Motor": "Monocilíndrico 4T 4v · 249.4 cc",
+      "Cilindrada": "249.4 cc",
+      "Potencia": "24.1 Hp @ 7500 rpm",
       "Transmisión": "Manual 6 marchas",
       "Arranque": "Eléctrico",
-      "Capacidad de tanque": "11,5 litros",
-      "Llantas": "Rayos"
+      "Frenos": "--- / Disco / Disco",
+      "Suspensión": "Horquilla hidráulica invertida / Monoamortiguador",
+      "Llantas": "Rayos / Rayos",
+      "Peso": "152 kgs",
+      "Tanque": "11,5 lts"
     },
     "colores": [
       "Blanco",
       "Negro",
       "Rojo"
-    ]
+    ],
+    "fuente": "Gilera (ficha oficial)"
   },
   "gilera|Smash Full 2025": {
     "tipo": "Cub / utilitaria",
     "descripcion": "La Gilera Smash Full 2025 es una cub de 110cc pensada para el uso diario: posición de manejo cómoda, bajo consumo y mantenimiento simple. Una compañera práctica para moverte por la ciudad y hacer trámites sin complicaciones.",
     "specs": {
-      "Motor": "Monocilíndrico 4 tiempos",
-      "Cilindrada": "110 cc",
+      "Motor": "Monocilíndrico 4T · 107cc",
+      "Cilindrada": "107cc",
+      "Potencia": "7.2hp / 7000rpm",
       "Transmisión": "Semiautomática 4 marchas",
-      "Arranque": "Eléctrico y a patada",
-      "Capacidad de tanque": "4,1 litros",
-      "Llantas": "Aleación"
+      "Arranque": "Eléctrico y Pedal",
+      "Frenos": "CBS / Disco / Disco",
+      "Suspensión": "Horquilla telescópica hidráulica / Doble amortiguador hidráulico",
+      "Llantas": "Aleación / Aleación",
+      "Peso": "100 kg",
+      "Tanque": "4.1 lts"
     },
     "colores": [
       "Azul",
       "Gris",
       "Rojo"
-    ]
+    ],
+    "fuente": "Gilera (ficha oficial)"
   },
   "gilera|Smash Full R": {
     "tipo": "Cub / utilitaria",
     "descripcion": "Con su formato de cub y motor de 110cc, la Gilera Smash Full R combina economía y agilidad. Es la opción clásica para quien necesita una moto liviana, durable y fácil de manejar en el tránsito urbano.",
-    "specs": {},
+    "specs": {
+      "Motor": "Monocilíndrico 4T · 107cc",
+      "Cilindrada": "107cc",
+      "Potencia": "7.2hp / 7000rpm",
+      "Transmisión": "Semiautomática 4 marchas",
+      "Arranque": "Eléctrico y Pedal",
+      "Frenos": "CBS / Disco / Disco",
+      "Suspensión": "Horquilla telescópica hidráulica / Doble amortiguador hidráulico",
+      "Llantas": "Aleación / Aleación",
+      "Peso": "100 kg",
+      "Tanque": "4.1 lts"
+    },
     "colores": [
       "Azul",
       "Gris",
       "Marrón",
       "Rojo"
-    ]
+    ],
+    "fuente": "Gilera (ficha oficial)"
   },
   "gilera|Smash X 125 2025": {
     "tipo": "Cub / utilitaria",
     "descripcion": "Con su formato de cub y motor de 125cc, la Gilera Smash X 125 2025 combina economía y agilidad. Es la opción clásica para quien necesita una moto liviana, durable y fácil de manejar en el tránsito urbano.",
     "specs": {
-      "Motor": "Monocilíndrico 4 tiempos",
-      "Cilindrada": "125 cc",
+      "Motor": "Monocilíndrico 4T · 119.1 cc",
+      "Cilindrada": "119.1 cc",
+      "Potencia": "7.5hp @7500rpm",
       "Transmisión": "Semiautomática 4 marchas",
-      "Arranque": "Eléctrico y a patada",
-      "Capacidad de tanque": "4,5 litros",
-      "Llantas": "Aleación"
+      "Arranque": "Eléctrico y Pedal",
+      "Frenos": "CBS / Disco / Disco",
+      "Suspensión": "Horquilla hidráulica / Doble amortiguador",
+      "Llantas": "Aleación / Aleación",
+      "Peso": "100 kg",
+      "Tanque": "4.5 lts"
     },
     "colores": [
       "Blanco",
       "Negro",
       "Rojo"
-    ]
+    ],
+    "fuente": "Gilera (ficha oficial)"
   },
   "honda|NAVI": {
     "tipo": "Street / naked",
@@ -940,185 +1049,362 @@
   "motomel|Blitz 110 Full": {
     "tipo": "Cub / utilitaria",
     "descripcion": "La Motomel Blitz 110 Full (110cc) apunta a la movilidad de todos los días: arranque simple, mantenimiento accesible y un andar ágil en calles y avenidas. Ideal como primera moto o como reemplazo del auto en trayectos cortos.",
-    "specs": {},
+    "specs": {
+      "Motor": "Monocilíndrico 4T",
+      "Cilindrada": "110 cm³",
+      "Potencia": "7 Hp a 8000rpm",
+      "Transmisión": "4 Velocidades",
+      "Arranque": "Eléctrico y por patada",
+      "Refrigeración": "Por aire",
+      "Frenos": "Delantero disco / Trasero tambor",
+      "Suspensión": "Delantera horquilla hidráulica / Trasera amortiguadores hidráulicos",
+      "Llantas": "Aleación",
+      "Rodado": "Delantero 2.50 – 17 | Trasero 80/100 – 14",
+      "Tanque": "3,5 Lts"
+    },
     "colores": [
       "Azul",
       "Blanco",
       "Negro",
       "Rojo"
-    ]
+    ],
+    "fuente": "Motomel (ficha oficial)"
   },
   "motomel|Blitz 110 Start": {
     "tipo": "Cub / utilitaria",
     "descripcion": "La Motomel Blitz 110 Start (110cc) apunta a la movilidad de todos los días: arranque simple, mantenimiento accesible y un andar ágil en calles y avenidas. Ideal como primera moto o como reemplazo del auto en trayectos cortos.",
-    "specs": {},
+    "specs": {
+      "Motor": "Monocilíndrico 4T",
+      "Cilindrada": "110 cm³",
+      "Potencia": "7 Hp a 8000rpm",
+      "Transmisión": "4 velocidades / Automática (según versión)",
+      "Arranque": "Eléctrico y por patada",
+      "Refrigeración": "Por aire",
+      "Frenos": "Delantero disco | Trasero tambor",
+      "Suspensión": "Delantero horquilla hidráulica / Trasero amortiguadores hidráulicos",
+      "Llantas": "Rayos",
+      "Rodado": "Delantero 2.50 – 17 | Trasero 80/100 – 14",
+      "Tanque": "3,5 Lts"
+    },
     "colores": [
       "Azul",
       "Blanco",
       "Negro",
       "Rojo"
-    ]
+    ],
+    "fuente": "Motomel (ficha oficial)"
   },
   "motomel|Blitz 110 Tunning V8": {
     "tipo": "Cub / utilitaria",
     "descripcion": "La Motomel Blitz 110 Tunning V8 (110cc) apunta a la movilidad de todos los días: arranque simple, mantenimiento accesible y un andar ágil en calles y avenidas. Ideal como primera moto o como reemplazo del auto en trayectos cortos.",
-    "specs": {},
+    "specs": {
+      "Motor": "Monocilíndrico 4T",
+      "Cilindrada": "110 cm³",
+      "Potencia": "7,1 Hp a 8500rpm",
+      "Transmisión": "4 velocidades",
+      "Arranque": "Eléctrico y por patada",
+      "Refrigeración": "Por aire",
+      "Frenos": "Delantero disco / Trasero tambor",
+      "Suspensión": "Delantera horquilla hidráulica / Trasera amortiguadores hidráulicos",
+      "Llantas": "Aleación",
+      "Rodado": "Delantero 130 / 60 – 13 | Trasero 130 / 60 – 13",
+      "Tanque": "3,8 Lts"
+    },
     "colores": [
       "Blanco",
       "Negro",
       "Rojo"
-    ]
+    ],
+    "fuente": "Motomel (ficha oficial)"
   },
   "motomel|DLX110": {
     "tipo": "Cub / utilitaria",
     "descripcion": "La Motomel DLX110 es una cub de 110cc pensada para el uso diario: posición de manejo cómoda, bajo consumo y mantenimiento simple. Una compañera práctica para moverte por la ciudad y hacer trámites sin complicaciones.",
-    "specs": {},
+    "specs": {
+      "Motor": "Monocilíndrico 4T",
+      "Cilindrada": "108 cm³",
+      "Potencia": "8 Hp a 7500rpm",
+      "Transmisión": "4 velocidades",
+      "Arranque": "Eléctrico y por patada",
+      "Refrigeración": "Por aire",
+      "Frenos": "Delantero disco / Trasero tambor",
+      "Suspensión": "Delantera horquilla hidráulica / Trasera amortiguadores hidráulicos",
+      "Llantas": "Rayos",
+      "Rodado": "Delantero 2.50 – 17 / Trasero 2,50 – 17",
+      "Tanque": "3,8 Lts"
+    },
     "colores": [
       "Azul",
       "Gris",
       "Negro",
       "Rojo"
-    ]
+    ],
+    "fuente": "Motomel (ficha oficial)"
   },
   "motomel|Max 110": {
     "tipo": "Cub / utilitaria",
     "descripcion": "Con su formato de cub y motor de 110cc, la Motomel Max 110 combina economía y agilidad. Es la opción clásica para quien necesita una moto liviana, durable y fácil de manejar en el tránsito urbano.",
-    "specs": {},
+    "specs": {
+      "Motor": "Monocilíndrico 4T",
+      "Cilindrada": "108 cm³",
+      "Potencia": "7,1 Hp a 8500rpm",
+      "Transmisión": "4 velocidades",
+      "Arranque": "Eléctrico y por patada",
+      "Refrigeración": "Por aire",
+      "Frenos": "Delantero disco / Trasero tambor",
+      "Suspensión": "Delantera horquilla hidráulica / Trasera amortiguadores hidráulicos",
+      "Llantas": "Aleación",
+      "Rodado": "Delantero 3,50 x 10 / Trasero 3,50 x 10",
+      "Tanque": "3,8 Lts"
+    },
     "colores": [
       "Blanco",
       "Negro",
       "Rojo"
-    ]
+    ],
+    "fuente": "Motomel (ficha oficial)"
   },
   "motomel|Skua 125 extreme": {
     "tipo": "Cub / utilitaria",
     "descripcion": "La Motomel Skua 125 extreme (125cc) apunta a la movilidad de todos los días: arranque simple, mantenimiento accesible y un andar ágil en calles y avenidas. Ideal como primera moto o como reemplazo del auto en trayectos cortos.",
     "specs": {
       "Motor": "Monocilíndrico 4T",
-      "Cilindrada": "125 cc",
-      "Transmisión": "5 velocidades",
-      "Arranque": "Eléctrico y a patada",
-      "Capacidad de tanque": "7,5 litros",
-      "Llantas": "Rayos"
+      "Cilindrada": "124 cm³",
+      "Potencia": "10,5 Hp a 8000rpm",
+      "Transmisión": "5 Velocidades",
+      "Arranque": "Eléctrico y por patada",
+      "Refrigeración": "Por aire",
+      "Frenos": "Delantero disco / Trasero disco",
+      "Suspensión": "Delantera horquilla hidráulica / Trasera monoamortiguador",
+      "Llantas": "Rayos",
+      "Rodado": "Delantero 70 / 100 – 19 | Trasero 90 / 100 – 16",
+      "Tanque": "7,5 Lts"
     },
     "colores": [
       "Azul",
       "Negro",
       "Rojo"
-    ]
+    ],
+    "fuente": "Motomel (ficha oficial)"
   },
   "motomel|CG 150 S2 Full Aleación CBS": {
     "tipo": "Cub / utilitaria",
     "descripcion": "Con su formato de cub y motor de 150cc, la Motomel CG 150 S2 Full Aleación CBS combina economía y agilidad. Es la opción clásica para quien necesita una moto liviana, durable y fácil de manejar en el tránsito urbano.",
-    "specs": {},
+    "specs": {
+      "Motor": "Monocilíndrico / 4T",
+      "Cilindrada": "150 cc",
+      "Potencia": "13,4 HP a 8500 RPM",
+      "Transmisión": "5 marchas",
+      "Arranque": "Eléctrico y por patada",
+      "Alimentación": "Carburador",
+      "Refrigeración": "Por aire",
+      "Llantas": "Aleación",
+      "Peso": "115 kg",
+      "Tanque": "11 Lts"
+    },
     "colores": [
       "Azul",
       "Gris",
       "Negro",
       "Rojo"
-    ]
+    ],
+    "fuente": "Motomel (ficha oficial)"
   },
   "motomel|S2 150 Start Base": {
     "tipo": "Cub / utilitaria",
     "descripcion": "La Motomel S2 150 Start Base es una cub de 150cc pensada para el uso diario: posición de manejo cómoda, bajo consumo y mantenimiento simple. Una compañera práctica para moverte por la ciudad y hacer trámites sin complicaciones.",
-    "specs": {},
+    "specs": {
+      "Motor": "Monocilíndrico / 4T",
+      "Cilindrada": "150 cc",
+      "Potencia": "13,4 HP a 8500 RPM",
+      "Transmisión": "5 marchas",
+      "Arranque": "Eléctrico y por patada",
+      "Alimentación": "Carburador",
+      "Refrigeración": "Aire",
+      "Llantas": "Rayos",
+      "Peso": "115 kg",
+      "Tanque": "11 Lts"
+    },
     "colores": [
       "Azul",
       "Gris",
       "Negro",
       "Rojo"
-    ]
+    ],
+    "fuente": "Motomel (ficha oficial)"
   },
   "motomel|Skua 150": {
     "tipo": "Street / naked",
     "descripcion": "Con estética naked y motor de 150cc, la Motomel Skua 150 ofrece una conducción divertida y previsible. Es una moto versátil, cómoda para la ciudad y con resto para la ruta corta.",
-    "specs": {},
+    "specs": {
+      "Motor": "Monocilíndrico 4T",
+      "Cilindrada": "150 cm³",
+      "Potencia": "11,4 Hp a 8350rpm",
+      "Transmisión": "5 Velocidades",
+      "Arranque": "Eléctrico y por patada",
+      "Refrigeración": "Por aire",
+      "Frenos": "Delantero disco / Trasero tambor",
+      "Suspensión": "Delantera horquilla hidráulica / Trasera monoamortiguador",
+      "Llantas": "Rayos",
+      "Rodado": "Delantero 2,75 x 21 / Trasero 4,60 x 18",
+      "Tanque": "11,5 Lts"
+    },
     "colores": [
       "Arena",
       "Azul",
       "Negro",
       "Rojo"
-    ]
+    ],
+    "fuente": "Motomel (ficha oficial)"
   },
   "motomel|Skua 150 Silver Edition": {
     "tipo": "Street / naked",
     "descripcion": "La Motomel Skua 150 Silver Edition es una street de 150cc con postura erguida y respuesta ágil. Un equilibrio entre prestaciones y practicidad para el uso urbano y las salidas de fin de semana.",
-    "specs": {},
+    "specs": {
+      "Motor": "Monocilíndrico 4T",
+      "Cilindrada": "150 cm³",
+      "Potencia": "11,4HP a 8320RPM",
+      "Transmisión": "5 Velocidades",
+      "Arranque": "Eléctrico y por patada",
+      "Refrigeración": "Por aire",
+      "Frenos": "Delantero a disco / Trasero a disco",
+      "Suspensión": "Delantera invertida / Trasera monoshock",
+      "Llantas": "color negro de rayos reforzados",
+      "Rodado": "Delantero 90/90-21 | Trasero 120/90-18"
+    },
     "colores": [
       "Gris"
-    ]
+    ],
+    "fuente": "Motomel (ficha oficial)"
   },
   "motomel|CX250 XMM": {
     "tipo": "Street / naked",
     "descripcion": "Con estética naked y motor de 250cc, la Motomel CX250 XMM ofrece una conducción divertida y previsible. Es una moto versátil, cómoda para la ciudad y con resto para la ruta corta.",
-    "specs": {},
+    "specs": {
+      "Motor": "Monocilíndrico SOHC 4T balanceado",
+      "Cilindrada": "223,4 cm³",
+      "Potencia": "16 Hp a 7000 rpm",
+      "Transmisión": "5 Velocidades",
+      "Arranque": "Eléctrico y por patada",
+      "Refrigeración": "Por aire",
+      "Frenos": "Delantero disco / Trasero disco",
+      "Suspensión": "Delantera horquilla hidráulica invertida / Trasera monoamortiguador",
+      "Llantas": "Rayos",
+      "Rodado": "Delantero 80 / 100 – 21 | Trasero 120 / 90 – 18",
+      "Tanque": "6,1 LTS + 0,9 L de reserva"
+    },
     "colores": [
       "Azul",
       "Naranja",
       "Rojo"
-    ]
+    ],
+    "fuente": "Motomel (ficha oficial)"
   },
   "motomel|Skua CX250": {
     "tipo": "Street / naked",
     "descripcion": "Con estética naked y motor de 250cc, la Motomel Skua CX250 ofrece una conducción divertida y previsible. Es una moto versátil, cómoda para la ciudad y con resto para la ruta corta.",
     "specs": {
       "Motor": "Monocilíndrico 4T",
-      "Cilindrada": "250 cc",
-      "Transmisión": "5 velocidades",
-      "Arranque": "Eléctrico y pedal",
-      "Capacidad de tanque": "12,3 litros",
-      "Llantas": "Rayos"
+      "Cilindrada": "223 cm³",
+      "Potencia": "15,9 Hp a 7000rpm",
+      "Transmisión": "5 Velocidades",
+      "Arranque": "Eléctrico y por patada",
+      "Refrigeración": "Por aire",
+      "Frenos": "Delantero disco / Trasero disco",
+      "Suspensión": "Delantera horquilla hidráulica / Trasera monoamortiguador",
+      "Llantas": "Rayos",
+      "Rodado": "Delantero 2,75 x 21 / Trasero 4,60 x 18",
+      "Tanque": "12,3 Lts"
     },
     "colores": [
       "Azul",
       "Negro",
       "Rojo"
-    ]
+    ],
+    "fuente": "Motomel (ficha oficial)"
   },
   "motomel|Blitz 110 Black Edition": {
     "tipo": "Cub / utilitaria",
     "descripcion": "La Motomel Blitz 110 Black Edition (110cc) apunta a la movilidad de todos los días: arranque simple, mantenimiento accesible y un andar ágil en calles y avenidas. Ideal como primera moto o como reemplazo del auto en trayectos cortos.",
-    "specs": {},
+    "specs": {
+      "Motor": "Monocilíndrico 4T",
+      "Cilindrada": "110 cm³",
+      "Potencia": "7 Hp a 8000rpm",
+      "Transmisión": "4 velocidades",
+      "Arranque": "Eléctrico y por patada",
+      "Refrigeración": "Por aire",
+      "Frenos": "Delantero: disco / Trasero: Tambor",
+      "Suspensión": "Delantero horquilla hidráulica / Trasero amortiguadores hidráulicos",
+      "Llantas": "Rayos",
+      "Rodado": "Delantero 2.50 – 17 | Trasero 80/100 – 14",
+      "Tanque": "3,5 Lts"
+    },
     "colores": [
       "Único"
-    ]
+    ],
+    "fuente": "Motomel (ficha oficial)"
   },
   "motomel|Blitz 110 Plus": {
     "tipo": "Cub / utilitaria",
     "descripcion": "Con su formato de cub y motor de 110cc, la Motomel Blitz 110 Plus combina economía y agilidad. Es la opción clásica para quien necesita una moto liviana, durable y fácil de manejar en el tránsito urbano.",
-    "specs": {},
+    "specs": {
+      "Motor": "Tubos de acero",
+      "Cilindrada": "107cc",
+      "Potencia": "7,1 Hp @ 8000 Rpm",
+      "Torque": "8,3 Nm @ 6500 Rpm",
+      "Transmisión": "4 velocidades (Rotativo)",
+      "Arranque": "Eléctrico / Pedal",
+      "Alimentación": "Carburador",
+      "Refrigeración": "Aire",
+      "Peso": "99 Kg.",
+      "Tanque": "3,5 L."
+    },
     "colores": [
       "Azul",
       "Negro",
       "Rojo"
-    ]
+    ],
+    "fuente": "Motomel (ficha oficial)"
   },
   "motomel|Blitz One 110": {
     "tipo": "Cub / utilitaria",
     "descripcion": "La Motomel Blitz One 110 es una cub de 110cc pensada para el uso diario: posición de manejo cómoda, bajo consumo y mantenimiento simple. Una compañera práctica para moverte por la ciudad y hacer trámites sin complicaciones.",
-    "specs": {},
+    "specs": {
+      "Cilindrada": "Monocilíndrico",
+      "Potencia": "7 Hp a 8000rpm",
+      "Transmisión": "4 (Rotativas)",
+      "Arranque": "Eléctrico y por patada",
+      "Alimentación": "Carburador",
+      "Refrigeración": "Por aire",
+      "Llantas": "Rayos",
+      "Peso": "99 kg"
+    },
     "colores": [
       "Azul",
       "Gris",
       "Rojo"
-    ]
+    ],
+    "fuente": "Motomel (ficha oficial)"
   },
   "motomel|Blitz One 110 Full": {
     "tipo": "Cub / utilitaria",
     "descripcion": "La Motomel Blitz One 110 Full es una cub de 110cc pensada para el uso diario: posición de manejo cómoda, bajo consumo y mantenimiento simple. Una compañera práctica para moverte por la ciudad y hacer trámites sin complicaciones.",
     "specs": {
-      "Motor": "Monocilíndrico 4T",
-      "Cilindrada": "110 cc",
-      "Transmisión": "4 velocidades",
+      "Cilindrada": "Monocilíndrico",
+      "Potencia": "7 Hp a 8000rpm",
+      "Transmisión": "4 (Rotativas)",
       "Arranque": "Eléctrico y a patada",
-      "Capacidad de tanque": "3,5 litros",
-      "Llantas": "Aleación"
+      "Alimentación": "Carburador",
+      "Refrigeración": "Por aire",
+      "Llantas": "Aleación",
+      "Peso": "99 kg"
     },
     "colores": [
       "Azul",
       "Gris",
       "Rojo"
-    ]
+    ],
+    "fuente": "Motomel (ficha oficial)"
   },
   "motomel|Due 110 ST": {
     "tipo": "Cub / utilitaria",
@@ -1155,12 +1441,23 @@
   "motomel|S2 Victory": {
     "tipo": "Cub / utilitaria",
     "descripcion": "La Motomel S2 Victory (150cc) apunta a la movilidad de todos los días: arranque simple, mantenimiento accesible y un andar ágil en calles y avenidas. Ideal como primera moto o como reemplazo del auto en trayectos cortos.",
-    "specs": {},
+    "specs": {
+      "Motor": "Monocilíndrico 4T",
+      "Cilindrada": "149 CM³",
+      "Potencia": "12Hp a 8500 Rpm",
+      "Transmisión": "5 velocidades",
+      "Arranque": "Eléctrico y por patada",
+      "Refrigeración": "Por aire",
+      "Llantas": "Rayos",
+      "Peso": "105 kg.",
+      "Tanque": "10 Lts."
+    },
     "colores": [
       "Azul",
       "Negro",
       "Rojo"
-    ]
+    ],
+    "fuente": "Motomel (ficha oficial)"
   },
   "motomel|SR4 Max": {
     "tipo": "Scooter",
